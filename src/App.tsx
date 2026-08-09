@@ -13,29 +13,35 @@ import unit1Data from './questions/unit1.json'
 
 // Question Interface
 interface Question {
-  id?: string | number
-  unit?: number
-  topic?: string
-  prompt?: string
-  question?: string
+  id: string | number
+  unit: number
+  topic: string
+  prompt: string
   options: string[]
-  correct_idx?: number
-  correctIndex?: number
-  explanation?: string
+  correct_idx: number
+  explanation: string
   difficulty_b?: number
 }
 
 export default function App() {
-  // Load and normalize questions directly from unit1.json
+  // Defensive Question Loader & Normalizer
   const allQuestions: Question[] = useMemo(() => {
-    return (unit1Data as unknown as Question[]).map((q, idx) => ({
-      ...q,
-      id: q.id ?? idx,
+    // Safely extract the questions array regardless of root object wrapping
+    const rawList: any[] = Array.isArray(unit1Data)
+      ? unit1Data
+      : (unit1Data as any)?.questions && Array.isArray((unit1Data as any).questions)
+      ? (unit1Data as any).questions
+      : []
+
+    return rawList.map((q, idx) => ({
+      id: q.id ?? `q-${idx}`,
       unit: q.unit ?? 1,
       topic: q.topic ?? '1.1 Ecosystem Interactions',
       prompt: q.prompt ?? q.question ?? 'Question prompt missing',
+      options: Array.isArray(q.options) ? q.options : [],
       correct_idx: q.correct_idx ?? q.correctIndex ?? 0,
-      explanation: q.explanation ?? 'No explanation provided.'
+      explanation: q.explanation ?? 'No explanation provided.',
+      difficulty_b: q.difficulty_b ?? q.difficulty
     }))
   }, [])
 
