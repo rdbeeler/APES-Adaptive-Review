@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u4_q01",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "Which type of tectonic plate boundary occurs where two oceanic plates pull apart, allowing mantle magma to upwell, cool, and form fresh oceanic crust along oceanic ridges?",
+      "options": [
+        "Divergent boundary",
+        "Transform boundary",
+        "Continental-continental convergent boundary",
+        "Oceanic-continental subduction boundary"
+      ],
+      "correct_idx": 0,
+      "explanation": "At divergent boundaries (e.g., Mid-Atlantic Ridge), tectonic plates move away from each other. Magma rises to fill the gap, cooling to create brand new oceanic crust."
+    },
+    {
+      "id": "u4_q02",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.18,
+      "prompt": "The San Andreas Fault in California is a prime example of a transform plate boundary. Which geological phenomenon is characteristically generated at transform boundaries without accompanying volcanic activity?",
+      "options": [
+        "Deep sea ocean trenches",
+        "Frequent, severe earthquakes along strike-slip fault lines",
+        "Island arc volcanoes",
+        "High mountain plateaus formed by crustal uplift"
+      ],
+      "correct_idx": 1,
+      "explanation": "Transform boundaries feature plates sliding horizontally past one another. Friction causes stress to build until it releases suddenly as earthquakes. Because crust is neither created nor destroyed (no subduction or mantle opening), volcanism is generally absent."
+    },
+    {
+      "id": "u4_q03",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.28,
+      "prompt": "When an oceanic plate collides with a continental plate, the denser oceanic crust slides beneath the lighter continental crust into the asthenosphere. This process is known as:",
+      "options": [
+        "Seafloor spreading",
+        "Subduction",
+        "Orogeny",
+        "Mantle convection"
+      ],
+      "correct_idx": 1,
+      "explanation": "Subduction occurs at convergent boundaries where denser oceanic crust is pushed down underneath less dense continental (or younger oceanic) crust, leading to deep trenches and continental volcanic arcs."
+    },
+    {
+      "id": "u4_q04",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": 0.4,
+      "discrimination_a": 1.32,
+      "prompt": "The Hawaiian Islands were formed far from active plate boundaries by intraplate volcanic activity driven by stationary mantle plumes beneath the drifting Pacific Plate. This feature is known as a:",
+      "options": [
+        "Island arc",
+        "Rift valley",
+        "Hot spot",
+        "Subduction trench"
+      ],
+      "correct_idx": 2,
+      "explanation": "Hot spots are exceptionally hot mantle plumes that burn through overlying tectonic plates. As the plate moves over the stationary hot spot, a chain of volcanic islands is formed."
+    },
+    {
+      "id": "u4_q05",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Why is the Pacific 'Ring of Fire' characterized by intense, concentrated volcanic and earthquake activity?",
+      "options": [
+        "It marks a single continuous transform fault encircling the entire Pacific Ocean basin.",
+        "It is surrounded by major subduction zones where the Pacific Plate collides with surrounding tectonic plates.",
+        "It represents an active continental rift zone expanding outward.",
+        "It sits directly over a single massive global mantle plume."
+      ],
+      "correct_idx": 1,
+      "explanation": "The Ring of Fire is a ring of subduction zones surrounding the Pacific Plate. As oceanic crust subducts beneath surrounding plates, intense seismic activity and chain volcanism are triggered."
+    },
+    {
+      "id": "u4_q06",
+      "unit": 4,
+      "topic": "4.1 Plate Tectonics",
+      "difficulty_b": 0.8,
+      "discrimination_a": 1.5,
+      "prompt": "The Himalayan Mountain range, including Mount Everest, was formed by which specific tectonic plate interaction?",
+      "options": [
+        "Oceanic-oceanic divergence",
+        "Continental-continental convergence",
+        "Transform fault friction",
+        "Oceanic-continental subduction"
+      ],
+      "correct_idx": 1,
+      "explanation": "When two continental plates collide (the Indian Plate and Eurasian Plate), neither plate is dense enough to subduct into the mantle. Instead, the crust crumples and lifts upward, forming immense mountain ranges."
+    },
+    {
+      "id": "u4_q07",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": -0.5,
+      "discrimination_a": 1.08,
+      "prompt": "Which soil horizon consists primarily of organic surface litter, partially decomposed leaves, twigs, and humus?",
+      "options": [
+        "A horizon (Topsoil)",
+        "B horizon (Subsoil)",
+        "O horizon (Organic layer)",
+        "C horizon (Parent material)"
+      ],
+      "correct_idx": 2,
+      "explanation": "The O horizon is the uppermost surface layer dominated by fresh and partially decomposed organic matter (leaves, plant debris, fungi, humus)."
+    },
+    {
+      "id": "u4_q08",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.2,
+      "prompt": "What primary soil formation process defines the E horizon (zone of eluviation)?",
+      "options": [
+        "Accumulation of unweathered parent bedrock material",
+        "Leaching and downward transport of dissolved organic acids, iron, and clay minerals by percolating water",
+        "Concentration of accumulated heavy clay particles from lower horizons",
+        "Formation of dense organic humus from leaf litter"
+      ],
+      "correct_idx": 1,
+      "explanation": "The E horizon (eluviation/leaching horizon) experiences heavy downward leaching of iron, aluminum, organic acids, and clay by percolating water, leaving behind light-colored sand and silt."
+    },
+    {
+      "id": "u4_q09",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.26,
+      "prompt": "Which agricultural soil conservation practice involves cutting level, step-like platforms into steep hillsides to catch water and reduce soil erosion from slope runoff?",
+      "options": [
+        "Contour plowing",
+        "Terracing",
+        "Windbreaks (Shelterbelts)",
+        "Strip cropping"
+      ],
+      "correct_idx": 1,
+      "explanation": "Terracing transforms steep mountain slopes into flat, stepped platforms that slow water runoff and drastically prevent water-driven topsoil erosion."
+    },
+    {
+      "id": "u4_q10",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.35,
+      "prompt": "How do shelterbelts (windbreaks) composed of rows of tall trees planted along agricultural field boundaries protect soil from degradation?",
+      "options": [
+        "By releasing nitrogen gas directly into groundwater through root exudates",
+        "By reducing wind velocity across open topsoil, preventing wind erosion",
+        "By increasing soil salinity through deep groundwater extraction",
+        "By compacting subsoil to stop water percolation"
+      ],
+      "correct_idx": 1,
+      "explanation": "Shelterbelts act as physical barriers that break wind speed across flat farmland, preventing dry topsoil from being blown away during windstorms."
+    },
+    {
+      "id": "u4_q11",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.14,
+      "prompt": "Freeze-thaw cycles that break rocks apart through ice expansion inside crevices exemplify which type of weathering?",
+      "options": [
+        "Chemical weathering",
+        "Biological dissolution",
+        "Physical (mechanical) weathering",
+        "Hydrolysis"
+      ],
+      "correct_idx": 2,
+      "explanation": "Physical or mechanical weathering breaks larger rocks into smaller fragments without altering the chemical composition of the minerals inside the rock (e.g., frost wedging)."
+    },
+    {
+      "id": "u4_q12",
+      "unit": 4,
+      "topic": "4.2 Soil Formation and Erosion",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.45,
+      "prompt": "Continuous overgrazing of livestock in arid and semi-arid grassland regions strips vegetation, compacts soil, and accelerates topsoil loss. This process leads directly to:",
+      "options": [
+        "Salinization",
+        "Desertification",
+        "Eutrophication",
+        "Waterlogging"
+      ],
+      "correct_idx": 1,
+      "explanation": "Desertification occurs when land in arid or semi-arid climates degrades due to overgrazing, deforestation, or drought, losing agricultural productivity and transforming into desert-like conditions."
+    },
+    {
+      "id": "u4_q13",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.12,
+      "prompt": "A laboratory soil test shows a soil sample containing 20% sand, 40% silt, and 40% clay. Which physical property is heavily imparted to this soil by its 40% clay fraction?",
+      "options": [
+        "Extremely rapid drainage rates",
+        "High water-holding capacity and small pore spaces that slow permeability",
+        "Zero cation exchange capacity",
+        "Low susceptibility to waterlogging"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clay particles are microscopic with tiny pore spaces. Soils high in clay hold water tightly (high field capacity) but drain very slowly (low permeability)."
+    },
+    {
+      "id": "u4_q14",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.18,
+      "prompt": "Which relative ordering correctly ranks soil mineral particles from LARGEST particle diameter to SMALLEST particle diameter?",
+      "options": [
+        "Clay > Silt > Sand",
+        "Silt > Sand > Clay",
+        "Sand > Silt > Clay",
+        "Sand > Clay > Silt"
+      ],
+      "correct_idx": 2,
+      "explanation": "Soil particle size classification from largest to smallest is: Sand (0.05 to 2.0 mm) > Silt (0.002 to 0.05 mm) > Clay (less than 0.002 mm)."
+    },
+    {
+      "id": "u4_q15",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.38,
+      "prompt": "Cation Exchange Capacity (CEC) is a key indicator of soil fertility because it measures:",
+      "options": [
+        "The velocity at which groundwater moves vertically through subsoil",
+        "The soil's capacity to hold onto positively charged plant nutrient ions (Ca2+, Mg2+, K+) and prevent leaching",
+        "The concentration of toxic heavy metals dissolved in surface runoff",
+        "The volume of atmospheric oxygen retained in soil air pockets"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clay and organic humus carry negative electrical charges that hold positively charged cations (Ca2+, Mg2+, K+). High CEC means the soil retains essential nutrients for plant roots."
+    },
+    {
+      "id": "u4_q16",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.22,
+      "prompt": "Farmers frequently apply crushed agricultural limestone (CaCO3) to fields to manage which soil condition?",
+      "options": [
+        "Excessive soil salinity caused by over-irrigation",
+        "High soil acidity (low pH) that restricts nutrient availability",
+        "Poor drainage caused by coarse sandy topsoil",
+        "Nitrogen toxicity in the root zone"
+      ],
+      "correct_idx": 1,
+      "explanation": "Limestone (CaCO3) is basic/alkaline. Adding lime neutralizes acidic soils (raises low pH), improving plant nutrient uptake."
+    },
+    {
+      "id": "u4_q17",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Which soil texture class provides the optimal balance of water retention, nutrient storage, and root aeration for most agricultural crops?",
+      "options": [
+        "Pure coarse sand",
+        "Loam (balanced mix of sand, silt, and clay)",
+        "Heavy clay",
+        "Silt loam with zero organic matter"
+      ],
+      "correct_idx": 1,
+      "explanation": "Loam soils roughly combine 40% sand, 40% silt, and 20% clay. This offers ideal drainage, water retention, aeration, and nutrient availability for crops."
+    },
+    {
+      "id": "u4_q18",
+      "unit": 4,
+      "topic": "4.3 Soil Composition and Properties",
+      "difficulty_b": 0.78,
+      "discrimination_a": 1.48,
+      "prompt": "A soil sample exhibits high porosity but extremely low permeability. Which soil composition best matches these characteristics?",
+      "options": [
+        "A coarse gravel soil with giant connected void spaces",
+        "A pure sand soil that drains water in minutes",
+        "A dense clay soil with abundant microscopic pore spaces that impede water flow",
+        "A organic peat soil dominated by large earthworm channels"
+      ],
+      "correct_idx": 2,
+      "explanation": "Clay soils have high overall porosity (lots of tiny microscopic void space total volume), but extremely low permeability because those tiny pores are poorly interconnected, restricting water movement."
+    },
+    {
+      "id": "u4_q19",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": -0.6,
+      "discrimination_a": 1.05,
+      "prompt": "Which atmospheric layer contains approximately 75%-80% of Earth's total atmospheric mass and is the site of virtually all weather systems?",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correct_idx": 1,
+      "explanation": "The troposphere is the lowest layer (0-12 km altitude). Gravity compresses most atmospheric mass into the troposphere, where water vapor, clouds, and weather occur."
+    },
+    {
+      "id": "u4_q20",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.15,
+      "prompt": "What is the critical environmental function of stratospheric ozone (O3)?",
+      "options": [
+        "Trapping terrestrial infrared radiation to regulate surface night temperatures",
+        "Absorbing incoming harmful ultraviolet (UV-B and UV-C) radiation from the Sun",
+        "Reacting with nitrogen gas to create natural nitrate fertilizer",
+        "Generating pressure gradients that create ocean gyres"
+      ],
+      "correct_idx": 1,
+      "explanation": "Stratospheric ozone acts as a protective shield absorbing damaging UV-B and UV-C radiation before it reaches Earth's surface, protecting living tissues from cell mutation and skin cancer."
+    },
+    {
+      "id": "u4_q21",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.25,
+      "prompt": "How does air temperature change as altitude increases within the troposphere?",
+      "options": [
+        "Temperature increases with altitude because it gets closer to the Sun.",
+        "Temperature decreases with altitude because air pressure drops and the layer is heated from below by Earth's surface.",
+        "Temperature stays constant throughout the entire layer.",
+        "Temperature fluctuates unpredictably due to solar wind activity."
+      ],
+      "correct_idx": 1,
+      "explanation": "The troposphere is warmed from the bottom up by solar radiation absorbed and re-radiated by Earth's surface. As altitude increases, air thins and cools."
+    },
+    {
+      "id": "u4_q22",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "Unlike the troposphere, air temperature INCREASES with rising altitude in the stratosphere. What mechanism causes this temperature inversion?",
+      "options": [
+        "Heat radiating from incoming meteorites",
+        "Absorption of solar UV radiation by stratospheric ozone (O3)",
+        "Frictional heat produced by high-altitude commercial jetliners",
+        "Condensation of water vapor into high-altitude clouds"
+      ],
+      "correct_idx": 1,
+      "explanation": "In the stratosphere, ozone molecules absorb solar ultraviolet light and convert that energy into heat, causing temperatures to rise with increasing altitude."
+    },
+    {
+      "id": "u4_q23",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.16,
+      "prompt": "What are the two most abundant gaseous elements in Earth's clean, dry atmosphere, listed in order of decreasing percentage composition?",
+      "options": [
+        "Carbon dioxide (CO2) and Oxygen (O2)",
+        "Nitrogen (N2, approx 78%) and Oxygen (O2, approx 21%)",
+        "Oxygen (O2) and Argon (Ar)",
+        "Nitrogen (N2) and Water Vapor (H2O)"
+      ],
+      "correct_idx": 1,
+      "explanation": "Earth's dry atmosphere is made of approximately 78% Nitrogen (N2), 21% Oxygen (O2), 0.9% Argon (Ar), and 0.04% Carbon Dioxide (CO2)."
+    },
+    {
+      "id": "u4_q24",
+      "unit": 4,
+      "topic": "4.4 Earth's Atmosphere",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "In which atmospheric layer do most meteors burn up upon entry due to friction with atmospheric gas molecules?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correct_idx": 2,
+      "explanation": "The mesosphere (50-85 km above Earth) is where atmospheric density becomes sufficient to create enough friction to vaporize incoming meteors."
+    },
+    {
+      "id": "u4_q25",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.15,
+      "prompt": "Which large atmospheric convection cell operates between the equator (0 degrees) and approximately 30 degrees N and 30 degrees S latitudes?",
+      "options": [
+        "Ferrel cell",
+        "Polar cell",
+        "Hadley cell",
+        "Walker circulation cell"
+      ],
+      "correct_idx": 2,
+      "explanation": "Hadley cells drive atmospheric circulation in the tropics: intense equatorial solar heating forces warm air to rise at the equator (0 degrees), travel poleward, and sink as dry air near 30 degrees N/S."
+    },
+    {
+      "id": "u4_q26",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.22,
+      "prompt": "The Coriolis effect causes fluids and air masses moving across Earth's surface to be deflected in which directions in the Northern and Southern Hemispheres?",
+      "options": [
+        "Northern: To the left; Southern: To the right",
+        "Northern: To the right; Southern: To the left",
+        "Both Hemispheres deflect straight eastward",
+        "Both Hemispheres deflect toward the nearest pole"
+      ],
+      "correct_idx": 1,
+      "explanation": "Earth's counterclockwise rotation deflects moving air/water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
+    },
+    {
+      "id": "u4_q27",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Major global desert belts (e.g., Sahara, Arabian, Australian) are centered near 30 degrees N and 30 degrees S latitudes primarily because:",
+      "options": [
+        "Warm, humid air rises continuously at these latitudes.",
+        "High-pressure belts feature cool, dry air descending from Hadley cells, suppressing precipitation.",
+        "Trade winds strip all moisture out of the upper troposphere.",
+        "Geothermal heat from continental rifts evaporates surface groundwater."
+      ],
+      "correct_idx": 1,
+      "explanation": "Air that rose at the equator cools and loses moisture. This dry air sinks back down at 30 degrees N/S under high pressure, creating stable, dry desert climates."
+    },
+    {
+      "id": "u4_q28",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.34,
+      "prompt": "The Intertropical Convergence Zone (ITCZ) near the equator is characterized by:",
+      "options": [
+        "Descending cold air, high pressure, and hyper-arid drought conditions",
+        "Converging trade winds, rising warm air, low pressure, high humidity, and heavy precipitation",
+        "Persistent hurricane-force westerly winds year-round",
+        "Sub-zero surface temperatures driven by high polar albedo"
+      ],
+      "correct_idx": 1,
+      "explanation": "The ITCZ is where Northeast and Southeast trade winds meet near the equator. Intense solar heating creates rising warm moist air, low pressure, and intense tropical rain."
+    },
+    {
+      "id": "u4_q29",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Prevailing winds that blow from the subtropical high-pressure zone (30 degrees) toward subpolar low-pressure belts (60 degrees) in both hemispheres are known as:",
+      "options": [
+        "Tropical Trade Winds (Easterlies)",
+        "Prevailing Westerlies",
+        "Polar Easterlies",
+        "Doldrums"
+      ],
+      "correct_idx": 1,
+      "explanation": "The Westerlies dominate weather patterns in mid-latitude zones (30-60 degrees), blowing prevailing winds from west to east."
+    },
+    {
+      "id": "u4_q30",
+      "unit": 4,
+      "topic": "4.5 Global Wind Patterns",
+      "difficulty_b": 0.82,
+      "discrimination_a": 1.52,
+      "prompt": "When a warm air parcel rises through the atmosphere, atmospheric pressure decreases, causing the air parcel to expand and drop in temperature without exchanging heat with its environment. This process is called:",
+      "options": [
+        "Adiabatic cooling",
+        "Radiative warming",
+        "Thermal inversion",
+        "Latent heat absorption"
+      ],
+      "correct_idx": 0,
+      "explanation": "Adiabatic cooling occurs purely due to pressure changes: as warm air rises, pressure decreases, the gas expands, and expansion causes the air temperature to drop."
+    },
+    {
+      "id": "u4_q31",
+      "unit": 4,
+      "topic": "4.6 Watersheds",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "Which statement best defines a watershed (drainage basin)?",
+      "options": [
+        "An underground confined aquifer that stores potable drinking water",
+        "A land area from which all surface water and runoff drain into a common body of water, such as a stream, river, or lake",
+        "A coastal wetland where river freshwater mixes with marine ocean water",
+        "A soil layer that remains permanently saturated year-round"
+      ],
+      "correct_idx": 1,
+      "explanation": "A watershed is the entire land area that channels rainfall and snowmelt into creek tributaries, rivers, and eventually out to common reservoirs or ocean outlets."
+    },
+    {
+      "id": "u4_q32",
+      "unit": 4,
+      "topic": "4.6 Watersheds",
+      "difficulty_b": 0.12,
+      "discrimination_a": 1.18,
+      "prompt": "What topographic feature naturally separates one watershed basin from an adjacent watershed basin?",
+      "options": [
+        "A floodplain",
+        "A drainage divide (ridgeline or high elevation boundary)",
+        "A riparian buffer zone",
+        "An alluvial fan"
+      ],
+      "correct_idx": 1,
+      "explanation": "A drainage divide is a high geographic ridge or elevated mountain boundary that determines which direction surface runoff will flow."
+    },
+    {
+      "id": "u4_q33",
+      "unit": 4,
+      "topic": "4.6 Watersheds",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Replacing a natural forested area with urban development (concrete surfaces, parking lots, roofs) alters watershed hydrology by:",
+      "options": [
+        "Increasing infiltration and reducing river flooding risk",
+        "Decreasing infiltration, increasing stormwater runoff volume, and accelerating peak river flooding speeds",
+        "Increasing evapotranspiration rates across the city",
+        "Increasing groundwater recharge rates"
+      ],
+      "correct_idx": 1,
+      "explanation": "Impervious urban surfaces block rainwater from infiltrating the ground. Water runs off rapidly into streams, increasing flood heights and sediment pollution."
+    },
+    {
+      "id": "u4_q34",
+      "unit": 4,
+      "topic": "4.6 Watersheds",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "How do vegetated riparian buffers (strips of native trees and plants along stream banks) safeguard watershed water quality?",
+      "options": [
+        "By increasing water temperatures through direct thermal conduction",
+        "By trapping agricultural sediments, filtering excess nutrients (N and P), and stabilizing banks against erosion",
+        "By channeling stormwater runoff directly into deep aquifer layers without filtration",
+        "By eliminating natural dissolved oxygen in stream water"
+      ],
+      "correct_idx": 1,
+      "explanation": "Riparian buffer zones utilize plant roots and leaf litter to slow runoff, filter out chemical pollutants/fertilizers, anchor riverbank soil, and shade streams to maintain aquatic health."
+    },
+    {
+      "id": "u4_q35",
+      "unit": 4,
+      "topic": "4.6 Watersheds",
+      "difficulty_b": 0.7,
+      "discrimination_a": 1.44,
+      "prompt": "If a timber company clear-cuts a forested hill within a watershed, which immediate change in downstream river water quality should be anticipated?",
+      "options": [
+        "Decreased water turbidity and increased dissolved oxygen",
+        "Increased water turbidity (suspended sediment load) and elevated water temperatures due to loss of canopy shade",
+        "Lower water temperature and diminished nutrient loads",
+        "Increased groundwater infiltration and reduced runoff velocity"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clearing trees leaves soil exposed to water erosion, raising river turbidity (cloudiness). Removing shade trees allows sun to heat stream water, lowering dissolved oxygen."
+    },
+    {
+      "id": "u4_q36",
+      "unit": 4,
+      "topic": "4.7 Solar Radiation and Earth's Seasons",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.12,
+      "prompt": "What primary astronomical factor causes Earth to experience distinct seasonal shifts throughout the year?",
+      "options": [
+        "Continuous variations in Earth's distance from the Sun along its elliptical orbit",
+        "The constant 23.5 degrees tilt of Earth's axis of rotation relative to its orbital plane",
+        "Fluctuations in solar flare energy emitted by the Sun",
+        "Cyclical magnetic pole reversals"
+      ],
+      "correct_idx": 1,
+      "explanation": "Earth's 23.5 degrees axial tilt causes different hemispheres to tilt toward or away from the Sun as Earth orbits, changing solar angle and daylight duration."
+    },
+    {
+      "id": "u4_q37",
+      "unit": 4,
+      "topic": "4.7 Solar Radiation and Earth's Seasons",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.24,
+      "prompt": "Why does incoming solar radiation deliver LESS solar energy per unit of surface area at Earth's polar regions compared to the equator?",
+      "options": [
+        "The poles are millions of miles further away from the Sun than the equator.",
+        "Solar light strikes polar regions at an oblique (slanted) angle, spreading solar beam energy across a larger surface area.",
+        "Polar atmospheric gases absorb 100% of incoming light photons.",
+        "Earth's magnetic field reflects solar radiation away from high latitudes."
+      ],
+      "correct_idx": 1,
+      "explanation": "At high latitudes (poles), solar rays strike the curved Earth surface at a low angle. The same amount of solar energy spreads over a larger ground area and passes through more atmosphere."
+    },
+    {
+      "id": "u4_q38",
+      "unit": 4,
+      "topic": "4.7 Solar Radiation and Earth's Seasons",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "During the June solstice, which solar condition occurs in the Northern Hemisphere?",
+      "options": [
+        "The Southern Hemisphere experiences its maximum day length of the year.",
+        "The Northern Hemisphere is tilted directly toward the Sun, receiving its maximum solar angle and longest day length of the year.",
+        "Day and night hours are equal across all global latitudes.",
+        "The Antarctic Circle receives 24 hours of constant overhead solar illumination."
+      ],
+      "correct_idx": 1,
+      "explanation": "On the June solstice (approx June 21), the Northern Hemisphere reaches its maximum tilt toward the Sun, solar insolation strikes overhead at the Tropic of Cancer (23.5 degrees N), producing the year's longest day."
+    },
+    {
+      "id": "u4_q39",
+      "unit": 4,
+      "topic": "4.7 Solar Radiation and Earth's Seasons",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.2,
+      "prompt": "Which surface material has the HIGHEST albedo, reflecting the largest percentage of incoming solar radiation back into space?",
+      "options": [
+        "Dark asphalt highway surface",
+        "Dense rainforest leaf canopy",
+        "Fresh snow and polar sea ice",
+        "Deep open ocean water"
+      ],
+      "correct_idx": 2,
+      "explanation": "Albedo measures surface reflectivity. Fresh snow and clean ice reflect up to 80%-90% of sunlight (high albedo), whereas dark soils, pavement, and water absorb heat (low albedo)."
+    },
+    {
+      "id": "u4_q40",
+      "unit": 4,
+      "topic": "4.7 Solar Radiation and Earth's Seasons",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.4,
+      "prompt": "On an equinox (occurring in March and September), which global illumination pattern takes place?",
+      "options": [
+        "The North Pole experiences 24 hours of solar daylight while the South Pole experiences total darkness.",
+        "Earth's axis is tilted neither toward nor away from the Sun, yielding approximately equal day and night (12 hours) worldwide.",
+        "The equator receives zero direct solar insolation.",
+        "The Southern Hemisphere experiences its shortest day length of the year."
+      ],
+      "correct_idx": 1,
+      "explanation": "During equinoxes, the Sun is directly overhead at the equator. Day and night are approximately 12 hours everywhere on Earth."
+    },
+    {
+      "id": "u4_q41",
+      "unit": 4,
+      "topic": "4.8 Earth's Geography and Climate",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.16,
+      "prompt": "On the windward side of a coastal mountain range, warm moist air is forced to rise, cool adiabatically, and shed rainfall. What climatic condition forms on the opposite (leeward) side of the mountain range?",
+      "options": [
+        "Tropical cloud forests with heavy precipitation",
+        "A rain shadow effect creating arid or desert-like conditions",
+        "Frequent coastal oceanic upwelling",
+        "High relative humidity and frequent flash flooding"
+      ],
+      "correct_idx": 1,
+      "explanation": "The rain shadow effect occurs when air descending the leeward slope warms adiabatically and holds moisture, leaving the leeward side dry and arid (e.g., Great Basin Desert behind the Sierra Nevada)."
+    },
+    {
+      "id": "u4_q42",
+      "unit": 4,
+      "topic": "4.8 Earth's Geography and Climate",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.25,
+      "prompt": "Why do coastal regions typically experience moderate, milder seasonal temperatures than interior inland locations at identical latitudes?",
+      "options": [
+        "Coastal regions receive double the solar insolation of inland landmasses.",
+        "Water has a high specific heat capacity, allowing ocean water to absorb and release large thermal energy volumes slowly.",
+        "Coastal topsoil has a higher albedo than inland continental soil.",
+        "Prevailing winds blow exclusively from land to sea during winter months."
+      ],
+      "correct_idx": 1,
+      "explanation": "Because water has a high specific heat capacity, it warms and cools much more slowly than land. This thermal buffering moderates temperature extremes in coastal areas."
+    },
+    {
+      "id": "u4_q43",
+      "unit": 4,
+      "topic": "4.8 Earth's Geography and Climate",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "Under normal atmospheric conditions, warm air near Earth's surface rises and disperses pollutants. During a thermal inversion, air pollution becomes trapped near the ground because:",
+      "options": [
+        "A layer of warm air overlies a layer of cooler air near the surface, preventing vertical mixing.",
+        "Strong convective currents pull pollutants down from the stratosphere.",
+        "Low-pressure systems force surface air to rise rapidly into the upper troposphere.",
+        "High surface winds blow pollutants across mountain divides."
+      ],
+      "correct_idx": 0,
+      "explanation": "In a thermal inversion, a warm layer of air sits atop a cool layer near the ground. Because the cool dense air underneath cannot rise, atmospheric pollutants become trapped near the surface."
+    },
+    {
+      "id": "u4_q44",
+      "unit": 4,
+      "topic": "4.8 Earth's Geography and Climate",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.41,
+      "prompt": "How does the ocean conveyor belt (thermohaline circulation) distribute global thermal energy across Earth's climate systems?",
+      "options": [
+        "Warm surface waters move toward the equator while cold deep waters flow toward the poles.",
+        "Warm, low-salinity surface water flows from the tropics toward higher latitudes, transferring heat to colder regions before sinking as cool, dense, high-salinity water.",
+        "Prevailing trade winds push deep ocean water directly into polar landmasses.",
+        "Evaporation at high latitudes creates light freshwater currents that stay permanently at the ocean surface."
+      ],
+      "correct_idx": 1,
+      "explanation": "Thermohaline circulation is driven by differences in water temperature and salinity. Warm surface currents carry tropical heat toward the poles, where cold, high-salinity water sinks and flows back along the ocean floor."
+    },
+    {
+      "id": "u4_q45",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.15,
+      "prompt": "Which shift in Pacific trade winds characterizes the onset of an El Nino (ENSO) event?",
+      "options": [
+        "Trade winds intensify significantly, pushing warm surface water far westward toward Australia.",
+        "Trade winds weaken or reverse direction, allowing warm surface water to drift eastward toward South America.",
+        "Polar easterlies replace tropical trade winds completely across the equator.",
+        "Trade winds blow exclusively from north to south across the ocean basin."
+      ],
+      "correct_idx": 1,
+      "explanation": "During an El Nino event, normal easterly trade winds weaken or reverse. This allows warm equatorial ocean surface water to shift eastward toward the coast of South America."
+    },
+    {
+      "id": "u4_q46",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.26,
+      "prompt": "How does an El Nino event negatively impact commercial fisheries off the western coast of South America (e.g., Peru)?",
+      "options": [
+        "It increases coastal upwelling, causing over-fertilization and toxic algal blooms.",
+        "It suppresses deep ocean upwelling of cold, nutrient-rich water, reducing phytoplankton growth and fish populations.",
+        "It lowers sea surface temperatures, causing marine organisms to migrate to warmer equatorial waters.",
+        "It doubles marine salinity, killing local anchovy populations."
+      ],
+      "correct_idx": 1,
+      "explanation": "Warm surface water pooling along South America during El Nino suppresses normal coastal upwelling. Without nutrient-rich deep water reaching the surface, primary productivity collapses, harming fisheries."
+    },
+    {
+      "id": "u4_q47",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "During a La Nina event, how do oceanic and atmospheric conditions in the tropical Pacific compare to normal conditions?",
+      "options": [
+        "Trade winds are weaker and sea surface temperatures off South America are unusually warm.",
+        "Trade winds are stronger than normal, driving enhanced upwelling and cooler sea surface temperatures in the eastern Pacific.",
+        "Oceanic upwelling stops entirely across the entire equatorial Pacific.",
+        "Precipitation patterns shift completely to dry drought conditions across Indonesia."
+      ],
+      "correct_idx": 1,
+      "explanation": "La Nina is an exaggeration of normal conditions: trade winds blow even stronger to the west, enhancing upwelling of cold, nutrient-rich water off South America and creating unusually cool eastern Pacific sea surface temperatures."
+    },
+    {
+      "id": "u4_q48",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.45,
+      "prompt": "Which regional weather anomaly is typical in Australia and Indonesia during a strong El Nino phase?",
+      "options": [
+        "Severe drought conditions and increased wildfire risk due to suppressed warm water convective rainfall",
+        "Unprecedented monsoon flooding and severe tropical cyclone landfall",
+        "Constant freezing temperatures and winter blizzards",
+        "High humidity with zero change in seasonal precipitation"
+      ],
+      "correct_idx": 0,
+      "explanation": "Because warm water shifts eastward toward South America during El Nino, rising atmospheric moist convection moves away from the western Pacific, leaving Australia and Indonesia with dry conditions and elevated drought/fire risk."
+    },
+    {
+      "id": "u4_q49",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": 0.81,
+      "discrimination_a": 1.5,
+      "prompt": "Coastal upwelling is ecologically vital to marine ecosystems primarily because it:",
+      "options": [
+        "Brings warm, oxygen-depleted surface water to deep benthic trench organisms",
+        "Transports cold, nutrient-rich deep waters containing nitrates and phosphates to the photic zone, stimulating primary productivity",
+        "Increases water salinity to prevent predatory marine fish from entering estuaries",
+        "Flushes heavy sediment loads out of coastal estuaries into deep ocean basins"
+      ],
+      "correct_idx": 1,
+      "explanation": "Upwelling brings cold, mineral-dense water from the ocean floor up to sunlight (the photic zone). Nutrients like nitrogen and phosphorus fertilize phytoplankton, supporting rich marine food webs."
+    },
+    {
+      "id": "u4_q50",
+      "unit": 4,
+      "topic": "4.9 El Nino and La Nina",
+      "difficulty_b": 0.88,
+      "discrimination_a": 1.56,
+      "prompt": "Which weather pattern is commonly observed across the southern United States during a strong El Nino winter?",
+      "options": [
+        "Unusually warm, hyper-arid conditions with complete absence of cloud cover",
+        "Wet, cooler-than-average conditions with increased rainfall and storminess driven by an extended Pacific jet stream",
+        "Severe drought and historic high temperatures across the Gulf Coast",
+        "Frequent arctic blizzards extending all the way into tropical Florida"
+      ],
+      "correct_idx": 1,
+      "explanation": "During an El Nino winter, the Pacific jet stream shifts southward and stays extended east. This brings cooler, wetter weather and increased storminess across the southern tier of the US (from California to Florida)."
+    }
+  ]

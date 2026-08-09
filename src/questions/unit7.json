@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u7_q01",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.12,
+      "prompt": "Which statement accurately describes the difference between a primary air pollutant and a secondary air pollutant?",
+      "options": [
+        "Primary pollutants are released directly from an identifiable source, whereas secondary pollutants form when primary pollutants react with other atmospheric chemicals.",
+        "Primary pollutants exist only outdoors, whereas secondary pollutants are restricted to indoor residential spaces.",
+        "Primary pollutants are nontoxic, whereas secondary pollutants are always lethal to plant and animal life.",
+        "Primary pollutants form exclusively through solar radiation, whereas secondary pollutants originate from industrial combustion."
+      ],
+      "correct_idx": 0,
+      "explanation": "Primary pollutants (such as carbon monoxide, sulfur dioxide, and soot) enter the atmosphere directly from a source. Secondary pollutants (such as tropospheric ozone and sulfuric acid) form through chemical reactions between primary pollutants and other atmospheric gases."
+    },
+    {
+      "id": "u7_q02",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.18,
+      "prompt": "Which set of compounds comprises criteria air pollutants regulated by the United States Environmental Protection Agency under the Clean Air Act?",
+      "options": [
+        "Carbon dioxide, radon, asbestos, methane, and mercury",
+        "Sulfur dioxide, nitrogen dioxide, carbon monoxide, lead, particulate matter, and ground-level ozone",
+        "Chlorofluorocarbons, helium, argon, radon, and propane",
+        "Formaldehyde, benzene, volatile organic compounds, and hydrogen sulfide"
+      ],
+      "correct_idx": 1,
+      "explanation": "The US EPA regulates six criteria air pollutants under National Ambient Air Quality Standards: sulfur dioxide (SO2), nitrogen dioxide (NO2), carbon monoxide (CO), lead (Pb), particulate matter (PM), and ground-level ozone (O3)."
+    },
+    {
+      "id": "u7_q03",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "What is the primary human activity responsible for atmospheric emissions of sulfur dioxide (SO2)?",
+      "options": [
+        "Exhaust emissions from gasoline-powered passenger automobiles",
+        "Coal combustion at electric power generation plants",
+        "Anaerobic decomposition in commercial agricultural landfills",
+        "Industrial manufacture of synthetic nitrogen fertilizers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Coal naturally contains sulfur impurities. When coal is burned at electricity generation plants and heavy industrial facilities, sulfur reacts with oxygen gas to release sulfur dioxide gas."
+    },
+    {
+      "id": "u7_q04",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Carbon monoxide (CO) is dangerous to human health primarily because it:",
+      "options": [
+        "Causes severe skin burns upon ambient exposure",
+        "Binds irreversibly to hemoglobin in red blood cells, reducing the blood's capacity to transport oxygen",
+        "Destroys epithelial cilia inside the upper nasal passages",
+        "Reacts with surface moisture to produce concentrated hydrochloric acid"
+      ],
+      "correct_idx": 1,
+      "explanation": "Carbon monoxide is an odorless, colorless gas produced by incomplete combustion. When inhaled, it binds tightly to hemoglobin molecules in red blood cells, preventing oxygen from attaching and leading to oxygen deprivation."
+    },
+    {
+      "id": "u7_q05",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "Widespread atmospheric emissions of lead (Pb) in urban environments dropped significantly following which regulatory intervention?",
+      "options": [
+        "Mandating wet scrubbers on all residential chimneys",
+        "Phasing out leaded additives in commercial motor vehicle gasoline",
+        "Banning coal combustion in urban municipalities",
+        "Replacing copper plumbing pipes with lead-lined plastic pipes"
+      ],
+      "correct_idx": 1,
+      "explanation": "In the late 20th century, government regulations required the phase-out of tetraethyl lead in automobile fuel, resulting in a dramatic worldwide decline in ambient lead air pollution."
+    },
+    {
+      "id": "u7_q06",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.25,
+      "prompt": "Nitrogen oxides (NOx) are generated primarily during combustion processes as a result of:",
+      "options": [
+        "Evaporation of unburned hydrocarbon solvents at room temperature",
+        "High combustion temperatures causing atmospheric nitrogen gas and oxygen gas to react",
+        "Radioactive decay of nitrogen isotopes inside coal deposits",
+        "Biological decay of legume plant roots in agricultural fields"
+      ],
+      "correct_idx": 1,
+      "explanation": "When fossil fuels are burned at high temperatures inside automobile engines or power plant boilers, atmospheric nitrogen gas (N2) reacts with oxygen gas (O2) to form nitrogen oxides (NO and NO2)."
+    },
+    {
+      "id": "u7_q07",
+      "unit": 7,
+      "topic": "7.1 Introduction to Air Pollution",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Fine particulate matter (PM2.5) poses a greater respiratory health threat than coarse particulate matter (PM10) because PM2.5:",
+      "options": [
+        "Is too large to enter the nasal passages",
+        "Bypasses upper respiratory filtration structures and penetrates deep into the pulmonary alveoli and bloodstream",
+        "Combines with oxygen gas to produce stratospheric ozone",
+        "Dissolves rapidly into benign ocean water salts"
+      ],
+      "correct_idx": 1,
+      "explanation": "Particulates with diameters of 2.5 micrometers or smaller (PM2.5) travel past mucus and nasal cilia, reaching deep into lung alveoli where they cause chronic inflammation, tissue damage, and can enter systemic circulation."
+    },
+    {
+      "id": "u7_q08",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.14,
+      "prompt": "Which set of conditions is necessary for the formation of photochemical smog?",
+      "options": [
+        "Sulfur dioxide, cold ground fog, and nighttime wind currents",
+        "Nitrogen oxides, volatile organic compounds, solar radiation, and warm temperatures",
+        "Carbon monoxide, asbestos, low humidity, and overcast winter skies",
+        "Methane gas, radon, heavy rainfall, and low atmospheric pressure"
+      ],
+      "correct_idx": 1,
+      "explanation": "Photochemical smog forms when nitrogen oxides (NOx) and volatile organic compounds (VOCs) undergo complex chemical reactions driven by ultraviolet energy from sunlight in warm ambient temperatures."
+    },
+    {
+      "id": "u7_q09",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.2,
+      "prompt": "Tropospheric ozone (ground-level ozone) is classified as a secondary pollutant because it is formed when:",
+      "options": [
+        "Commercial jet engines inject ozone directly into upper cloud layers",
+        "Nitrogen dioxide splits under ultraviolet light, releasing a free oxygen atom that combines with molecular oxygen gas",
+        "Coal combustion releases pure ozone gas through industrial smokestacks",
+        "Trees absorb carbon dioxide and emit ozone gas during night hours"
+      ],
+      "correct_idx": 1,
+      "explanation": "Sunlight breaks nitrogen dioxide (NO2) into nitric oxide (NO) and a free oxygen atom (O). This free oxygen atom combines with atmospheric oxygen gas (O2) to form ground-level ozone (O3)."
+    },
+    {
+      "id": "u7_q10",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "At what time of day do ground-level ozone concentrations typically reach their peak in urban areas during summer?",
+      "options": [
+        "Just before dawn, when motor vehicle traffic is lowest",
+        "Early morning, during peak morning rush-hour traffic",
+        "Early to mid-afternoon, when solar intensity and daily temperatures are highest",
+        "Late evening, several hours after sunset"
+      ],
+      "correct_idx": 2,
+      "explanation": "Morning rush-hour traffic accumulates nitrogen oxides and VOCs. Over the following hours, intense midday solar radiation drives the photochemical reactions, causing ground-level ozone concentrations to peak in early to mid-afternoon."
+    },
+    {
+      "id": "u7_q11",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.26,
+      "prompt": "What chemical role do Volatile Organic Compounds (VOCs) play in sustaining high concentrations of ground-level ozone?",
+      "options": [
+        "VOCs absorb ozone gas and convert it into water vapor.",
+        "VOCs react with nitric oxide (NO), preventing NO from breaking down newly formed ozone back into oxygen gas.",
+        "VOCs destroy free oxygen atoms before they can combine with molecular oxygen gas.",
+        "VOCs reflect solar radiation back into space, cooling the lower atmosphere."
+      ],
+      "correct_idx": 1,
+      "explanation": "Normally, nitric oxide (NO) reacts with ozone (O3) to convert it back into O2 and NO2. However, VOCs react with NO first, preventing NO from destroying O3 and allowing ozone levels to build up."
+    },
+    {
+      "id": "u7_q12",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "Which harmful environmental effect is caused by exposure to ground-level ozone?",
+      "options": [
+        "Increased soil pH in agricultural fields",
+        "Damage to plant photosynthetic leaf tissues and stomata function",
+        "Accelerated accumulation of polar sea ice sheets",
+        "Sterilization of freshwater lake ecosystems"
+      ],
+      "correct_idx": 1,
+      "explanation": "Ground-level ozone is a strong oxidant. In plants, it enters leaf stomata, damages plant tissues, reduces photosynthetic capacity, and inhibits crop yields."
+    },
+    {
+      "id": "u7_q13",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.45,
+      "prompt": "Why do urban areas surrounded by mountains or situated in geographic basins experience more severe photochemical smog events?",
+      "options": [
+        "Surrounding mountains prevent solar radiation from reaching the valley floor.",
+        "Topography restricts horizontal wind movement, trapping primary emissions and secondary air pollutants over the city.",
+        "Mountain vegetation emits massive volumes of sulfur dioxide gas.",
+        "Valley soil absorbs all atmospheric moisture, accelerating smog combustion."
+      ],
+      "correct_idx": 1,
+      "explanation": "Geographic basins surrounded by mountain ranges inhibit natural air circulation. Trapped air masses allow primary pollutants and secondary photochemical smog to accumulate to hazardous levels over urban areas."
+    },
+    {
+      "id": "u7_q14",
+      "unit": 7,
+      "topic": "7.2 Photochemical Smog",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "Which substance is an example of a Volatile Organic Compound (VOC) that contributes to smog formation?",
+      "options": [
+        "Lead powder",
+        "Evaporated gasoline vapors",
+        "Calcium carbonate",
+        "Sulfuric acid drip"
+      ],
+      "correct_idx": 1,
+      "explanation": "VOCs are organic chemicals that evaporate readily at room temperature. Examples include gasoline vapors, paints, solvents, and natural terpenes emitted by pine trees."
+    },
+    {
+      "id": "u7_q15",
+      "unit": 7,
+      "topic": "7.3 Thermal Inversion",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "What atmospheric temperature arrangement characterizes a thermal inversion?",
+      "options": [
+        "Air temperature drops rapidly with increasing altitude throughout the troposphere.",
+        "A layer of warm air overlies a layer of cooler, denser air trapped near the ground surface.",
+        "Ground-level air temperatures rise above 50 degrees Celsius while upper air layers freeze.",
+        "Solar radiation warms upper stratospheric ozone while keeping the ground air vacuum-sealed."
+      ],
+      "correct_idx": 1,
+      "explanation": "During a thermal inversion, normal atmospheric lapse rates are inverted: a cap of warm, less dense air lies above a layer of cool air near the ground, preventing the lower air from rising."
+    },
+    {
+      "id": "u7_q16",
+      "unit": 7,
+      "topic": "7.3 Thermal Inversion",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.25,
+      "prompt": "How does a thermal inversion impact ambient air quality in urban valleys?",
+      "options": [
+        "It creates strong upward thermal updrafts that sweep all air pollution into space.",
+        "It prevents vertical atmospheric mixing, trapping pollutants near the surface where humans breathe.",
+        "It neutralizes acidic sulfur emissions through rapid precipitation events.",
+        "It increases wind velocity, rapidly dispersing ground-level smog across surrounding regions."
+      ],
+      "correct_idx": 1,
+      "explanation": "Because warm air sits above cool air, convective air mixing stops. Pollutants emitted from cars, factories, and heating sources remain trapped in the stagnant cool surface layer, dramatically worsening air quality."
+    },
+    {
+      "id": "u7_q17",
+      "unit": 7,
+      "topic": "7.3 Thermal Inversion",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Which geographic setup is most susceptible to night-time thermal inversions caused by rapid radiation cooling?",
+      "options": [
+        "Flat open ocean waters near the equator",
+        "Valleys surrounded by mountain ranges on clear, calm winter nights",
+        "High-altitude mountain peaks exposed to strong jet stream winds",
+        "Tropical rainforest canopies during summer afternoon rainstorms"
+      ],
+      "correct_idx": 1,
+      "explanation": "Valleys cool rapidly at night via longwave terrestrial radiation under clear, calm skies. Cold, dense air flows downhill and collects in the valley floor while warm air hovers above it, creating an inversion."
+    },
+    {
+      "id": "u7_q18",
+      "unit": 7,
+      "topic": "7.3 Thermal Inversion",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.22,
+      "prompt": "Under normal tropospheric conditions (without a thermal inversion), how does air temperature change as altitude increases?",
+      "options": [
+        "Temperature increases continuously up to the tropopause.",
+        "Temperature decreases as altitude increases.",
+        "Temperature remains completely constant from sea level to space.",
+        "Temperature fluctuates wildly between freezing and boiling every hundred meters."
+      ],
+      "correct_idx": 1,
+      "explanation": "Under standard atmospheric conditions, air in the troposphere warms near Earth's surface (heated by the ground) and grows progressively cooler as altitude increases."
+    },
+    {
+      "id": "u7_q19",
+      "unit": 7,
+      "topic": "7.3 Thermal Inversion",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.46,
+      "prompt": "The historic Donora smog event of 1948 in Pennsylvania, where industrial emissions caused severe illness and deaths, was exacerbated primarily by which meteorological phenomenon?",
+      "options": [
+        "A Category 5 hurricane storm surge",
+        "A prolonged thermal inversion that trapped heavy industrial emissions in a river valley",
+        "A massive volcanic ash plume carried by trade winds",
+        "A sudden destruction of the stratospheric ozone layer"
+      ],
+      "correct_idx": 1,
+      "explanation": "The 1948 Donora smog tragedy occurred when a five-day thermal inversion trapped toxic industrial sulfur dioxide and particulate emissions in the Monongahela River valley, leading to severe respiratory illness."
+    },
+    {
+      "id": "u7_q20",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which process is a natural source of atmospheric carbon dioxide (CO2)?",
+      "options": [
+        "Photovoltaic solar cell generation",
+        "Cellular respiration by living organisms and microbial decomposition",
+        "Synthetic fertilizer synthesis via the Haber-Bosch process",
+        "Nuclear fission inside containment vessels"
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural sources of atmospheric carbon dioxide include cellular respiration by plants, animals, and microbes, organic decomposition, ocean outgassing, and volcanic eruptions."
+    },
+    {
+      "id": "u7_q21",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.2,
+      "prompt": "Which event represents a natural source of atmospheric particulate matter?",
+      "options": [
+        "Operation of catalytic converters on hybrid cars",
+        "Volcanic eruptions releasing ash into the troposphere",
+        "Subsurface extraction of natural gas via fracking",
+        "Evaporation of water from hydroelectric reservoirs"
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural sources of particulate matter include volcanic ash, sea salt spray, windblown dust storms, pollen, and wild forest fires."
+    },
+    {
+      "id": "u7_q22",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "How do elevated levels of atmospheric black carbon (soot particulates) deposited onto snow and ice fields accelerate regional warming?",
+      "options": [
+        "By increasing the surface albedo and reflecting more sunlight back into space",
+        "By lowering the surface albedo, causing snow and ice to absorb more solar energy and melt faster",
+        "By neutralizing acidic rainfall over polar ice caps",
+        "By binding with nitrogen gas to create subterranean permafrost layers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Black carbon particulates settle onto bright snow and ice, darkening the surface. This reduces albedo (reflectivity), causing the snowpack to absorb more solar heat and accelerate melting."
+    },
+    {
+      "id": "u7_q23",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.38,
+      "prompt": "Anthropogenic activities release significant particulate pollution into the air. Which human activity is a major contributor to coarse airborne particulate matter (PM10)?",
+      "options": [
+        "Refrigerant leaks from household air conditioners",
+        "Agricultural plowing, unpaved road travel, and construction site earth-moving operations",
+        "Radioactive waste storage in underground vaults",
+        "Hydroelectric power generation at dam sites"
+      ],
+      "correct_idx": 1,
+      "explanation": "Activities like tilling dry agricultural fields, driving on unpaved gravel roads, and construction earthwork kick up significant amounts of dust and mineral soil particles, contributing to coarse PM10."
+    },
+    {
+      "id": "u7_q24",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.24,
+      "prompt": "While natural carbon fluxes release large amounts of carbon dioxide into the atmosphere, why do anthropogenic CO2 emissions cause atmospheric CO2 concentrations to rise?",
+      "options": [
+        "Anthropogenic CO2 molecules are twice as heavy as natural CO2 molecules.",
+        "Anthropogenic emissions add extra carbon to the atmosphere without a corresponding natural sink to absorb the surplus.",
+        "Natural carbon dioxide sinks accept only carbon released by living plants.",
+        "Anthropogenic carbon dioxide cannot dissolve in marine surface waters."
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural carbon emissions and absorptions are largely in dynamic equilibrium. Burning fossil fuels extracts ancient stored carbon and adds it to the active carbon cycle, overwhelming natural sinks and leading to atmospheric accumulation."
+    },
+    {
+      "id": "u7_q25",
+      "unit": 7,
+      "topic": "7.4 Atmospheric Carbon Dioxide and Particulates",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "High concentrations of atmospheric particulate matter impact atmospheric visibility primarily by:",
+      "options": [
+        "Scattering and absorbing incoming light rays, creating atmospheric haze",
+        "Dissolving oxygen gas molecules into liquid moisture droplets",
+        "Bending earth's magnetic field lines",
+        "Accelerating the speed of light through the lower troposphere"
+      ],
+      "correct_idx": 0,
+      "explanation": "Particulate matter in the air scatters and absorbs solar light rays, reducing visual clarity and range, which results in the environmental phenomenon known as haze."
+    },
+    {
+      "id": "u7_q26",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Radon-222 is an indoor air pollutant that enters residential homes primarily by:",
+      "options": [
+        "Evaporating from household cleaning fluids stored in kitchens",
+        "Seeping upward from underlying soil and rock through foundation cracks and basement drains",
+        "Leaching out of synthetic carpet fibers under heat",
+        "Venting from malfunctioning electric hot water heaters"
+      ],
+      "correct_idx": 1,
+      "explanation": "Radon-222 is a naturally occurring radioactive gas produced by the radioactive decay of uranium in underground rocks and soil. It infiltrates homes through cracks in foundation slabs, crawl spaces, and basement walls."
+    },
+    {
+      "id": "u7_q27",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Chronic exposure to elevated indoor levels of Radon-222 gas increases the risk of developing which medical condition?",
+      "options": [
+        "Type 1 diabetes",
+        "Lung cancer",
+        "Kidney stone accumulation",
+        "Cataracts"
+      ],
+      "correct_idx": 1,
+      "explanation": "Radon gas decays into radioactive alpha particles that damage lung tissue when inhaled, making radon exposure the second leading cause of lung cancer overall (and the leading cause among non-smokers)."
+    },
+    {
+      "id": "u7_q28",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Which indoor air pollutant is a volatile organic compound frequently off-gassed by new furniture, pressed-wood products (particleboard), adhesives, and carpets?",
+      "options": [
+        "Radon-222",
+        "Formaldehyde",
+        "Carbon monoxide",
+        "Sulfur dioxide"
+      ],
+      "correct_idx": 1,
+      "explanation": "Formaldehyde is a common VOC used in resins, glues, particleboard, manufactured furniture, and synthetic carpet backings. It off-gasses into indoor air, causing eye and respiratory irritation."
+    },
+    {
+      "id": "u7_q29",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "In developing nations, indoor air pollution is particularly severe because many households:",
+      "options": [
+        "Operate commercial air conditioning systems with clogged filters",
+        "Burn biomass (wood, crop waste, dung) indoors in unvented or poorly ventilated open stoves for cooking and heating",
+        "Store radioactive uranium waste inside residential basements",
+        "Spray synthetic aerosol pesticides indoors every day"
+      ],
+      "correct_idx": 1,
+      "explanation": "In developing countries, millions rely on burning solid biomass fuel inside poorly ventilated homes. This releases hazardous concentrations of carbon monoxide and particulate smoke indoors."
+    },
+    {
+      "id": "u7_q30",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "Asbestos was historically used in building insulation and ceiling tiles. What health risk occurs when older asbestos materials deteriorate or are disturbed?",
+      "options": [
+        "Microscopic mineral fibers become airborne, causing severe pulmonary scarring, asbestosis, and mesothelioma when inhaled",
+        "Asbestos dissolves into toxic lead liquid that contaminates drinking tap water",
+        "Asbestos off-gasses high volumes of methane gas that trigger indoor explosions",
+        "Asbestos reacts with indoor humidity to produce stratospheric ozone depletion"
+      ],
+      "correct_idx": 0,
+      "explanation": "Disturbing friable asbestos releases tiny mineral fibers into the air. When inhaled, these fibers become embedded in lung tissue, leading to asbestosis, lung cancer, or mesothelioma."
+    },
+    {
+      "id": "u7_q31",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Which common indoor biological pollutant proliferates in damp environments, such as leaky basements or water-damaged drywall, and triggers severe allergic reactions and asthma attacks?",
+      "options": [
+        "Radon gas bubbles",
+        "Fungal spores and mold",
+        "Asbestos mineral threads",
+        "Carbon monoxide crystals"
+      ],
+      "correct_idx": 1,
+      "explanation": "Molds and fungi thrive in high-moisture indoor environments. They release microscopic airborne spores and toxins that trigger allergic responses, respiratory distress, and asthma flare-ups."
+    },
+    {
+      "id": "u7_q32",
+      "unit": 7,
+      "topic": "7.5 Indoor Air Pollutants",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.3,
+      "prompt": "Why can modern, energy-efficient commercial buildings sometimes exhibit higher concentrations of indoor air pollutants than older buildings?",
+      "options": [
+        "Energy-efficient buildings contain zero ventilation ductwork.",
+        "Tightly sealed building envelopes designed to prevent heat loss reduce exchange rates with fresh outdoor air, trapping indoor pollutants.",
+        "Energy-efficient solar windows convert ambient nitrogen into toxic ammonia gas.",
+        "Modern building insulation generates radioactive decay products."
+      ],
+      "correct_idx": 1,
+      "explanation": "Tight building seals lower heating/cooling costs by preventing air drafts. However, without adequate mechanical ventilation, off-gassing from synthetic carpets, paints, and furniture gets trapped inside."
+    },
+    {
+      "id": "u7_q33",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "What is the primary function of a catalytic converter installed in an automobile's exhaust system?",
+      "options": [
+        "To filter coarse road dust from entering the engine intake manifold",
+        "To convert toxic exhaust gases like carbon monoxide, nitrogen oxides, and unburned hydrocarbons into carbon dioxide, nitrogen gas, and water",
+        "To remove sulfur impurities from diesel fuel prior to combustion",
+        "To store carbon dioxide gas inside an onboard steel pressure tank"
+      ],
+      "correct_idx": 1,
+      "explanation": "Catalytic converters use precious metal catalysts (platinum, palladium, rhodium) to facilitate oxidation and reduction reactions, converting harmful CO, NOx, and unburned hydrocarbons into safer CO2, N2, and H2O."
+    },
+    {
+      "id": "u7_q34",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "How does a wet scrubber system clean exhaust gases emitted from industrial coal-fired power plant smokestacks?",
+      "options": [
+        "It uses high-voltage electrical grids to zap sulfur gas molecules into gold atoms.",
+        "It sprays a liquid slurry (often water mixed with limestone) through exhaust gas to capture particulates and react with sulfur dioxide gas.",
+        "It cools the smokestack gas to minus 100 degrees Celsius to freeze oxygen gas into ice blocks.",
+        "It passes exhaust gas through giant synthetic sponge blankets that are replaced daily."
+      ],
+      "correct_idx": 1,
+      "explanation": "Wet scrubbers spray a liquid mixture (frequently water and calcium carbonate/limestone) into effluent smokestack gases. The liquid traps particulate matter and chemically reacts with SO2 to convert it into a calcium sulfite/sulfate sludge."
+    },
+    {
+      "id": "u7_q35",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "An electrostatic precipitator reduces industrial air pollution by using:",
+      "options": [
+        "Subsurface geothermal steam to wash coal before it is burned",
+        "An electrical charge to impart static charges to ash and soot particulates, attracting them to oppositely charged collector plates",
+        "High-pressure sound waves to shatter sulfur gas molecules into liquid droplets",
+        "Ultraviolet lamps to destroy heavy metal lead particles"
+      ],
+      "correct_idx": 1,
+      "explanation": "Electrostatic precipitators pass dirty exhaust gas through an electric field. Particulates gain a negative charge and are attracted to positively charged collector plates, removing soot/ash from effluent air."
+    },
+    {
+      "id": "u7_q36",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.18,
+      "prompt": "Vapor recovery nozzles attached to gasoline pumps at service stations help reduce air pollution by:",
+      "options": [
+        "Injecting liquid lead into passenger vehicle fuel tanks",
+        "Capturing volatile organic gasoline vapors escaping from vehicle tanks during refueling and routing them back to underground storage",
+        "Filtering carbon dioxide directly out of ambient city air",
+        "Converting liquid gasoline into hydrogen gas at the pump handle"
+      ],
+      "correct_idx": 1,
+      "explanation": "Vapor recovery nozzles prevent volatile organic compounds (VOCs) in gasoline from escaping into the atmosphere during refueling, capturing them and returning them to underground fuel storage tanks."
+    },
+    {
+      "id": "u7_q37",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "How did the 1990 Clean Air Act cap-and-trade program successfully cut sulfur dioxide (SO2) emissions in the United States?",
+      "options": [
+        "By placing an absolute legal ban on all coal combustion nationwide",
+        "By setting an overall emission cap and allowing utilities to buy and sell tradeable pollution allowances to meet targets cost-effectively",
+        "By requiring all electrical power utilities to switch immediately to nuclear energy",
+        "By levying personal income tax fines on homeowners using electric heaters"
+      ],
+      "correct_idx": 1,
+      "explanation": "The cap-and-trade system capped nationwide SO2 emissions and issued tradeable allowances. Power plants that reduced emissions below their quota could sell excess permits to less efficient plants, driving market-based SO2 reductions."
+    },
+    {
+      "id": "u7_q38",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.25,
+      "prompt": "Which action represents a direct conservation strategy to mitigate urban air pollution?",
+      "options": [
+        "Building wider multi-lane highways to increase single-occupancy vehicle traffic speed",
+        "Expanding public mass transit networks and developing dedicated bicycle infrastructure",
+        "Lowering fuel efficiency standards for commercial delivery trucks",
+        "Removing catalytic converters from municipal diesel buses"
+      ],
+      "correct_idx": 1,
+      "explanation": "Expanding mass transit (buses, trains) and bicycle paths cuts overall motor vehicle trips, directly reducing primary fossil fuel combustion emissions such as NOx, VOCs, CO, and PM."
+    },
+    {
+      "id": "u7_q39",
+      "unit": 7,
+      "topic": "7.6 Reduction of Air Pollutants",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.48,
+      "prompt": "Dry scrubbers installed in industrial facilities neutralize acidic flue gases by introducing which substance into the exhaust stream?",
+      "options": [
+        "Pure liquid gasoline spray",
+        "Dry powdered alkaline reagents such as hydrated lime or sodium bicarbonate",
+        "Concentrated nitric acid aerosol",
+        "Liquid methane gas"
+      ],
+      "correct_idx": 1,
+      "explanation": "Dry scrubbers inject dry alkaline powders (like lime or sodium bicarbonate) into hot flue gas streams. The basic material neutralizes acidic gases (SO2, HCl) to form solid salts that are collected downstream."
+    },
+    {
+      "id": "u7_q40",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which primary air pollutants are the main chemical precursors to acid deposition (acid rain)?",
+      "options": [
+        "Chlorofluorocarbons and methane gas",
+        "Sulfur dioxide (SO2) and nitrogen oxides (NOx)",
+        "Carbon monoxide and lead dust",
+        "Radon gas and asbestos fibers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Sulfur dioxide (SO2) and nitrogen oxides (NOx) react with atmospheric water vapor, oxygen, and oxidants to form sulfuric acid (H2SO4) and nitric acid (HNO3), which fall to Earth as acid deposition."
+    },
+    {
+      "id": "u7_q41",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Why are forest ecosystems situated on granite bedrock more vulnerable to acid rain damage than those on limestone bedrock?",
+      "options": [
+        "Granite absorbs acidic precipitation, transforming it into toxic mercury liquid.",
+        "Limestone contains calcium carbonate, which buffers and neutralizes acidic inputs, whereas granite lacks buffering capacity.",
+        "Granite bedrock produces high amounts of natural sulfuric acid on its own.",
+        "Trees growing on limestone soils lack root systems to absorb soil nutrients."
+      ],
+      "correct_idx": 1,
+      "explanation": "Limestone consists mainly of calcium carbonate (CaCO3), a basic compound that neutralizes acid deposition. Granite bedrock lacks alkaline compounds, leaving soils unable to buffer acidic rainwater."
+    },
+    {
+      "id": "u7_q42",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "How does soil acidification caused by acid rain harm forest vegetation?",
+      "options": [
+        "It increases soil nitrogen fixation to toxic high levels.",
+        "It leaches essential plant nutrients like calcium and magnesium while releasing toxic aluminum ions that damage tree roots.",
+        "It converts topsoil into solid granite stone within days.",
+        "It freezes soil moisture during warm summer months."
+      ],
+      "correct_idx": 1,
+      "explanation": "Acid rain displaces plant nutrients (calcium, magnesium, potassium) from soil particles so they wash away. Simultaneously, low pH mobilizes aluminum ions (Al3+), which are toxic to tree root systems."
+    },
+    {
+      "id": "u7_q43",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "What impact does acid deposition have on aquatic species in high-altitude mountain lakes?",
+      "options": [
+        "It causes rapid overpopulation of sensitive fish species like trout.",
+        "Elevated aluminum concentrations and low water pH disrupt gill function and lead to high mortality in fish eggs and fry.",
+        "It converts lake water into clear saline ocean water.",
+        "It accelerates photosynthetic rates among submerged vascular plants."
+      ],
+      "correct_idx": 1,
+      "explanation": "Acidic lake water mobilizes toxic aluminum. In fish, aluminum causes excessive mucus accumulation on gills, leading to suffocation. Low pH also damages fragile fish eggs and reduces aquatic biodiversity."
+    },
+    {
+      "id": "u7_q44",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Acid rain often impacts regions located hundreds of miles downwind from industrial pollution sources because:",
+      "options": [
+        "Acid rain forms only when pollutants reach the upper stratosphere over ocean waters.",
+        "Tall industrial smokestacks release SO2 and NOx high into the atmosphere, where prevailing winds transport them before deposition occurs.",
+        "Primary pollutants travel through deep underground aquifer networks before evaporating.",
+        "Pollutants react exclusively when carried into sub-polar arctic air masses."
+      ],
+      "correct_idx": 1,
+      "explanation": "Tall smokestacks inject primary pollutants high into tropospheric air currents. Prevailing winds carry SO2 and NOx long distances while they convert into acids before falling as rain, snow, or fog downwind."
+    },
+    {
+      "id": "u7_q45",
+      "unit": 7,
+      "topic": "7.7 Acid Rain",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "Which structural impact is a documented consequence of acid deposition on human infrastructure?",
+      "options": [
+        "Dissolution and chemical weathering of limestone, marble statues, and historical buildings",
+        "Rapid magnetic pole reversals beneath reinforced concrete bridges",
+        "Spontaneous combustion of residential wooden roofs",
+        "Softening of asphalt highways into sticky rubber pools"
+      ],
+      "correct_idx": 0,
+      "explanation": "Sulfuric and nitric acids chemically react with calcium carbonate in limestone and marble structures, causing gradual dissolution, pitting, and structural degradation of historical monuments and buildings."
+    },
+    {
+      "id": "u7_q46",
+      "unit": 7,
+      "topic": "7.8 Noise Pollution",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Environmental noise pollution is defined as:",
+      "options": [
+        "Any atmospheric sound frequency above 10,000 megahertz that destroys radio communications",
+        "Unwanted or harmful sound in the environment created by human activities such as transportation and industry",
+        "Natural acoustic vibrations produced by seismic oceanic earthquakes",
+        "Ultrasonic sounds emitted by nocturnal bat species during navigation"
+      ],
+      "correct_idx": 1,
+      "explanation": "Noise pollution refers to ambient sound levels generated by human activities (such as highway traffic, commercial aviation, construction machinery, and industrial operations) that cause annoyance, health risks, or ecological disruption."
+    },
+    {
+      "id": "u7_q47",
+      "unit": 7,
+      "topic": "7.8 Noise Pollution",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Which health problem in humans is directly linked to chronic exposure to high levels of environmental noise pollution?",
+      "options": [
+        "Physiological stress, high blood pressure (hypertension), hearing loss, and sleep disturbance",
+        "Limb paralysis caused by spinal cord disintegration",
+        "Skin discoloration resulting from loss of melanin pigment",
+        "Vitamin D deficiency caused by blocked solar absorption"
+      ],
+      "correct_idx": 0,
+      "explanation": "Chronic noise pollution elevates stress hormone levels (cortisol, adrenaline), contributing to cardiovascular disorders, elevated blood pressure, permanent hearing impairment, cognitive disruption, and chronic sleep loss."
+    },
+    {
+      "id": "u7_q48",
+      "unit": 7,
+      "topic": "7.8 Noise Pollution",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "How does anthropogenic noise pollution disrupt terrestrial wildlife populations near major highways?",
+      "options": [
+        "It causes animal fur to shed rapidly in cold winter seasons.",
+        "It masks acoustic communication, interfering with mating calls, territory defense, and predator detection.",
+        "It prevents plant roots from absorbing subterranean water supplies.",
+        "It increases the thickness of bird eggshells, preventing hatching."
+      ],
+      "correct_idx": 1,
+      "explanation": "Road traffic noise masks vocal communications used by birds, amphibians, and mammals. Animals struggle to hear predator warnings, locate prey, attract mates, or establish territories, reducing reproductive success."
+    },
+    {
+      "id": "u7_q49",
+      "unit": 7,
+      "topic": "7.8 Noise Pollution",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.44,
+      "prompt": "Marine noise pollution from commercial ship propellers, naval sonar, and seismic airgun surveys severely impacts marine mammals (such as whales and dolphins) by:",
+      "options": [
+        "Boiling ocean surface water near shipping lanes",
+        "Interfering with echolocation systems, causing disorientation, altered diving behaviors, and beach strandings",
+        "Freezing deep ocean trench water currents",
+        "Eliminating dissolved oxygen gas from deep ocean basins"
+      ],
+      "correct_idx": 1,
+      "explanation": "Cetaceans rely on sound for echolocation, navigation, foraging, and communication. High-intensity underwater anthropogenic noise masks these acoustic signals, causing stress, hearing loss, disoriented navigation, and fatal strandings."
+    },
+    {
+      "id": "u7_q50",
+      "unit": 7,
+      "topic": "7.8 Noise Pollution",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Which strategy effectively mitigates highway traffic noise pollution in suburban communities?",
+      "options": [
+        "Removing all trees and vegetation along highway medians",
+        "Constructing physical sound barriers (acoustic walls) and planting dense earthen vegetation buffers along highways",
+        "Increasing maximum speed limits for heavy commercial freight trucks",
+        "Replacing asphalt highway paving with grooved iron plates"
+      ],
+      "correct_idx": 1,
+      "explanation": "Building solid acoustic noise walls, utilizing quieter asphalt blends, establishing tree/vegetation buffers, and enforcing truck speed limits effectively absorb and deflect highway traffic sound waves away from residential neighborhoods."
+    }
+  ]

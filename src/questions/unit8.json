@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u8_q01",
+      "unit": 8,
+      "topic": "8.1 Sources of Pollution",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.12,
+      "prompt": "Which statement best distinguishes a point source of water pollution from a nonpoint source?",
+      "options": [
+        "Point sources enter waterways exclusively during heavy storm events, whereas nonpoint sources flow continuously.",
+        "Point sources originate from a single, distinct, and identifiable location, whereas nonpoint sources come from diffuse, widespread areas.",
+        "Point sources consist only of synthetic toxic chemicals, whereas nonpoint sources consist only of organic agricultural waste.",
+        "Point sources affect only groundwater aquifers, whereas nonpoint sources affect only surface lakes and ocean bays."
+      ],
+      "correct_idx": 1,
+      "explanation": "A point source originates from a specific, discrete location, such as a factory discharge pipe or sewage treatment outflow. A nonpoint source comes from broad, unconfined areas, such as urban runoff or agricultural fertilizer washed into a watershed."
+    },
+    {
+      "id": "u8_q02",
+      "unit": 8,
+      "topic": "8.1 Sources of Pollution",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.18,
+      "prompt": "Which scenario represents a NONPOINT source of water pollution?",
+      "options": [
+        "A ruptured oil pipeline leaking crude oil into a stream",
+        "Agricultural runoff carrying excess synthetic fertilizers and pesticides from multiple crop fields across a river basin",
+        "An industrial chemical facility discharging warm effluent water through an underground pipe",
+        "A municipal wastewater treatment plant releasing treated effluent from a drainage gate"
+      ],
+      "correct_idx": 1,
+      "explanation": "Agricultural runoff enters water bodies from widespread land areas during rainfall across a broad geographic watershed, making it a classic nonpoint source of pollution."
+    },
+    {
+      "id": "u8_q03",
+      "unit": 8,
+      "topic": "8.1 Sources of Pollution",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.25,
+      "prompt": "Why are nonpoint sources of water pollution generally more difficult to regulate and control than point sources?",
+      "options": [
+        "Nonpoint pollutants decompose instantly upon entering natural river systems.",
+        "Nonpoint pollution originates from broad geographic areas with multiple land owners, making individual source attribution and enforcement challenging.",
+        "Nonpoint sources are completely invisible to standard water testing equipment.",
+        "Federal legislation restricts environmental agencies from inspecting nonpoint water runoff."
+      ],
+      "correct_idx": 1,
+      "explanation": "Because nonpoint pollution accumulates from widespread activities across whole watersheds (such as lawns, fields, and roads), identifying specific culprits, monitoring precise volume, and enforcing discharge limits is far more complex than regulating a single pipe."
+    },
+    {
+      "id": "u8_q04",
+      "unit": 8,
+      "topic": "8.2 Human Impacts on Ecosystems",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.14,
+      "prompt": "How does excessive sediment runoff from land clearing and construction sites harm aquatic ecosystems?",
+      "options": [
+        "Sediment raises dissolved oxygen concentrations to toxic levels.",
+        "Sediment increases water turbidity, blocking sunlight for aquatic plants, smothering benthic habitats, and clogging fish gills.",
+        "Sediment reacts chemically with water to produce concentrated sulfuric acid.",
+        "Sediment acts as a cooling agent that freezes river bed ecosystems."
+      ],
+      "correct_idx": 1,
+      "explanation": "High sediment loads cloud the water (increasing turbidity), which reduces light penetration for photosynthesis, covers fish spawning grounds, smothers bottom-dwelling organisms, and damages delicate fish gill structures."
+    },
+    {
+      "id": "u8_q05",
+      "unit": 8,
+      "topic": "8.2 Human Impacts on Ecosystems",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Coral bleaching occurs primarily when coral polyps are stressed by elevated ocean temperatures, causing them to:",
+      "options": [
+        "Absorb excessive amounts of toxic heavy metals from deep ocean trenches",
+        "Expel their symbiotic photosynthetic algae (zooxanthellae), turning the coral white and risking starvation",
+        "Secrete thick limestone layers that block all incoming sunlight",
+        "Convert into predatory freshwater polyps"
+      ],
+      "correct_idx": 1,
+      "explanation": "When water temperatures exceed normal thresholds, corals undergo physiological stress and expel the microscopic algae (zooxanthellae) living inside their tissues. Without these algae, corals lose their primary food source and color."
+    },
+    {
+      "id": "u8_q06",
+      "unit": 8,
+      "topic": "8.2 Human Impacts on Ecosystems",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "Which physical impact occurs when sea turtles or marine birds ingest floating plastic marine debris?",
+      "options": [
+        "Immediate genetic mutations that turn skin scales into feathers",
+        "Intestinal blockage, internal tissue perforation, pseudo-satiation leading to starvation, and exposure to toxic plastic additives",
+        "Accelerated photosynthetic growth inside internal organs",
+        "Neutralization of stomach acids into harmless pure water"
+      ],
+      "correct_idx": 1,
+      "explanation": "Plastic ingestion blocks digestive tracts, inflicts internal tears, creates a false feeling of fullness (pseudo-satiation) that prevents animals from eating real food, and leaches bioaccumulated toxins into bodily tissues."
+    },
+    {
+      "id": "u8_q07",
+      "unit": 8,
+      "topic": "8.2 Human Impacts on Ecosystems",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Oil spills in marine environments disrupt ecosystem function because crude oil components:",
+      "options": [
+        "Increase the pH of ocean water to basic levels above 12.0",
+        "Coat bird feathers and mammal fur, destroying thermal insulation and buoyancy, while heavy hydrocarbons sink and poison benthic organisms",
+        "Absorb all dissolved nitrogen gas needed by marine phytoplankton",
+        "Cause ocean currents to reverse direction near coastal estuaries"
+      ],
+      "correct_idx": 1,
+      "explanation": "Oil coats feathers and fur, causing birds and mammals to lose waterproofing and insulation (leading to hypothermia/drowning). Additionally, chemical fractions in crude oil are toxic when inhaled or ingested, and heavy components smother seafloor organisms."
+    },
+    {
+      "id": "u8_q08",
+      "unit": 8,
+      "topic": "8.3 Endocrine Disruptors",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.15,
+      "prompt": "How do chemical endocrine disruptors alter biological functions in wildlife?",
+      "options": [
+        "They destroy skeletal muscle tissue directly upon contact.",
+        "They mimic, block, or interfere with natural hormones in the body, binding to cellular receptors and disrupting normal development and reproduction.",
+        "They dissolve protective mucus layers inside animal respiratory tracts.",
+        "They prevent plant root cells from absorbing liquid groundwater."
+      ],
+      "correct_idx": 1,
+      "explanation": "Endocrine disruptors are synthetic compounds that structurally resemble natural hormones (such as estrogen or testosterone). They attach to cellular hormone receptors, triggering abnormal cellular signals or blocking natural hormone action."
+    },
+    {
+      "id": "u8_q09",
+      "unit": 8,
+      "topic": "8.3 Endocrine Disruptors",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.25,
+      "prompt": "Which biological abnormality is frequently documented in fish populations exposed to endocrine-disrupting chemicals in municipal wastewater discharges?",
+      "options": [
+        "Loss of scales and tail fins",
+        "Intersex conditions, where male fish develop eggs inside their testes, leading to reduced reproductive capacity",
+        "Spontaneous conversion from aquatic gill respiration to air-breathing lung respiration",
+        "Complete immunity to all bacterial pathogens"
+      ],
+      "correct_idx": 1,
+      "explanation": "Exposure to synthetic estrogens (from birth control residues and plastics like BPA) in wastewater effluent causes demasculinization and intersex conditions in male fish, where testicular tissue produces eggs, impairing reproduction."
+    },
+    {
+      "id": "u8_q10",
+      "unit": 8,
+      "topic": "8.3 Endocrine Disruptors",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Which synthetic chemical compound is widely recognized as a potent endocrine disruptor?",
+      "options": [
+        "Sodium chloride",
+        "Bisphenol A (BPA) and phthalates used in plastics",
+        "Calcium carbonate powder",
+        "Atmospheric nitrogen gas"
+      ],
+      "correct_idx": 1,
+      "explanation": "Bisphenol A (BPA), phthalates, atrazine, and certain synthetic pharmaceuticals act as endocrine disruptors by interfering with normal endocrine system messaging."
+    },
+    {
+      "id": "u8_q11",
+      "unit": 8,
+      "topic": "8.4 Human Impacts on Wetlands and Mangroves",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which ecological service provided by coastal wetlands directly protects inland human communities during hurricanes?",
+      "options": [
+        "Release of methane gas to repel coastal storms",
+        "Absorption of storm surge energy, wave dampening, and retention of floodwaters",
+        "Increasing ocean water salinity to prevent flooding",
+        "Reflecting solar radiation back into upper cloud layers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Wetland vegetation and root networks physically slow storm surges, absorb incoming wave energy, and act as natural sponges to store excess water, reducing coastal flood damage."
+    },
+    {
+      "id": "u8_q12",
+      "unit": 8,
+      "topic": "8.4 Human Impacts on Wetlands and Mangroves",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "What major commercial activity is responsible for extensive destruction of tropical coastal mangrove forests worldwide?",
+      "options": [
+        "Deep-sea geothermal energy mining",
+        "Conversion of coastal mangrove estuaries into commercial aquaculture facilities for shrimp farming",
+        "Construction of high-altitude ski resort facilities",
+        "Extraction of natural gas from arctic permafrost"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clearing mangrove swamps to construct commercial shrimp and fish aquaculture ponds has destroyed millions of hectares of tropical coastal mangrove forests, reducing nursery habitats and coastal protection."
+    },
+    {
+      "id": "u8_q13",
+      "unit": 8,
+      "topic": "8.4 Human Impacts on Wetlands and Mangroves",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "How does wetland degradation worsen water quality in adjacent downstream coastal bays?",
+      "options": [
+        "It reduces the natural filtration of excess nutrients, sediment, and heavy metals that wetlands normally trap and process.",
+        "It increases the concentration of dissolved oxygen to toxic levels.",
+        "It cools downstream water temperatures below freezing.",
+        "It prevents sea salt from dissolving in ocean water."
+      ],
+      "correct_idx": 0,
+      "explanation": "Wetland plants and anaerobic substrate microbes naturally trap sediments and process nutrients/pollutants before water flows downstream. Destroying wetlands removes this natural water purification service."
+    },
+    {
+      "id": "u8_q14",
+      "unit": 8,
+      "topic": "8.5 Eutrophication",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "What is the correct chronological sequence of steps in cultural eutrophication?",
+      "options": [
+        "Fish die -> nutrient input increases -> algal bloom forms -> decomposers multiply",
+        "Nutrient input increases -> rapid algal bloom forms -> algae die -> aerobic decomposers multiply and consume dissolved oxygen -> aquatic organisms suffocate (hypoxia)",
+        "Dissolved oxygen spikes -> algae die -> nutrient input increases -> fish populations double",
+        "Aerobic bacteria die -> nutrient runoff stops -> algal bloom forms -> dissolved oxygen drops"
+      ],
+      "correct_idx": 1,
+      "explanation": "Cultural eutrophication begins with excess nutrient runoff (N and P). Algae bloom rapidly, then die off. Aerobic bacteria decompose the dead biomass, consuming dissolved oxygen in the process and creating hypoxic dead zones."
+    },
+    {
+      "id": "u8_q15",
+      "unit": 8,
+      "topic": "8.5 Eutrophication",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.2,
+      "prompt": "Which two plant nutrients are primarily responsible for triggering cultural eutrophication in aquatic ecosystems?",
+      "options": [
+        "Sodium and chloride",
+        "Nitrogen and phosphorus",
+        "Calcium and magnesium",
+        "Carbon monoxide and lead"
+      ],
+      "correct_idx": 1,
+      "explanation": "Nitrogen and phosphorus are the primary limiting nutrients in aquatic environments. When excessive amounts enter lakes or coastal waters via fertilizers and sewage, algal growth explodes."
+    },
+    {
+      "id": "u8_q16",
+      "unit": 8,
+      "topic": "8.5 Eutrophication",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "How does an OLIGOTROPHIC lake differ from an EUTROPHIC lake?",
+      "options": [
+        "Oligotrophic lakes have extremely high nutrient levels and zero water clarity.",
+        "Oligotrophic lakes have low nutrient levels, low algal productivity, clear water, and high dissolved oxygen levels.",
+        "Oligotrophic lakes are warm, shallow mud flats devoid of all oxygen gas.",
+        "Oligotrophic lakes exist only near deep ocean hydrothermal vents."
+      ],
+      "correct_idx": 1,
+      "explanation": "Oligotrophic lakes are young, nutrient-poor, deep bodies of water with crystal-clear clarity and high dissolved oxygen. Eutrophic lakes are nutrient-rich, shallow, murky with algae, and prone to oxygen depletion."
+    },
+    {
+      "id": "u8_q17",
+      "unit": 8,
+      "topic": "8.5 Eutrophication",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "What happens to the Biochemical Oxygen Demand (BOD) in a water body during a severe algal bloom collapse?",
+      "options": [
+        "BOD drops to absolute zero because all oxygen gas vanishes.",
+        "BOD spikes sharply because decomposers require large amounts of oxygen to break down the dead organic biomass.",
+        "BOD remains unchanged while water pH rises above 14.0.",
+        "BOD fluctuates based exclusively on atmospheric air pressure."
+      ],
+      "correct_idx": 1,
+      "explanation": "BOD measures the amount of dissolved oxygen consumed by aerobic microorganisms to break down organic matter. During an algal die-off, the huge influx of organic waste causes decomposer populations to spike, driving BOD up and dissolved oxygen down."
+    },
+    {
+      "id": "u8_q18",
+      "unit": 8,
+      "topic": "8.6 Thermal Pollution",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.14,
+      "prompt": "What is the primary human cause of thermal pollution in rivers and lakes?",
+      "options": [
+        "Dumping solid municipal waste along shoreline beaches",
+        "Discharging warm cooling water from industrial facilities and thermal power generation plants back into natural water bodies",
+        "Installing underwater hydroelectric turbines",
+        "Spraying liquid nitrogen fertilizer on surrounding agricultural land"
+      ],
+      "correct_idx": 1,
+      "explanation": "Power plants and factories pull cold water from rivers/lakes to condense steam or cool equipment, then discharge the heated water back into the source body, causing thermal pollution."
+    },
+    {
+      "id": "u8_q19",
+      "unit": 8,
+      "topic": "8.6 Thermal Pollution",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "How does an increase in water temperature directly alter the dissolved oxygen (DO) capacity of an aquatic ecosystem?",
+      "options": [
+        "Warmer water holds significantly less dissolved oxygen gas than colder water.",
+        "Warmer water holds twice as much dissolved oxygen gas as colder water.",
+        "Water temperature has no physical relationship to dissolved gas capacity.",
+        "Warmer water converts dissolved oxygen gas into liquid carbon dioxide."
+      ],
+      "correct_idx": 0,
+      "explanation": "The solubility of gases in liquids decreases as temperature increases. As water warms up, its physical capacity to hold dissolved oxygen drops."
+    },
+    {
+      "id": "u8_q20",
+      "unit": 8,
+      "topic": "8.6 Thermal Pollution",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "Why is thermal shock dangerous to cold-water fish species such as trout?",
+      "options": [
+        "It freezes their internal blood vessels instantly.",
+        "It simultaneously increases the fish's metabolic rate and oxygen demand while reducing the dissolved oxygen available in the water, leading to suffocation.",
+        "It causes immediate calcification of their external scale layers.",
+        "It neutralizes the salinity of their internal bodily fluids."
+      ],
+      "correct_idx": 1,
+      "explanation": "In warmer water, cold-blooded organisms experience elevated metabolic rates, requiring more oxygen. However, warm water holds less dissolved oxygen, creating a dangerous imbalance that causes suffocation and thermal shock."
+    },
+    {
+      "id": "u8_q21",
+      "unit": 8,
+      "topic": "8.7 Persistent Organic Pollutants (POPs)",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "Which key characteristic defines Persistent Organic Pollutants (POPs)?",
+      "options": [
+        "They break down completely in sunlight within forty-eight hours.",
+        "They are synthetic, fat-soluble organic compounds that resist chemical and biological degradation, persisting long-term in the environment.",
+        "They dissolve easily in water and leave animal tissues via normal urination.",
+        "They are natural mineral elements extracted from volcanic ash deposits."
+      ],
+      "correct_idx": 1,
+      "explanation": "POPs (such as DDT, PCBs, and dioxins) are synthetic carbon-based compounds with stable chemical structures. They resist environmental breakdown, dissolve in fats rather than water, and persist in ecosystems."
+    },
+    {
+      "id": "u8_q22",
+      "unit": 8,
+      "topic": "8.7 Persistent Organic Pollutants (POPs)",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.26,
+      "prompt": "Why can Persistent Organic Pollutants (POPs) be detected in animal tissues in pristine Arctic regions far from where the chemicals were applied?",
+      "options": [
+        "POPs are produced naturally by polar ice sheets.",
+        "POPs evaporate in warm regions, travel through wind and ocean currents, and condense out in colder high-latitude climates (the grasshopper effect).",
+        "POPs are carried exclusively by commercial sub-polar submarines.",
+        "Arctic tundra moss converts atmospheric nitrogen directly into synthetic POPs."
+      ],
+      "correct_idx": 1,
+      "explanation": "Through global distillation (the grasshopper effect), volatile POPs evaporate from warmer tropical and temperate regions, travel long distances through atmospheric transport, and condense out in cold Arctic regions."
+    },
+    {
+      "id": "u8_q23",
+      "unit": 8,
+      "topic": "8.7 Persistent Organic Pollutants (POPs)",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Which synthetic chemical compound belongs to the class of Persistent Organic Pollutants (POPs)?",
+      "options": [
+        "Lead nitrate",
+        "Dichlorodiphenyltrichloroethane (DDT) and Polychlorinated Biphenyls (PCBs)",
+        "Sodium hydroxide",
+        "Carbonic acid"
+      ],
+      "correct_idx": 1,
+      "explanation": "DDT (an organochlorine pesticide) and PCBs (industrial coolants/insulators) are classic examples of POPs targeted by the international Stockholm Convention due to their persistence and toxicity."
+    },
+    {
+      "id": "u8_q24",
+      "unit": 8,
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "What is the distinction between BIOACCUMULATION and BIOMAGNIFICATION?",
+      "options": [
+        "Bioaccumulation occurs only in aquatic plants, while biomagnification occurs only in terrestrial mammals.",
+        "Bioaccumulation is the buildup of a pollutant within a single organism over time, whereas biomagnification is the increasing concentration of a pollutant at higher trophic levels in a food web.",
+        "Bioaccumulation involves water-soluble chemicals, while biomagnification involves air-borne gases.",
+        "Bioaccumulation dilutes chemical toxicity, while biomagnification neutralizes heavy metals."
+      ],
+      "correct_idx": 1,
+      "explanation": "Bioaccumulation takes place within an individual organism as it absorbs a fat-soluble toxin faster than it can metabolize or excrete it. Biomagnification occurs across a food chain as apex predators consume lower-trophic organisms containing accumulated toxins."
+    },
+    {
+      "id": "u8_q25",
+      "unit": 8,
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Which trophic level in a marine food web experiences the highest concentration of biomagnified fat-soluble toxins?",
+      "options": [
+        "Primary producers (microscopic phytoplankton)",
+        "Apex predators (such as killer whales, sharks, and polar bears)",
+        "Primary consumers (zooplankton)",
+        "Decomposers (benthic marine bacteria)"
+      ],
+      "correct_idx": 1,
+      "explanation": "Because apex predators sit at the top of the food web, they consume vast quantities of secondary and tertiary consumers over their lifetimes, concentrating toxins to the highest levels in their adipose tissue."
+    },
+    {
+      "id": "u8_q26",
+      "unit": 8,
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "Historical biomagnification of the pesticide DDT caused severe population declines in predatory bird species like bald eagles and peregrine falcons primarily by:",
+      "options": [
+        "Blindness preventing them from detecting prey",
+        "Interfering with calcium metabolism, causing eggshell thinning that led to eggs cracking during incubation",
+        "Paralyzing wing muscle tissue",
+        "Dissolving beak structures required to feed hatchlings"
+      ],
+      "correct_idx": 1,
+      "explanation": "DDT biomagnified up food chains to raptors, where its metabolite (DDE) inhibited calcium deposition during eggshell formation. The resulting thin eggshells crushed under the weight of incubating parents, causing severe reproductive failure."
+    },
+    {
+      "id": "u8_q27",
+      "unit": 8,
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.45,
+      "prompt": "Methylmercury biomagnifies in aquatic ecosystems. Which health advisory is based on this environmental phenomenon?",
+      "options": [
+        "Recommending that people avoid drinking tap water from municipal treatment facilities",
+        "Advising pregnant women to limit consumption of large predatory ocean fish like swordfish, tilefish, and albacore tuna",
+        "Warning against swimming in mountain streams during spring runoff",
+        "Encouraging people to harvest filter-feeding oysters from deep ocean bays"
+      ],
+      "correct_idx": 1,
+      "explanation": "Inorganic mercury is transformed by aquatic bacteria into neurotoxic methylmercury, which biomagnifies up the food chain into large predatory fish (tuna, swordfish, shark). High levels pose severe neurodevelopmental risks to fetuses."
+    },
+    {
+      "id": "u8_q28",
+      "unit": 8,
+      "topic": "8.9 Solid Waste Disposal",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Which design feature in a modern sanitary landfill prevents toxic liquid (leachate) from contaminating underlying groundwater aquifers?",
+      "options": [
+        "A perforated concrete roof slab",
+        "A bottom liner system constructed of impermeable clay and high-density plastic, combined with a leachate collection pipe network",
+        "An open sand trench surrounding the site perimeter",
+        "High-voltage electrical ground cables"
+      ],
+      "correct_idx": 1,
+      "explanation": "Sanitary landfills are lined at the bottom with thick impermeable clay layers and flexible synthetic plastic membranes. Pipes catch the liquid runoff (leachate) that percolates through the waste, pumping it to treatment facilities."
+    },
+    {
+      "id": "u8_q29",
+      "unit": 8,
+      "topic": "8.9 Solid Waste Disposal",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "Why do sanitary landfills produce significant volumes of methane gas (CH4)?",
+      "options": [
+        "Methane gas is released during the evaporation of plastic drink bottles.",
+        "Organic waste buried beneath heavy soil layers undergoes anaerobic decomposition by methanogenic bacteria in oxygen-depleted conditions.",
+        "Crude oil trapped underground leaks directly into landfill caps.",
+        "Landfill liners react chemically with rainwater to yield pure methane."
+      ],
+      "correct_idx": 1,
+      "explanation": "Deeply buried organic waste (food scraps, paper, yard waste) quickly becomes depleted of oxygen. Anaerobic bacteria break down this material, generating methane (CH4) and carbon dioxide (CO2) as bi-products."
+    },
+    {
+      "id": "u8_q30",
+      "unit": 8,
+      "topic": "8.9 Solid Waste Disposal",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "What major advantage does waste incineration (mass burn) offer over traditional landfilling for municipal solid waste management?",
+      "options": [
+        "It eliminates 100 percent of atmospheric carbon dioxide emissions.",
+        "It drastically reduces the overall volume of solid waste by up to 90 percent and can generate electricity through waste-to-energy steam turbines.",
+        "It produces zero toxic fly ash or bottom ash residue.",
+        "It completely eliminates the need for sorting household recyclable materials."
+      ],
+      "correct_idx": 1,
+      "explanation": "Incineration burns municipal waste, reducing its physical volume by roughly 90 percent (leaving residual ash) while producing thermal energy that can boil water to spin electricity-generating steam turbines."
+    },
+    {
+      "id": "u8_q31",
+      "unit": 8,
+      "topic": "8.9 Solid Waste Disposal",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.46,
+      "prompt": "The illegal dumping or improper disposal of plastics into ocean systems has formed massive oceanic garbage patches primarily due to:",
+      "options": [
+        "Submarine volcanic explosions pushing waste to the equator",
+        "Circular ocean gyres driven by wind patterns and the Coriolis effect that trap and concentrate floating plastic debris",
+        "Plastics dissolving into heavy liquid layers that coat mid-water fish species",
+        "Gravitational pull from coastal landmasses attracting synthetic waste"
+      ],
+      "correct_idx": 1,
+      "explanation": "Rotating oceanic current systems (gyres) accumulate floating plastic debris washed out from rivers and coasts, creating concentrated zones of plastic pollution known as ocean garbage patches."
+    },
+    {
+      "id": "u8_q32",
+      "unit": 8,
+      "topic": "8.10 Waste Reduction Methods",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "According to the waste management hierarchy (Reduce, Reuse, Recycle), why is REDUCING consumption the most environmentally effective strategy?",
+      "options": [
+        "Reduction generates tax revenue for municipal governments.",
+        "Reduction avoids the energy inputs, raw material extraction, manufacturing impacts, and transportation emissions required to create items in the first place.",
+        "Reduction requires building specialized industrial processing plants.",
+        "Reduction converts solid waste into synthetic nitrogen gas."
+      ],
+      "correct_idx": 1,
+      "explanation": "Source reduction (not creating waste) conserves energy and resources from the start, preventing pollution from mining, manufacturing, transportation, and eventual disposal before it occurs."
+    },
+    {
+      "id": "u8_q33",
+      "unit": 8,
+      "topic": "8.10 Waste Reduction Methods",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Composting organic household waste (such as food scraps and yard trimmings) yields which environmental benefit?",
+      "options": [
+        "It produces high-level radioactive waste suitable for industrial fuel.",
+        "It diverts organic material from anaerobic landfills, reducing methane emissions while producing nutrient-rich humus soil amendment.",
+        "It increases the volume of waste sent to municipal incinerators by 50 percent.",
+        "It converts topsoil into sterile quartz sand."
+      ],
+      "correct_idx": 1,
+      "explanation": "Composting breaks down organic waste aerobically. This diverts biodegradable matter away from landfills (where it would generate methane) and creates nutrient-rich compost to improve soil health."
+    },
+    {
+      "id": "u8_q34",
+      "unit": 8,
+      "topic": "8.10 Waste Reduction Methods",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "Electronic waste (e-waste) poses severe environmental and human health risks when improperly disposed of because electronic components contain:",
+      "options": [
+        "High concentrations of pathogenic bacteria",
+        "Toxic heavy metals such as lead, mercury, cadmium, and brominated flame retardants that can leach into soil and water",
+        "Pure chlorine gas stored under high liquid pressure",
+        "Excessive amounts of agricultural nitrogen fertilizer"
+      ],
+      "correct_idx": 1,
+      "explanation": "Discarded computers, phones, and televisions (e-waste) contain hazardous materials including lead, mercury, cadmium, beryllium, and toxic flame retardants, which can contaminate soil and water if landfilled or melted un-safely."
+    },
+    {
+      "id": "u8_q35",
+      "unit": 8,
+      "topic": "8.11 Sewage Treatment",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.15,
+      "prompt": "What primary mechanism is utilized during PRIMARY sewage treatment at a municipal facility?",
+      "options": [
+        "Biological digestion by anaerobic bacterial cultures in heating tanks",
+        "Physical filtration using bar screens, grit chambers, and settling tanks to remove large solid objects, sand, and heavy settleable organic matter",
+        "Chemical disinfection using high-dose ultraviolet light and chlorine gas",
+        "Advanced nutrient removal of nitrates and phosphates using synthetic resins"
+      ],
+      "correct_idx": 1,
+      "explanation": "Primary sewage treatment is a physical process. Bar screens catch trash (sticks, rags), grit chambers settle sand/gravel, and primary settling tanks allow suspended solids to settle out as raw sludge."
+    },
+    {
+      "id": "u8_q36",
+      "unit": 8,
+      "topic": "8.11 Sewage Treatment",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.25,
+      "prompt": "SECONDARY sewage treatment relies on which biological process to clean wastewater?",
+      "options": [
+        "Distillation of liquid water using nuclear thermal energy",
+        "Aerobic digestion where bacteria decompose dissolved and suspended organic matter in aeration tanks, significantly reducing Biochemical Oxygen Demand (BOD)",
+        "Chemical precipitation using concentrated aluminum sulfate",
+        "Freezing water to crystallize pure organic matter"
+      ],
+      "correct_idx": 1,
+      "explanation": "Secondary treatment is a biological process. Wastewater is pumped into aeration tanks where oxygen is bubbled to support aerobic bacteria, which consume organic pollutants, sharply dropping the water's BOD."
+    },
+    {
+      "id": "u8_q37",
+      "unit": 8,
+      "topic": "8.11 Sewage Treatment",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Which step occurs during TERTIARY (advanced) sewage treatment before final discharge into a receiving body of water?",
+      "options": [
+        "Filtering coarse gravel out using large physical iron screens",
+        "Advanced chemical or physical processes targeting excess nutrients (nitrogen and phosphorus) and disinfection via chlorine, ozone, or UV light to kill remaining pathogens",
+        "Adding raw human waste to balance bacterial colonies",
+        "Bubbling pure methane gas to strip dissolved oxygen"
+      ],
+      "correct_idx": 1,
+      "explanation": "Tertiary treatment provides advanced nutrient removal (nitrates/phosphates) to prevent downstream eutrophication, followed by final disinfection (chlorination, ozonation, or UV radiation) to kill disease-causing pathogens."
+    },
+    {
+      "id": "u8_q38",
+      "unit": 8,
+      "topic": "8.11 Sewage Treatment",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.44,
+      "prompt": "Combined sewer systems during intense rainfall events can create severe water pollution because:",
+      "options": [
+        "Rainwater reacts with underground concrete pipes to produce sulfur dioxide gas.",
+        "Volume exceeds plant treatment capacity, forcing a mixture of untreated raw sewage and stormwater runoff to bypass treatment and discharge directly into local waterways.",
+        "Excess rainwater causes wastewater treatment plant filters to turn into solid stone.",
+        "The elevated pressure converts municipal wastewater into radioactive sludge."
+      ],
+      "correct_idx": 1,
+      "explanation": "Combined sewer systems collect both storm runoff and domestic sewage in the same pipes. During heavy storms, high water volume overflows the system, discharging raw sewage and stormwater directly into rivers."
+    },
+    {
+      "id": "u8_q39",
+      "unit": 8,
+      "topic": "8.12 Lethal Dose 50% (LD50)",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "What does the Lethal Dose 50% (LD50) value indicate when measuring chemical toxicity?",
+      "options": [
+        "The concentration of a chemical that causes non-fatal sickness in 50 percent of aquatic plants",
+        "The dose of a toxin required to kill exactly 50 percent of a tested organism population within a specified timeframe",
+        "The time in days required for 50 percent of a chemical compound to decay in topsoil",
+        "The percentage of chemical waste that can be safely recycled into consumer plastic"
+      ],
+      "correct_idx": 1,
+      "explanation": "LD50 (Lethal Dose 50%) is a standard measure of acute toxicity: it represents the mass of a substance per unit of body weight required to kill 50 percent of the animals in a test population."
+    },
+    {
+      "id": "u8_q40",
+      "unit": 8,
+      "topic": "8.12 Lethal Dose 50% (LD50)",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Chemical A has an LD50 value of 3.5 mg/kg, while Chemical B has an LD50 value of 850 mg/kg. Which conclusion is correct?",
+      "options": [
+        "Chemical B is significantly more toxic than Chemical A.",
+        "Chemical A is significantly more toxic than Chemical B, because a much smaller dose per unit mass is required to kill 50 percent of the test population.",
+        "Chemical A and Chemical B have identical toxicity profiles in humans.",
+        "Chemical A is non-toxic to all biological organisms."
+      ],
+      "correct_idx": 1,
+      "explanation": "The lower the LD50 value, the MORE toxic the chemical, because a smaller amount of the compound is needed to cause mortality in 50 percent of the test population."
+    },
+    {
+      "id": "u8_q41",
+      "unit": 8,
+      "topic": "8.12 Lethal Dose 50% (LD50)",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "Why can extrapolating LD50 toxicity data gathered on laboratory mice directly to human risk assessment introduce uncertainty?",
+      "options": [
+        "Laboratory mice have zero liver or kidney functions.",
+        "Interspecies physiological differences, metabolic rates, pathways of absorption, and exposure durations vary between rodents and humans.",
+        "Human bodies are completely immune to synthetic chemical toxicity.",
+        "Mouse testing measures only exposure to non-toxic natural water."
+      ],
+      "correct_idx": 1,
+      "explanation": "Humans and lab rodents differ in body mass, life expectancy, metabolic processing, and tissue sensitivity. Extrapolating animal toxicity data to humans introduces uncertainties due to these interspecies biological differences."
+    },
+    {
+      "id": "u8_q42",
+      "unit": 8,
+      "topic": "8.13 Dose-Response Curves",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "On a threshold dose-response curve, what does the 'threshold level' represent?",
+      "options": [
+        "The maximum possible dose that can be administered before a chemical turns into a liquid gas",
+        "The minimum dose of a toxin required to elicit a measurable adverse biological effect or response in the organism",
+        "The exact point where 100 percent of the test population survives indefinitely",
+        "The background concentration of nitrogen gas in atmospheric air"
+      ],
+      "correct_idx": 1,
+      "explanation": "The threshold on a dose-response curve is the lowest dose level at which a response or adverse effect first observed. Below this dose, no measurable effect occurs in the test subject."
+    },
+    {
+      "id": "u8_q43",
+      "unit": 8,
+      "topic": "8.13 Dose-Response Curves",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.26,
+      "prompt": "How does a non-threshold dose-response model differ from a threshold dose-response model?",
+      "options": [
+        "A non-threshold model assumes that even the smallest, incremental dose carries some measurable degree of risk or biological response.",
+        "A non-threshold model shows that low chemical doses improve biological health.",
+        "A non-threshold model applies only to pure oxygen gas.",
+        "A non-threshold model requires zero experimental data points."
+      ],
+      "correct_idx": 0,
+      "explanation": "In a non-threshold dose-response model (often used for carcinogens and ionizing radiation), any exposure above zero is assumed to carry some non-zero probability of causing a biological effect."
+    },
+    {
+      "id": "u8_q44",
+      "unit": 8,
+      "topic": "8.13 Dose-Response Curves",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Which study scenario represents an evaluation of CHRONIC toxicity rather than ACUTE toxicity?",
+      "options": [
+        "Exposing fish to a single, massive lethal spill of concentrated ammonia for thirty minutes",
+        "Exposing laboratory rats to very low doses of a synthetic pesticide in their drinking water over their entire two-year lifespan to monitor tumor development",
+        "Injecting a high dose of snake venom into a target blood sample to observe immediate clotting",
+        "Spraying a household cleaner on a counter surface once"
+      ],
+      "correct_idx": 1,
+      "explanation": "Acute toxicity studies evaluate short-term exposure to high chemical doses. Chronic toxicity studies evaluate prolonged, repeated exposures to low chemical doses over an extended time frame (often an organism's lifetime)."
+    },
+    {
+      "id": "u8_q45",
+      "unit": 8,
+      "topic": "8.14 Pollution and Human Health",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Dysentery is an infectious disease affecting human health that is primarily contracted by:",
+      "options": [
+        "Breathing high concentrations of stratospheric ozone gas",
+        "Ingesting food or drinking water contaminated with raw human sewage containing pathogenic bacteria or protozoans",
+        "Direct exposure to high levels of noise pollution near highways",
+        "Absorbing ultraviolet radiation on sunny days"
+      ],
+      "correct_idx": 1,
+      "explanation": "Dysentery is an intestinal infection caused by pathogenic organisms (such as Shigella bacteria or Amoeba) spread through fecal contamination of food and drinking water, causing severe bloody diarrhea and dehydration."
+    },
+    {
+      "id": "u8_q46",
+      "unit": 8,
+      "topic": "8.14 Pollution and Human Health",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Mesothelioma is a fatal cancer of the lung and abdominal lining caused directly by exposure to which environmental hazard?",
+      "options": [
+        "Excessive household food waste",
+        "Inhalation of airborne asbestos mineral fibers",
+        "Ingestion of high-dose vitamin supplements",
+        "Exposure to low-frequency radio tower waves"
+      ],
+      "correct_idx": 1,
+      "explanation": "Mesothelioma is a rare cancer of the mesothelium (lung lining) caused by chronic inhalation of microscopic asbestos fibers, which lodge in pulmonary tissue and cause chronic inflammation and cell mutation."
+    },
+    {
+      "id": "u8_q47",
+      "unit": 8,
+      "topic": "8.14 Pollution and Human Health",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "Why does high concentration of ground-level tropospheric ozone present a severe respiratory human health hazard?",
+      "options": [
+        "Ozone carries dangerous levels of radioactive fallout.",
+        "Ozone is a strong oxidizing agent that irritates lung tissue, worsens asthma, damages alveoli, and reduces pulmonary function.",
+        "Ozone binds to red blood cells and prevents carbon dioxide release.",
+        "Ozone causes immediate freezing of throat mucus layers."
+      ],
+      "correct_idx": 1,
+      "explanation": "Ground-level ozone (O3) is a powerful respiratory irritant. When inhaled, its reactive chemical structure oxidizes lung lining tissues, triggering inflammation, chest pain, coughing, and exacerbating respiratory conditions like asthma."
+    },
+    {
+      "id": "u8_q48",
+      "unit": 8,
+      "topic": "8.15 Pathogens and Infectious Diseases",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Which set of infectious diseases is transmitted to humans via mosquito biological vectors?",
+      "options": [
+        "Tuberculosis, cholera, and dysentery",
+        "Malaria, Zika virus, West Nile virus, and Dengue fever",
+        "Asbestosis, mesothelioma, and asthma",
+        "Influenza, SARS, and COVID-19"
+      ],
+      "correct_idx": 1,
+      "explanation": "Mosquitoes act as biological vectors transmitting protozoan parasites (Malaria) and viral pathogens (Zika, West Nile virus, Dengue fever) between human hosts during blood feeds."
+    },
+    {
+      "id": "u8_q49",
+      "unit": 8,
+      "topic": "8.15 Pathogens and Infectious Diseases",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.26,
+      "prompt": "How is global climate change expanding the geographic range and seasonal duration of vector-borne infectious diseases like Malaria and Dengue fever?",
+      "options": [
+        "Rising temperatures cause mosquitoes to undergo immediate sterility.",
+        "Warming global temperatures and altered precipitation patterns expand tropical and subtropical climate zones, allowing disease vectors to migrate to higher latitudes and altitudes.",
+        "Glacial retreat releases ancient mosquito species that infect birds exclusively.",
+        "Increased atmospheric carbon dioxide kills vector larvae in freshwater ponds."
+      ],
+      "correct_idx": 1,
+      "explanation": "As global climate shifts, warmer temperatures and altered rainfall extend the geographic boundaries and breeding seasons of vector organisms (such as Anopheles and Aedes mosquitoes) toward higher latitudes and higher elevations."
+    },
+    {
+      "id": "u8_q50",
+      "unit": 8,
+      "topic": "8.15 Pathogens and Infectious Diseases",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Cholera is an acute waterborne bacterial disease characterized by extreme watery diarrhea and severe dehydration. It is transmitted primarily through:",
+      "options": [
+        "Inhaling spores released from dry desert sand",
+        "Consuming water or food contaminated with human fecal material containing Vibrio cholerae bacteria",
+        "Direct skin-to-skin contact with domestic pets",
+        "Bites from infected deer tick vectors"
+      ],
+      "correct_idx": 1,
+      "explanation": "Cholera is caused by the bacterium Vibrio cholerae and spreads through the fecal-oral route, usually via drinking water supplies contaminated with untreated human sewage in places with inadequate sanitation."
+    }
+  ]

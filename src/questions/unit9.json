@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u9_q01",
+      "unit": 9,
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.12,
+      "prompt": "What is the primary ecological function of the stratospheric ozone layer?",
+      "options": [
+        "It traps thermal infrared heat to keep Earth's lower atmosphere warm.",
+        "It absorbs harmful ultraviolet radiation (UV-B and UV-C) from incoming solar light.",
+        "It reacts with ground-level nitrogen oxides to produce rainwater.",
+        "It neutralizes industrial carbon dioxide emissions in the upper atmosphere."
+      ],
+      "correct_idx": 1,
+      "explanation": "Stratospheric ozone (O3) absorbs high-energy ultraviolet radiation, specifically UV-B and UV-C wavelengths, protecting terrestrial and aquatic life from DNA damage, mutations, and tissue burns."
+    },
+    {
+      "id": "u9_q02",
+      "unit": 9,
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "How do chlorofluorocarbons (CFCs) chemically destroy stratospheric ozone molecules?",
+      "options": [
+        "CFCs react with water vapor to form acid rain that dissolves ozone.",
+        "Ultraviolet light breaks a chlorine atom off a CFC molecule; this free chlorine atom breaks ozone into oxygen gas and is recycled to repeat the reaction.",
+        "CFCs freeze ozone gas into solid crystals that sink to the ground.",
+        "CFCs absorb all atmospheric oxygen gas, preventing new ozone from forming."
+      ],
+      "correct_idx": 1,
+      "explanation": "High-energy UV light breaks a chlorine atom from a CFC molecule. The free chlorine atom reacts with ozone (O3) to form chlorine monoxide (ClO) and oxygen gas (O2). The chlorine atom is regenerated and acts as a catalyst, destroying thousands of ozone molecules."
+    },
+    {
+      "id": "u9_q03",
+      "unit": 9,
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "Why does seasonal stratospheric ozone depletion peak over Antarctica during the Southern Hemisphere spring (September through November)?",
+      "options": [
+        "Extremely cold winter temperatures form polar stratospheric clouds that concentrate reservoir chlorine compounds, which are split by returning spring sunlight to rapidly break down ozone.",
+        "Antarctic volcanoes erupt every spring, releasing massive volumes of sulfur dioxide gas into the stratosphere.",
+        "Ocean warming during Southern spring causes massive methane releases that react directly with stratospheric ozone.",
+        "Industrial manufacturing across Antarctica increases significantly during spring months."
+      ],
+      "correct_idx": 0,
+      "explanation": "During Antarctic winter, polar stratospheric clouds (PSCs) form in extreme cold, accumulating chlorine reservoir compounds. When sunlight returns in spring, UV light splits chlorine into reactive free radicals that destroy ozone rapidly."
+    },
+    {
+      "id": "u9_q04",
+      "unit": 9,
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.15,
+      "prompt": "Which environmental statement accurately contrasts stratospheric ozone with ground-level (tropospheric) ozone?",
+      "options": [
+        "Stratospheric ozone is a secondary air pollutant that causes human respiratory disease, whereas tropospheric ozone protects against UV rays.",
+        "Stratospheric ozone is beneficial because it shields Earth from harmful solar UV rays, whereas tropospheric ozone is a harmful pollutant and key constituent of photochemical smog.",
+        "Stratospheric ozone is created exclusively by coal combustion, whereas tropospheric ozone is emitted naturally by pine trees.",
+        "Stratospheric ozone and tropospheric ozone are chemically identical gases that perform the exact same ecological function regardless of altitude."
+      ],
+      "correct_idx": 1,
+      "explanation": "Ozone in the stratosphere ('good up high') absorbs harmful UV radiation. In contrast, ground-level tropospheric ozone ('bad nearby') is a toxic secondary pollutant that damages lung tissue and plant stomata."
+    },
+    {
+      "id": "u9_q05",
+      "unit": 9,
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Which group of chemical compounds is responsible for stratospheric ozone depletion?",
+      "options": [
+        "Methane, carbon dioxide, and water vapor",
+        "Chlorofluorocarbons (CFCs), halons, carbon tetrachloride, and methyl chloroform",
+        "Sulfur dioxide, nitrogen dioxide, and hydrogen sulfide",
+        "Ground-level VOCs, particulate matter, and lead dust"
+      ],
+      "correct_idx": 1,
+      "explanation": "Ozone-depleting substances (ODS) contain chlorine or bromine atoms, including CFCs (used as refrigerants and propellants), halons (used in fire extinguishers), carbon tetrachloride, and methyl chloroform."
+    },
+    {
+      "id": "u9_q06",
+      "unit": 9,
+      "topic": "9.2 Reducing Ozone Depletion",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which international environmental treaty, signed in 1987, successfully committed nations to phase out the production and consumption of ozone-depleting substances?",
+      "options": [
+        "The Kyoto Protocol",
+        "The Montreal Protocol",
+        "The Paris Agreement",
+        "The CITES Convention"
+      ],
+      "correct_idx": 1,
+      "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer is an international treaty that phased out the production of CFCs and other ozone-depleting chemicals, leading to the gradual recovery of the ozone layer."
+    },
+    {
+      "id": "u9_q07",
+      "unit": 9,
+      "topic": "9.2 Reducing Ozone Depletion",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Hydrofluorocarbons (HFCs) were introduced to replace chlorofluorocarbons (CFCs) because HFCs do not deplete stratospheric ozone. However, HFCs create a distinct environmental concern because they:",
+      "options": [
+        "Are potent greenhouse gases with extremely high global warming potentials",
+        "React with soil microbes to produce concentrated nitric acid",
+        "Rapidly corrode metal infrastructure and municipal water pipes",
+        "Break down into toxic lead dust in household air conditioning units"
+      ],
+      "correct_idx": 0,
+      "explanation": "HFCs lack chlorine atoms, so they do not destroy stratospheric ozone. However, HFCs are powerful greenhouse gases with global warming potentials thousands of times higher than CO2, prompting international efforts to phase them out (e.g., Kigali Amendment)."
+    },
+    {
+      "id": "u9_q08",
+      "unit": 9,
+      "topic": "9.2 Reducing Ozone Depletion",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "Why does the Antarctic ozone layer take decades to fully recover even after international bans on CFC production were implemented?",
+      "options": [
+        "CFC molecules have long atmospheric residence times and continue destroying ozone for decades.",
+        "Ocean currents continuously manufacture fresh CFC compounds in tropical regions.",
+        "Stratospheric ozone can form only during solar eclipses.",
+        "Volcanic eruptions release heavy metals that convert ozone directly into helium."
+      ],
+      "correct_idx": 0,
+      "explanation": "CFCs are extremely stable and unreactive in the lower atmosphere, giving them atmospheric lifetimes of 50 to 100+ years. Chlorine already present in the stratosphere remains active for decades."
+    },
+    {
+      "id": "u9_q09",
+      "unit": 9,
+      "topic": "9.2 Reducing Ozone Depletion",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "Successful implementation of the Montreal Protocol has helped protect human health primarily by reducing rates of:",
+      "options": [
+        "Skin cancers (melanoma and basal cell carcinoma) and cataracts",
+        "Cardiovascular disease caused by high atmospheric pressure",
+        "Lead poisoning from contaminated drinking water",
+        "Infectious cholera outbreaks in flooded urban coastal areas"
+      ],
+      "correct_idx": 0,
+      "explanation": "By preserving the stratospheric ozone layer, fewer harmful UV-B rays reach Earth's surface, preventing millions of cases of skin cancer, eye cataracts, and immune system suppression in humans."
+    },
+    {
+      "id": "u9_q10",
+      "unit": 9,
+      "topic": "9.2 Reducing Ozone Depletion",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "Which key factor contributed to the rapid success and global compliance of the Montreal Protocol compared to global climate agreements?",
+      "options": [
+        "The availability of effective, economically viable chemical alternatives for CFCs and a clearly defined chemical scope",
+        "A complete ban on all global electricity generation and industrial manufacturing",
+        "Mandatory military enforcement across all participating sovereign nations",
+        "The complete absence of scientific data linking CFCs to stratospheric ozone loss"
+      ],
+      "correct_idx": 0,
+      "explanation": "The Montreal Protocol succeeded because chemical manufacturers rapidly developed affordable replacement compounds (HCFCs, HFCs), the targeted industry sector was concentrated, and the cause-and-effect science was clear."
+    },
+    {
+      "id": "u9_q11",
+      "unit": 9,
+      "topic": "9.3 The Greenhouse Effect",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Which statement best describes the physical mechanism of the natural greenhouse effect?",
+      "options": [
+        "Greenhouse gases absorb incoming shortwave ultraviolet radiation and convert it directly into nuclear energy.",
+        "Earth's surface absorbs solar radiation and re-radiates longwave infrared energy (heat), which is absorbed and re-emitted by greenhouse gases in the lower atmosphere.",
+        "Greenhouse gases form a solid glass dome in the stratosphere that reflects all ocean heat back to Earth.",
+        "Greenhouse gases destroy incoming cosmic rays before they reach topsoil."
+      ],
+      "correct_idx": 1,
+      "explanation": "Solar energy reaches Earth primarily as shortwave visible and UV light. Earth absorbs this energy and re-emits longer-wavelength infrared radiation (heat). Atmospheric greenhouse gases absorb and re-emit this infrared radiation, warming the lower atmosphere."
+    },
+    {
+      "id": "u9_q12",
+      "unit": 9,
+      "topic": "9.3 The Greenhouse Effect",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.14,
+      "prompt": "Without the natural greenhouse effect, Earth's average global surface temperature would be approximately:",
+      "options": [
+        "100 degrees Celsius, boiling all ocean water",
+        "Minus 18 degrees Celsius, leaving Earth largely frozen and uninhabitable",
+        "30 degrees Celsius warmer than current average temperatures",
+        "Absolute zero, causing all atmospheric gases to freeze into solid blocks"
+      ],
+      "correct_idx": 1,
+      "explanation": "The natural greenhouse effect raises Earth's average surface temperature from roughly -18 degrees Celsius (0 degrees Fahrenheit) to about 15 degrees Celsius (59 degrees Fahrenheit), making liquid water and life possible."
+    },
+    {
+      "id": "u9_q13",
+      "unit": 9,
+      "topic": "9.3 The Greenhouse Effect",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "Which atmospheric gas contributes most to the NATURAL greenhouse effect due to its high ambient abundance?",
+      "options": [
+        "Sulfur hexafluoride",
+        "Water vapor (H2O)",
+        "Chlorofluorocarbon-11",
+        "Nitrous oxide (N2O)"
+      ],
+      "correct_idx": 1,
+      "explanation": "Water vapor is the most abundant natural greenhouse gas and responsible for the largest share of the natural greenhouse effect, though its atmospheric concentration is controlled by temperature rather than direct emissions."
+    },
+    {
+      "id": "u9_q14",
+      "unit": 9,
+      "topic": "9.3 The Greenhouse Effect",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.3,
+      "prompt": "What does Global Warming Potential (GWP) measure when comparing greenhouse gases?",
+      "options": [
+        "The weight of one liter of greenhouse gas relative to pure water",
+        "The amount of heat trapped by one ton of a gas relative to one ton of carbon dioxide over a specific time horizon (typically 100 years)",
+        "The rate at which a gas dissolves in ocean surface water during storm events",
+        "The concentration of a gas inside volcanic plume emissions"
+      ],
+      "correct_idx": 1,
+      "explanation": "GWP quantifies how much heat a greenhouse gas traps in the atmosphere over a given period (usually 100 years) compared to carbon dioxide, which is assigned a baseline GWP of 1."
+    },
+    {
+      "id": "u9_q15",
+      "unit": 9,
+      "topic": "9.3 The Greenhouse Effect",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Methane (CH4) has a 100-year Global Warming Potential (GWP) approximately 28 to 36 times higher than carbon dioxide (CO2). This means that:",
+      "options": [
+        "Methane stays in the atmosphere 36 times longer than carbon dioxide.",
+        "Pound for pound, releasing methane traps significantly more heat in the atmosphere over 100 years than releasing carbon dioxide.",
+        "Methane molecule size is 36 times larger than carbon dioxide.",
+        "Carbon dioxide is 36 times more toxic to human respiratory tissue than methane."
+      ],
+      "correct_idx": 1,
+      "explanation": "A GWP of 28 to 36 indicates that emitting one ton of methane traps as much infrared heat over 100 years as emitting 28 to 36 tons of carbon dioxide, due to methane's higher infrared absorption efficiency."
+    },
+    {
+      "id": "u9_q16",
+      "unit": 9,
+      "topic": "9.4 Increases in Greenhouse Gases",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "Which human activity is the single largest contributor to rising atmospheric carbon dioxide (CO2) concentrations since the Industrial Revolution?",
+      "options": [
+        "Combustion of fossil fuels (coal, oil, and natural gas) for energy and transportation",
+        "Operation of commercial fish farms in coastal waters",
+        "Use of synthetic nitrogen fertilizers on corn crops",
+        "Chlorination of municipal drinking water supplies"
+      ],
+      "correct_idx": 0,
+      "explanation": "Burning fossil fuels releases carbon stored underground for millions of years into the active carbon cycle, driving the sharp increase in atmospheric CO2 levels."
+    },
+    {
+      "id": "u9_q17",
+      "unit": 9,
+      "topic": "9.4 Increases in Greenhouse Gases",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Which pair of human activities represents major sources of anthropogenic METHANE (CH4) emissions?",
+      "options": [
+        "Nuclear power generation and electric car usage",
+        "Enteric fermentation in livestock cattle, landfills, natural gas leaks, and flooded rice paddies",
+        "Paved highway construction and asphalt roof shingles",
+        "Chlorofluorocarbon disposal and copper mining"
+      ],
+      "correct_idx": 1,
+      "explanation": "Methane is produced by anaerobic bacteria in cattle digestive tracts (enteric fermentation), flooded rice paddies, and decomposing waste in landfills, as well as fugitive leaks from natural gas extraction."
+    },
+    {
+      "id": "u9_q18",
+      "unit": 9,
+      "topic": "9.4 Increases in Greenhouse Gases",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Agricultural soil management, specifically the application of synthetic nitrogen fertilizers and animal manure, is the dominant human source of which greenhouse gas?",
+      "options": [
+        "Nitrous oxide (N2O)",
+        "Sulfur hexafluoride (SF6)",
+        "Carbon monoxide (CO)",
+        "Ozone gas (O3)"
+      ],
+      "correct_idx": 0,
+      "explanation": "Excess nitrogen applied to soil via synthetic fertilizers or livestock manure undergoes microbial denitrification, releasing nitrous oxide (N2O)—a potent greenhouse gas with a GWP around 265-298."
+    },
+    {
+      "id": "u9_q19",
+      "unit": 9,
+      "topic": "9.4 Increases in Greenhouse Gases",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "How does large-scale tropical deforestation accelerate global climate change?",
+      "options": [
+        "It eliminates trees that absorb CO2 via photosynthesis and releases stored carbon into the atmosphere when wood is burned or decays.",
+        "It exposes underground uranium deposits that emit thermal infrared rays.",
+        "It decreases the salinity of nearby oceans, causing water to absorb infrared heat.",
+        "It increases global cloud cover, trapping nitrogen gas near topsoil."
+      ],
+      "correct_idx": 0,
+      "explanation": "Trees are major carbon sinks. Deforestation removes trees that would otherwise remove CO2 from the atmosphere through photosynthesis, and burning or rotting cleared timber returns stored carbon directly to the air as CO2."
+    },
+    {
+      "id": "u9_q20",
+      "unit": 9,
+      "topic": "9.4 Increases in Greenhouse Gases",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "Which class of synthetic fluorinated gases, used in electrical insulation and industrial applications, possesses global warming potentials tens of thousands of times higher than CO2?",
+      "options": [
+        "Halocarbons such as sulfur hexafluoride (SF6) and perfluorocarbons (PFCs)",
+        "Methane and carbon monoxide",
+        "Nitrogen gas and argon gas",
+        "Water vapor and oxygen gas"
+      ],
+      "correct_idx": 0,
+      "explanation": "Fluorinated gases like sulfur hexafluoride (SF6), PFCs, and HFCs are synthetic industrial gases with long atmospheric lifetimes and GWPs ranging from thousands to over 20,000 times that of CO2."
+    },
+    {
+      "id": "u9_q21",
+      "unit": 9,
+      "topic": "9.5 Global Climate Change",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which environmental impact is a direct physical consequence of rising global average air and ocean temperatures?",
+      "options": [
+        "Melting of terrestrial glaciers and polar ice sheets, causing global sea level rise",
+        "A worldwide increase in stratospheric ozone layer thickness",
+        "Complete cessation of all volcanic activity",
+        "Lowering of global sea levels due to ocean water compression"
+      ],
+      "correct_idx": 0,
+      "explanation": "Warmer temperatures melt land ice (glaciers, ice sheets) into the sea and cause thermal expansion of sea water, both of which drive global sea level rise."
+    },
+    {
+      "id": "u9_q22",
+      "unit": 9,
+      "topic": "9.5 Global Climate Change",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "How does the ice-albedo feedback loop act as a POSITIVE feedback mechanism in Arctic climate warming?",
+      "options": [
+        "Warming temperatures melt bright sea ice, exposing dark ocean water that absorbs more solar energy, leading to further warming and ice melt.",
+        "Melting ice increases surface reflectivity, sending more solar energy back into space and cooling the Arctic.",
+        "Sea ice melt releases ice crystals into the air that block all incoming sunlight.",
+        "Melting sea ice converts dark ocean water into bright freshwater ice sheets."
+      ],
+      "correct_idx": 0,
+      "explanation": "Sea ice has high albedo (reflects sunlight). As temperatures warm, ice melts, exposing darker ocean water (low albedo). The dark ocean absorbs more solar radiation, warming the region further and melting additional ice."
+    },
+    {
+      "id": "u9_q23",
+      "unit": 9,
+      "topic": "9.5 Global Climate Change",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "Why is the thawing of Arctic permafrost considered a critical tipping point in global climate models?",
+      "options": [
+        "Thawing permafrost allows anaerobic bacteria to decompose ancient organic matter, releasing massive volumes of trapped methane and carbon dioxide.",
+        "Thawing permafrost converts northern landmasses into active volcanic basalt fields.",
+        "Thawing permafrost stops all photosynthetic activity in boreal forests.",
+        "Thawing permafrost lowers sea levels by absorbing ocean water into subsoil layers."
+      ],
+      "correct_idx": 0,
+      "explanation": "Permafrost locks up vast amounts of organic carbon. When it thaws, microbes decompose this organic matter under anaerobic conditions, releasing CH4 and CO2, amplifying global warming in a positive feedback loop."
+    },
+    {
+      "id": "u9_q24",
+      "unit": 9,
+      "topic": "9.5 Global Climate Change",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Global climate change alters precipitation patterns worldwide because warmer air:",
+      "options": [
+        "Holds more water vapor, intensifying heavy precipitation events in some regions while accelerating soil evaporation and drought in others",
+        "Prevents water from evaporating off ocean surface layers",
+        "Forces all clouds to collapse into lower atmospheric dust storms",
+        "Eliminates all seasonal monsoon cycles across equatorial zones"
+      ],
+      "correct_idx": 0,
+      "explanation": "Warmer air holds more moisture (approximately 7 percent more per degree Celsius). This accelerates land evaporation—worsening droughts—while fueling more intense downpours and storms when moisture condenses."
+    },
+    {
+      "id": "u9_q25",
+      "unit": 9,
+      "topic": "9.5 Global Climate Change",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.46,
+      "prompt": "How could rapid melting of the Greenland ice sheet disrupt Atlantic thermohaline circulation (the Atlantic Meridional Overturning Circulation, or AMOC)?",
+      "options": [
+        "Massive influxes of cold, low-salinity freshwater lower the density of surface water, inhibiting the deep-water sinking that drives ocean conveyor currents.",
+        "Glacial meltwater adds heavy salt deposits that cause surface waters to freeze solid.",
+        "Freshwater melt increases ocean density, causing surface water to sink twice as fast.",
+        "Ice sheet melt forces wind patterns to reverse direction across equatorial regions."
+      ],
+      "correct_idx": 0,
+      "explanation": "Thermohaline circulation relies on cold, salty (dense) water sinking in the North Atlantic. Influxes of fresh meltwater from Greenland reduce ocean surface salinity and density, weakening the sinking action driving the current."
+    },
+    {
+      "id": "u9_q26",
+      "unit": 9,
+      "topic": "9.6 Ocean Warming",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "Why have global ocean temperatures risen significantly over the past century?",
+      "options": [
+        "Oceans have absorbed more than 90 percent of the excess heat trapped in the climate system by anthropogenic greenhouse gas emissions.",
+        "Geothermal heat from underwater volcanic vents has increased tenfold.",
+        "Solar radiation output from the sun has doubled over the past fifty years.",
+        "Submarine oil drilling releases thermal heat from deep Earth layers."
+      ],
+      "correct_idx": 0,
+      "explanation": "Because water has a high specific heat capacity, world oceans have absorbed over 90 percent of the extra trapped heat generated by greenhouse gas emissions, causing significant ocean warming."
+    },
+    {
+      "id": "u9_q27",
+      "unit": 9,
+      "topic": "9.6 Ocean Warming",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.25,
+      "prompt": "How does ocean warming contribute to global sea level rise through a pure physical process?",
+      "options": [
+        "Thermal expansion: as water temperature increases, water molecules move faster and occupy greater volume.",
+        "Ocean warming causes water molecules to split into hydrogen gas blocks.",
+        "Warm water absorbs airborne dust, increasing liquid mass.",
+        "Warm water dissolves underwater granite reefs, raising sea levels."
+      ],
+      "correct_idx": 0,
+      "explanation": "Thermal expansion occurs as water warms; individual water molecules expand their average spacing, taking up more space. Thermal expansion accounts for a major portion of observed global sea level rise."
+    },
+    {
+      "id": "u9_q28",
+      "unit": 9,
+      "topic": "9.6 Ocean Warming",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.2,
+      "prompt": "Warming ocean waters trigger widespread CORAL BLEACHING because high thermal stress causes corals to:",
+      "options": [
+        "Expel their symbiotic photosynthetic algae (zooxanthellae), causing the coral to turn white and risk starvation",
+        "Dissolve their limestone skeletons into liquid calcium",
+        "Absorb excessive amounts of toxic lead from deep ocean sediment",
+        "Transform into non-photosynthetic freshwater sponges"
+      ],
+      "correct_idx": 0,
+      "explanation": "Corals depend on symbiotic algae (zooxanthellae) for nutrients. Thermal stress disrupts algal photosynthesis, prompting coral polyps to expel the algae. Starved of nutrients, the translucent coral tissue exposes white calcium carbonate skeletons."
+    },
+    {
+      "id": "u9_q29",
+      "unit": 9,
+      "topic": "9.6 Ocean Warming",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "How does warmer ocean water impact the metabolic rate and oxygen availability for marine fish species?",
+      "options": [
+        "Warmer water increases fish metabolic rates while simultaneously holding lower concentrations of dissolved oxygen.",
+        "Warmer water lowers fish metabolic rates and increases dissolved oxygen.",
+        "Warmer water has zero effect on metabolic rate or dissolved gas levels.",
+        "Warmer water turns dissolved oxygen into solid ice particles."
+      ],
+      "correct_idx": 0,
+      "explanation": "As water temperature rises, dissolved oxygen solubility decreases. Simultaneously, cold-blooded marine organisms experience higher metabolic rates and demand more oxygen, causing physiological respiratory stress."
+    },
+    {
+      "id": "u9_q30",
+      "unit": 9,
+      "topic": "9.6 Ocean Warming",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "How is ocean warming driving geographic shifts in marine biodiversity?",
+      "options": [
+        "Marine species are migrating poleward (to higher latitudes) and to deeper, cooler waters to remain within their thermal tolerance zones.",
+        "Marine species are concentrating along equatorial shallow beaches where water is hottest.",
+        "All marine species are transitioning into freshwater river ecosystems.",
+        "Marine species are losing the ability to swim in open ocean currents."
+      ],
+      "correct_idx": 0,
+      "explanation": "To stay within their optimal temperature ranges, marine fish, plankton, and invertebrates are shifting their ranges poleward or moving into deeper, cooler waters, disrupting local ecosystems and fisheries."
+    },
+    {
+      "id": "u9_q31",
+      "unit": 9,
+      "topic": "9.7 Ocean Acidification",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "What primary chemical input causes ocean acidification?",
+      "options": [
+        "Absorption of excess atmospheric carbon dioxide (CO2) by ocean surface waters",
+        "Runoff of synthetic nitrogen fertilizer from agricultural fields",
+        "Discharge of warm water from coastal nuclear power plants",
+        "Deposition of airborne lead particles from leaded gasoline"
+      ],
+      "correct_idx": 0,
+      "explanation": "The oceans absorb roughly 30 percent of anthropogenic CO2 emissions. When CO2 dissolves in seawater, it forms carbonic acid (H2CO3), releasing hydrogen ions (H+) and lowering ocean pH."
+    },
+    {
+      "id": "u9_q32",
+      "unit": 9,
+      "topic": "9.7 Ocean Acidification",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "When carbon dioxide dissolves in ocean water, it reacts with water to form carbonic acid, which dissociates into hydrogen ions (H+) and bicarbonate. How do these extra hydrogen ions harm calcifying marine organisms?",
+      "options": [
+        "Free hydrogen ions bind with available carbonate ions (CO3 2-), reducing the carbonate needed by organisms to build calcium carbonate (CaCO3) shells.",
+        "Hydrogen ions freeze calcium shells into solid ice blocks.",
+        "Hydrogen ions increase water density, causing shells to sink and crush.",
+        "Hydrogen ions stimulate excessive shell growth, making shells too heavy for organisms to move."
+      ],
+      "correct_idx": 0,
+      "explanation": "Excess hydrogen ions (H+) react with carbonate ions (CO3 2-) to form bicarbonate (HCO3-). This depletes free carbonate ions, making it difficult for corals, clams, oysters, and pteropods to build and maintain CaCO3 shells."
+    },
+    {
+      "id": "u9_q33",
+      "unit": 9,
+      "topic": "9.7 Ocean Acidification",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Why are microscopic marine organisms such as pteropods ('sea butterflies') particularly vulnerable to ocean acidification?",
+      "options": [
+        "Their thin calcium carbonate shells corrode and dissolve in lower pH water, threatening foundational food sources for marine food webs.",
+        "They absorb salt from seawater, turning internal organs into stone.",
+        "They rely on stratospheric ozone to navigate through surface currents.",
+        "Their gills clog when exposed to dissolved nitrogen gas."
+      ],
+      "correct_idx": 0,
+      "explanation": "Pteropods form delicate aragonite (calcium carbonate) shells. As ocean pH drops and carbonate availability falls, their shells weaken and dissolve, threatening key food web links for fish, whales, and seabirds."
+    },
+    {
+      "id": "u9_q34",
+      "unit": 9,
+      "topic": "9.7 Ocean Acidification",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Which trend correctly describes changes in ocean chemistry observed since the beginning of the Industrial Era?",
+      "options": [
+        "Average ocean surface pH has decreased by about 0.1 units, representing a roughly 30 percent increase in acidity (hydrogen ion concentration).",
+        "Average ocean surface pH has increased from 7.0 to 14.0.",
+        "Ocean hydrogen ion concentration has fallen to zero.",
+        "Ocean water has converted into acidic sulfuric acid solution."
+      ],
+      "correct_idx": 0,
+      "explanation": "Since the Industrial Revolution, average ocean surface pH has dropped from ~8.2 to ~8.1. Because pH is a logarithmic scale, a 0.1 drop corresponds to approximately a 30 percent increase in acidity."
+    },
+    {
+      "id": "u9_q35",
+      "unit": 9,
+      "topic": "9.7 Ocean Acidification",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "How does ocean acidification impact commercial shellfish aquaculture operations?",
+      "options": [
+        "Larval oysters and clams struggle to build initial shell structures, causing high larval mortality and reduced commercial harvests.",
+        "Shellfish shells grow twice as fast, causing prices to collapse.",
+        "Shellfish convert into predatory freshwater land snails.",
+        "Acidic water prevents shellfish from absorbing oxygen from water."
+      ],
+      "correct_idx": 0,
+      "explanation": "In acidified water, larval shellfish expend too much energy attempting to build shells in carbonate-depleted water, leading to high hatch mortality and significant losses for coastal shellfish industries."
+    },
+    {
+      "id": "u9_q36",
+      "unit": 9,
+      "topic": "9.8 Invasive Species",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "Which ecological traits are common among successful invasive species?",
+      "options": [
+        "Generalist species, r-selected reproductive strategies, rapid growth rates, high dispersal ability, and lack of natural predators in the new habitat",
+        "Specialist species, K-selected reproductive strategies, low genetic diversity, and narrow diet requirements",
+        "Large body size, single offspring per decade, and strict reliance on old-growth forests",
+        "Inability to tolerate varying temperatures or water quality conditions"
+      ],
+      "correct_idx": 0,
+      "explanation": "Invasive species succeed because they adapt to varied conditions (generalists), reproduce rapidly with many offspring (r-selected), disperse easily, and lack natural predators or pathogens in introduced habitats."
+    },
+    {
+      "id": "u9_q37",
+      "unit": 9,
+      "topic": "9.8 Invasive Species",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Zebra mussels, introduced to the North American Great Lakes via cargo ship ballast water, disrupt aquatic ecosystems primarily by:",
+      "options": [
+        "Filter-feeding on plankton at high rates, depleting the food base for native fish species and clogging industrial water intake pipes",
+        "Consuming all shoreline trees and causing soil erosion",
+        "Releasing toxic radioactive isotopes into lake water",
+        "Absorbing dissolved oxygen until lake water turns into ice"
+      ],
+      "correct_idx": 0,
+      "explanation": "Zebra mussels are aggressive filter-feeders that strip phytoplankton from the water column, starving native filter-feeders and larval fish, while colonizing and clogging underwater infrastructure."
+    },
+    {
+      "id": "u9_q38",
+      "unit": 9,
+      "topic": "9.8 Invasive Species",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Which method represents a primary vector for human-mediated transport of aquatic invasive species across international oceans?",
+      "options": [
+        "Discharge of unmanaged ballast water from ocean-going commercial cargo ships",
+        "Evaporation of ocean surface water into cloud rain",
+        "Migration of polar bears across sea ice bridges",
+        "Hydroelectric power generation at river dams"
+      ],
+      "correct_idx": 0,
+      "explanation": "Ships fill ballast tanks with coastal water for stability and discharge it at destination ports worldwide, inadvertently transporting aquatic organisms, larvae, and pathogens across geographic barriers."
+    },
+    {
+      "id": "u9_q39",
+      "unit": 9,
+      "topic": "9.8 Invasive Species",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "How did the introduction of the invasive Kudzu vine in the southeastern United States impact native forest flora?",
+      "options": [
+        "It grows rapidly over native trees and shrubs, blocking sunlight required for photosynthesis and smothering forest canopies.",
+        "It emits toxic lead vapors that poison native soil microbes.",
+        "It converts topsoil into dry, non-fertile beach sand.",
+        "It consumes native woodland mammals, driving predators to extinction."
+      ],
+      "correct_idx": 0,
+      "explanation": "Kudzu grows extremely rapidly (up to a foot a day), blanketing native trees and vegetation, blocking light, and breaking branches under its weight, outcompeting native plant communities."
+    },
+    {
+      "id": "u9_q40",
+      "unit": 9,
+      "topic": "9.8 Invasive Species",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.45,
+      "prompt": "Biological control (biocontrol) of invasive species carries ecological risks because the introduced natural enemy may:",
+      "options": [
+        "Attacking non-target native species, becoming an invasive pest itself and disrupting local food webs",
+        "Mutating into a synthetic chemical pesticide in soil",
+        "Stopping all natural photosynthesis in surrounding crop fields",
+        "Converting freshwater lakes into salty ocean bays"
+      ],
+      "correct_idx": 0,
+      "explanation": "Introducing a natural predator or parasite from an invasive species' home range can backfire if the biocontrol agent preys on non-target native species, creating a new ecological problem."
+    },
+    {
+      "id": "u9_q41",
+      "unit": 9,
+      "topic": "9.9 Endangered Species",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which biological characteristics make a species highly vulnerable to extinction when exposed to habitat disturbance?",
+      "options": [
+        "Specialist ecological niche, low reproductive rate (K-selected), high trophic level, and restricted geographic range",
+        "Generalist diet, high reproductive rate (r-selected), and widespread geographic range",
+        "Ability to thrive in urban habitats and high genetic diversity",
+        "Small body size, rapid growth rate, and generalist foraging habits"
+      ],
+      "correct_idx": 0,
+      "explanation": "Specialists with narrow dietary or habitat needs, low reproductive capacity (K-selected), small population sizes, and high positions on food chains are sensitive to environmental shifts and extinction risks."
+    },
+    {
+      "id": "u9_q42",
+      "unit": 9,
+      "topic": "9.9 Endangered Species",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) protects threatened species primarily by:",
+      "options": [
+        "Banning or regulating the international trade of endangered wild plants, animals, and derived products across national borders",
+        "Purchasing all private forest land in South America to create federal parks",
+        "Mandating captive breeding in public zoos for all global bird species",
+        "Fining municipal governments for domestic solid waste dumping"
+      ],
+      "correct_idx": 0,
+      "explanation": "CITES is an international agreement that protects endangered plants and animals by controlling, restricting, or banning international trade in listed species and parts (e.g., ivory, pelts, timber)."
+    },
+    {
+      "id": "u9_q43",
+      "unit": 9,
+      "topic": "9.9 Endangered Species",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "Under the United States Endangered Species Act (ESA), protecting an endangered species requires federal agencies to:",
+      "options": [
+        "Designate and protect critical habitat essential for the species' recovery, and draft official recovery plans",
+        "Relocate all wild individuals into captive breeding facilities immediately",
+        "Ban all commercial agricultural farming within the state where the species lives",
+        "Convert public national parks into commercial timber production zones"
+      ],
+      "correct_idx": 0,
+      "explanation": "The ESA prohibits harming listed endangered species and requires the U.S. Fish and Wildlife Service to designate critical habitat and develop recovery plans to restore sustainable wild populations."
+    },
+    {
+      "id": "u9_q44",
+      "unit": 9,
+      "topic": "9.9 Endangered Species",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "How does habitat corridor construction mitigate extinction risks for endangered mammalian populations living in fragmented reserves?",
+      "options": [
+        "Corridors connect isolated habitat patches, allowing gene flow, seasonal migration, and mate selection between subpopulations.",
+        "Corridors trap invasive predators inside iron cages.",
+        "Corridors convert agricultural land into deep freshwater lakes.",
+        "Corridors prevent animals from moving between forest patches."
+      ],
+      "correct_idx": 0,
+      "explanation": "Habitat corridors connect fragmented forest reserves, permitting wildlife to travel safely between isolated populations. This reduces inbreeding, maintains genetic diversity, and supports re-colonization."
+    },
+    {
+      "id": "u9_q45",
+      "unit": 9,
+      "topic": "9.9 Endangered Species",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "What is a major limitation of relying exclusively on captive breeding and reintroduction programs to save endangered species?",
+      "options": [
+        "Without protecting and restoring original natural habitats, reintroduced individuals face the same threats (habitat loss, poaching) that caused initial population declines.",
+        "Captive breeding programs increase wild genetic diversity to dangerously high levels.",
+        "Animals raised in captivity automatically transform into invasive generalists.",
+        "Captive breeding costs zero money and requires no trained personnel."
+      ],
+      "correct_idx": 0,
+      "explanation": "Captive breeding can preserve individuals, but reintroducing animals into the wild fails if underlying causes of extinction—such as habitat loss, pollution, or invasive species—are not mitigated first."
+    },
+    {
+      "id": "u9_q46",
+      "unit": 9,
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.1,
+      "prompt": "The acronym HIPPCO summarizes the main anthropogenic drivers of biodiversity loss. What does HIPPCO stand for?",
+      "options": [
+        "Habitat destruction, Invasive species, Population growth, Pollution, Climate change, and Overexploitation",
+        "Hydrological cycles, Industrialization, Photosynthesis, Pest control, Ocean currents, and Ozone",
+        "Heat islands, Internal combustion, Particulate dust, Plastic waste, Carbon sinks, and Oxygen depletion",
+        "Hazardous waste, Incineration, Power grid, Public transit, Coal combustion, and Open dumping"
+      ],
+      "correct_idx": 0,
+      "explanation": "HIPPCO outlines the primary human threats to global biodiversity: Habitat destruction (the leading cause), Invasive species, Population growth (human), Pollution, Climate change, and Overexploitation."
+    },
+    {
+      "id": "u9_q47",
+      "unit": 9,
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.25,
+      "prompt": "How does habitat fragmentation caused by highway construction and urban development impact forest interior species?",
+      "options": [
+        "It splits large continuous habitats into smaller, isolated patches, increasing edge habitat while reducing interior habitat and restricting gene flow.",
+        "It doubles the interior forest area available for specialized predators.",
+        "It eliminates edge effects and protects interior species from cowbird nest parasitism.",
+        "It unifies distinct ecological biomes into a single contiguous nature reserve."
+      ],
+      "correct_idx": 0,
+      "explanation": "Fragmentation breaks habitats into smaller parcels. This creates more exposed 'edge' microclimates and reduces intact 'interior' habitat, isolating populations and reducing genetic diversity."
+    },
+    {
+      "id": "u9_q48",
+      "unit": 9,
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Overexploitation of wild species, such as commercial overfishing of North Atlantic cod or illegal poaching of rhinos for horns, drives species toward extinction because:",
+      "options": [
+        "Harvest rates exceed the natural reproductive replacement rate of the population.",
+        "Harvesting increases species fertility and causes overpopulation.",
+        "Harvesting converts wild animals into r-selected generalists.",
+        "Poaching lowers atmospheric carbon dioxide levels in surrounding forests."
+      ],
+      "correct_idx": 0,
+      "explanation": "Overexploitation occurs when species are removed from the wild faster than natural breeding can replace them, collapsing population sizes below sustainable survival thresholds."
+    },
+    {
+      "id": "u9_q49",
+      "unit": 9,
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Why does high species richness and genetic diversity enhance an ecosystem's RESILIENCE to environmental disturbances?",
+      "options": [
+        "Diverse ecosystems are more likely to contain species with traits that enable adaptation to changing conditions, maintaining functional redundancy.",
+        "High diversity prevents all natural weather events and droughts from occurring.",
+        "Diverse ecosystems require zero solar energy or nutrient cycling.",
+        "Species-rich communities are composed exclusively of generalist invasive weeds."
+      ],
+      "correct_idx": 0,
+      "explanation": "Ecosystem resilience increases with biodiversity because varied species fulfill overlapping ecological roles (functional redundancy). If one species declines during a disturbance, others can maintain ecosystem processes."
+    },
+    {
+      "id": "u9_q50",
+      "unit": 9,
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.44,
+      "prompt": "A BIODIVERSITY HOTSPOT is defined as a geographic region that possesses high levels of endemic species and:",
+      "options": [
+        "Has lost at least 70 percent of its original natural primary vegetation due to human activity",
+        "Is completely free of all human settlement and infrastructure",
+        "Contains zero endangered or threatened species",
+        "Is located exclusively within high-altitude sub-polar mountain ranges"
+      ],
+      "correct_idx": 0,
+      "explanation": "To qualify as a global biodiversity hotspot, a region must contain at least 1,500 endemic vascular plant species and have lost at least 70 percent of its primary native vegetation, making it a priority for conservation."
+    }
+  ]

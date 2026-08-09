@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u3_q01",
+      "unit": 3,
+      "topic": "3.1 Generalist and Specialist Species",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.12,
+      "prompt": "Which environmental condition favors specialist species over generalist species?",
+      "options": [
+        "A rapidly changing climate with frequent extreme weather events",
+        "A stable, constant environment with high competition for specific resources",
+        "A newly disturbed habitat undergoing primary succession",
+        "An urban center undergoing rapid suburban expansion"
+      ],
+      "correct_idx": 1,
+      "explanation": "Specialist species thrive in stable, predictable environments where their narrow ecological niche allows them to outcompete generalist species for specific resources. In changing environments, generalists adapt much better."
+    },
+    {
+      "id": "u3_q02",
+      "unit": 3,
+      "topic": "3.1 Generalist and Specialist Species",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.25,
+      "prompt": "The giant panda (*Ailuropoda melanoleuca*) subsists almost entirely on bamboo shoots and leaves. This extreme dietary specificity classifies the giant panda as a:",
+      "options": [
+        "Generalist species with high ecological tolerance",
+        "Specialist species highly vulnerable to habitat loss",
+        "Invasive species with rapid colonization potential",
+        "r-selected pioneer species"
+      ],
+      "correct_idx": 1,
+      "explanation": "Giant pandas are classic specialist species. Because their diet depends nearly 100% on bamboo, clearing bamboo forests severely threatens their survival because they cannot easily switch food sources."
+    },
+    {
+      "id": "u3_q03",
+      "unit": 3,
+      "topic": "3.1 Generalist and Specialist Species",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.35,
+      "prompt": "Why are non-native invasive species usually generalists rather than specialists?",
+      "options": [
+        "Generalists require highly specific prey organisms found only in undisturbed habitats.",
+        "Generalists possess broad ecological tolerances and flexible diets, enabling them to adapt to diverse novel environments.",
+        "Generalists reproduce only once per lifetime, conserving metabolic energy.",
+        "Specialists outcompete generalists in newly altered or degraded habitats."
+      ],
+      "correct_idx": 1,
+      "explanation": "Invasive species succeed because they are generalists: they tolerate wide ranges of environmental conditions, consume varied foods, and thrive across diverse habitats without requiring specialized resources."
+    },
+    {
+      "id": "u3_q04",
+      "unit": 3,
+      "topic": "3.1 Generalist and Specialist Species",
+      "difficulty_b": -0.5,
+      "discrimination_a": 1.05,
+      "prompt": "Raccoons, coyotes, and American crows thrive in human-dominated urban and suburban environments. These species are classified as generalists because they possess:",
+      "options": [
+        "Narrow physiological tolerances and restricted geographic ranges",
+        "Broad ecological niches, flexible diets, and high tolerance for human disturbance",
+        "Low reproductive outputs paired with long parental care cycles",
+        "Strict dependency on old-growth canopy habitats"
+      ],
+      "correct_idx": 1,
+      "explanation": "Generalist species have broad niches, enabling them to exploit diverse human food wastes, build nests in urban structures, and adjust to varying weather and conditions."
+    },
+    {
+      "id": "u3_q05",
+      "unit": 3,
+      "topic": "3.1 Generalist and Specialist Species",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.48,
+      "prompt": "If a forest ecosystem suffers a widespread fungal blight that eradicates a single native hardwood tree species, which organism will suffer the greatest population decline?",
+      "options": [
+        "A generalist insect herbivore that feeds on dozens of woody plant species",
+        "A specialist caterpillar species that feeds exclusively on leaves of the affected tree species",
+        "An omnivorous rodent that eats seeds, fruits, and small invertebrates",
+        "An apex avian predator that preys on diverse small mammals"
+      ],
+      "correct_idx": 1,
+      "explanation": "Specialists depend entirely on specific host organisms. Eliminating that single host tree species removes the caterpillar's only food supply, leading to local extinction."
+    },
+    {
+      "id": "u3_q06",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "Which combination of life-history traits is characteristic of a typical K-selected species?",
+      "options": [
+        "Large body size, late maturity, few offspring, and extensive parental care",
+        "Small body size, early maturity, numerous offspring, and zero parental care",
+        "Rapid population growth rates, short lifespans, and high mortality in early life",
+        "Frequent reproduction with thousands of unfertilized eggs released into open water"
+      ],
+      "correct_idx": 0,
+      "explanation": "K-selected species (e.g., elephants, whales, humans) invest heavily in a small number of offspring, providing prolonged parental care to ensure high survival rates near carrying capacity (K)."
+    },
+    {
+      "id": "u3_q07",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.18,
+      "prompt": "Which organism best exemplifies an r-selected reproductive strategy?",
+      "options": [
+        "Grizzly bear (*Ursus arctos*)",
+        "Blue whale (*Balaenoptera musculus*)",
+        "Dandelion (*Taraxacum officinale*)",
+        "African elephant (*Loxodonta africana*)"
+      ],
+      "correct_idx": 2,
+      "explanation": "Dandelions are r-selected plants: they mature rapidly, produce thousands of wind-blown seeds, invest no energy in parental care, and quickly colonize disturbed ground."
+    },
+    {
+      "id": "u3_q08",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.3,
+      "prompt": "In an ecosystem recovering from a catastrophic volcanic eruption, why do r-selected species colonize the region before K-selected species?",
+      "options": [
+        "r-selected species require thick, nutrient-dense topsoil to germinate.",
+        "r-selected species produce large quantities of easily dispersed seeds and mature rapidly.",
+        "r-selected species outcompete K-selected species for shade in mature canopies.",
+        "r-selected species maintain stable population sizes near carrying capacity."
+      ],
+      "correct_idx": 1,
+      "explanation": "r-selected species prioritize high reproductive capacity (r) and rapid dispersal, allowing them to rapidly invade newly opened, disturbed habitats before competition sets in."
+    },
+    {
+      "id": "u3_q09",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.42,
+      "prompt": "How do r-selected and K-selected species differ in their vulnerability to invasive species competition?",
+      "options": [
+        "K-selected species recover rapidly from invasive competition due to high birth rates.",
+        "K-selected species are more vulnerable because low birth rates and slow development impede rapid population recovery.",
+        "r-selected species face higher extinction risk because they produce too few offspring.",
+        "Both strategies exhibit identical recovery rates regardless of reproductive strategy."
+      ],
+      "correct_idx": 1,
+      "explanation": "K-selected species have low intrinsic growth rates (r). When populations are decimated by invasive competitors or predators, their slow reproduction makes recovery prolonged and difficult."
+    },
+    {
+      "id": "u3_q10",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": 0.8,
+      "discrimination_a": 1.5,
+      "prompt": "Which statement correctly describes the relationship between r/K selection strategies and ecological succession?",
+      "options": [
+        "Climax communities are dominated almost exclusively by r-selected species.",
+        "Early successional stages are dominated by r-selected species, whereas late successional climax stages are dominated by K-selected species.",
+        "Primary succession features only K-selected species, while secondary succession features only r-selected species.",
+        "Ecological succession eliminates r-selected species from Earth's global biosphere."
+      ],
+      "correct_idx": 1,
+      "explanation": "Early succession favors r-selected opportunistic pioneers that quickly colonize open areas. As habitat stabilizes and competition intensifies, K-selected species gradually replace them."
+    },
+    {
+      "id": "u3_q11",
+      "unit": 3,
+      "topic": "3.2 K-Selected and r-Selected Species",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.22,
+      "prompt": "A marine biologist observes an organism that produces 500,000 eggs per spawning event, provides no parental care, and experiences a 99.9% mortality rate among larvae within the first week. This organism is classified as:",
+      "options": [
+        "A K-selected specialist",
+        "An r-selected strategist",
+        "A climax generalist",
+        "A density-independent specialist"
+      ],
+      "correct_idx": 1,
+      "explanation": "High fecundity, low offspring survival, and lack of parental care are core defining traits of r-selected organisms."
+    },
+    {
+      "id": "u3_q12",
+      "unit": 3,
+      "topic": "3.3 Survivorship Curves",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.15,
+      "prompt": "A Type I survivorship curve is characterized by:",
+      "options": [
+        "High mortality early in life, with few individuals surviving to old age",
+        "A constant mortality rate across all age groups throughout the lifespan",
+        "High survival rates throughout early and middle life, followed by rapid mortality in old age",
+        "Extreme population fluctuations driven by density-independent factors"
+      ],
+      "correct_idx": 2,
+      "explanation": "Type I curves (typical of humans and large K-selected mammals) exhibit high survival in early/middle life due to parental investment, followed by steep mortality among elderly individuals."
+    },
+    {
+      "id": "u3_q13",
+      "unit": 3,
+      "topic": "3.3 Survivorship Curves",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "Songbirds, lizards, and small rodents typically exhibit a constant mortality rate regardless of age. Which type of survivorship curve represents these organisms?",
+      "options": [
+        "Type I curve",
+        "Type II curve",
+        "Type III curve",
+        "Type IV curve"
+      ],
+      "correct_idx": 1,
+      "explanation": "A Type II survivorship curve shows a linear decline on a logarithmic plot, indicating that individuals face an equal probability of dying at any age step (constant mortality)."
+    },
+    {
+      "id": "u3_q14",
+      "unit": 3,
+      "topic": "3.3 Survivorship Curves",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.12,
+      "prompt": "Frogs lay thousands of eggs in water, but the vast majority of tadpoles are eaten by fish before reaching adulthood. Surviving adult frogs live for several years. Which survivorship curve depicts this life pattern?",
+      "options": [
+        "Type I curve",
+        "Type II curve",
+        "Type III curve",
+        "Exponential curve"
+      ],
+      "correct_idx": 2,
+      "explanation": "Type III curves (typical of r-selected species, fish, amphibians, trees) feature high mortality during early juvenile stages, but individuals surviving to adulthood enjoy flatter mortality rates."
+    },
+    {
+      "id": "u3_q15",
+      "unit": 3,
+      "topic": "3.3 Survivorship Curves",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.35,
+      "prompt": "Which graph pairing correctly matches reproductive strategy with its corresponding survivorship curve?",
+      "options": [
+        "K-selected species -> Type III curve; r-selected species -> Type I curve",
+        "K-selected species -> Type I curve; r-selected species -> Type III curve",
+        "K-selected species -> Type II curve; r-selected species -> Type I curve",
+        "Both r-selected and K-selected species exhibit Type II curves"
+      ],
+      "correct_idx": 1,
+      "explanation": "K-selected species align with Type I survivorship (high parental care = juvenile survival), while r-selected species align with Type III survivorship (zero care = high juvenile mortality)."
+    },
+    {
+      "id": "u3_q16",
+      "unit": 3,
+      "topic": "3.3 Survivorship Curves",
+      "difficulty_b": 0.78,
+      "discrimination_a": 1.45,
+      "prompt": "On a standardized survivorship curve graph, what variable is plotted on the logarithmic y-axis?",
+      "options": [
+        "Total biomass per hectare (kg/ha)",
+        "Number of surviving individuals per thousand born (log scale)",
+        "Intrinsic population growth rate (r)",
+        "Carrying capacity percentage (% K)"
+      ],
+      "correct_idx": 1,
+      "explanation": "Survivorship curves plot the number or percentage of surviving individuals (usually on a logarithmic scale from 1,000 down to 1) against relative age or percentage of maximum lifespan on the x-axis."
+    },
+    {
+      "id": "u3_q17",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": -0.6,
+      "discrimination_a": 1.0,
+      "prompt": "Carrying capacity (K) is defined as:",
+      "options": [
+        "The maximum population size an environment can sustainably support over time without degrading habitat resources",
+        "The absolute physical limit of space available for nesting organisms",
+        "The theoretical growth rate achieved under unlimited ideal environmental conditions",
+        "The minimum population size required to prevent inbreeding depression"
+      ],
+      "correct_idx": 0,
+      "explanation": "Carrying capacity (K) is the maximum stable population size of a species that a specific ecosystem can support indefinitely given available food, water, habitat, and nutrients."
+    },
+    {
+      "id": "u3_q18",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.28,
+      "prompt": "When a population expands so rapidly that it temporarily exceeds its environment's carrying capacity, the population experiences an overshoot. What is the immediate ecological consequence of an overshoot?",
+      "options": [
+        "Permanent increase in carrying capacity",
+        "Resource depletion followed by a population dieback (crash)",
+        "Instant shift from Type III to Type I survivorship",
+        "Transformation of generalists into specialists"
+      ],
+      "correct_idx": 1,
+      "explanation": "Overshooting carrying capacity rapidly consumes critical resources (food, water). Depletion triggers severe competition, starvation, and a sharp mortality spike known as a dieback or population crash."
+    },
+    {
+      "id": "u3_q19",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": 0.4,
+      "discrimination_a": 1.3,
+      "prompt": "Which of the following environmental factors acts as a density-dependent limiting factor regulating population size?",
+      "options": [
+        "A severe forest fire caused by lightning",
+        "An unseasonal hard freeze in late spring",
+        "Infectious disease transmission within a dense herd",
+        "A volcanic ash cloud blocking sunlight"
+      ],
+      "correct_idx": 2,
+      "explanation": "Density-dependent factors change in intensity based on population density. Disease spreads far more rapidly and causes higher mortality in dense populations than sparse ones."
+    },
+    {
+      "id": "u3_q20",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.15,
+      "prompt": "Which factor represents a density-independent control on population growth?",
+      "options": [
+        "Interspecific competition for nesting sites",
+        "A catastrophic hurricane striking a coastal island",
+        "Predation rates by wolves on deer",
+        "Parasite infestations among roosting bats"
+      ],
+      "correct_idx": 1,
+      "explanation": "Density-independent factors impact population mortality regardless of population density. Hurricanes, floods, fires, and droughts kill organisms independent of whether density is high or low."
+    },
+    {
+      "id": "u3_q21",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": 0.82,
+      "discrimination_a": 1.52,
+      "prompt": "If a reindeer population overshoots carrying capacity on an isolated island, consuming all lichens down to bare rock, what happens to the island's future carrying capacity (K)?",
+      "options": [
+        "Carrying capacity remains identical because lichens regenerate instantly.",
+        "Carrying capacity increases because reindeer waste fertilizes rock.",
+        "Carrying capacity drops significantly because habitat degradation lowers long-term resource availability.",
+        "Carrying capacity expands to infinity."
+      ],
+      "correct_idx": 2,
+      "explanation": "Severe overshoots damage fundamental habitat structures (e.g., overgrazing killing plants down to roots), permanently or temporarily reducing the environment's future carrying capacity (K)."
+    },
+    {
+      "id": "u3_q22",
+      "unit": 3,
+      "topic": "3.4 Carrying Capacity",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.38,
+      "prompt": "The sum of all limiting factors (such as food shortages, predation, disease, and waste accumulation) that prevent a population from achieving its maximum biotic potential is collectively called:",
+      "options": [
+        "Environmental resistance",
+        "Intrinsic rate of increase (rmax)",
+        "Demographic momentum",
+        "Trophic efficiency"
+      ],
+      "correct_idx": 0,
+      "explanation": "Environmental resistance consists of all abiotic and biotic factors that restrict unlimited population growth, bending exponential growth into realistic logistic curves near carrying capacity."
+    },
+    {
+      "id": "u3_q23",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.15,
+      "prompt": "A population growing exponentially with unlimited resources creates a characteristic graph shape known as a:",
+      "options": [
+        "S-shaped curve (logistic growth)",
+        "J-shaped curve (exponential growth)",
+        "Bell-shaped curve (normal distribution)",
+        "Linear horizontal line"
+      ],
+      "correct_idx": 1,
+      "explanation": "When resources are unlimited and environmental resistance is absent, population growth accelerates over time, producing a continuous J-shaped exponential growth curve."
+    },
+    {
+      "id": "u3_q24",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.25,
+      "prompt": "As a growing population approaches carrying capacity (K), environmental resistance slows population growth. This transitions the growth pattern into which curve shape?",
+      "options": [
+        "J-shaped curve",
+        "S-shaped curve (logistic growth)",
+        "U-shaped curve",
+        "Inverted pyramid curve"
+      ],
+      "correct_idx": 1,
+      "explanation": "Logistic growth forms an S-shaped curve: initial exponential growth accelerates, then slows as resources become limiting, stabilizing around carrying capacity (K)."
+    },
+    {
+      "id": "u3_q25",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "A human population has a Crude Birth Rate (CBR) of 22 per 1,000 and a Crude Death Rate (CDR) of 7 per 1,000. Ignoring net migration, what is the annual population growth rate (r)?",
+      "options": [
+        "15%",
+        "1.5%",
+        "0.15%",
+        "2.9%"
+      ],
+      "correct_idx": 1,
+      "explanation": "Growth rate formula without migration: r(%) = (CBR - CDR) / 10 = (22 - 7) / 10 = 15 / 10 = 1.5%."
+    },
+    {
+      "id": "u3_q26",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "According to the Rule of 70, if a country's population grows at a constant annual rate of 2.0%, approximately how many years will it take for the population to double?",
+      "options": [
+        "35 years",
+        "70 years",
+        "140 years",
+        "20 years"
+      ],
+      "correct_idx": 0,
+      "explanation": "Rule of 70 formula: Doubling time (years) = 70 / Growth rate (%) = 70 / 2.0 = 35 years."
+    },
+    {
+      "id": "u3_q27",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.4,
+      "prompt": "A country with a population of 10 million doubled its population size in 50 years. What was its approximate constant annual growth rate during this period?",
+      "options": [
+        "0.7%",
+        "1.4%",
+        "5.0%",
+        "14.0%"
+      ],
+      "correct_idx": 1,
+      "explanation": "Re-arranging Rule of 70: Growth rate (%) = 70 / Doubling time = 70 / 50 = 1.4%."
+    },
+    {
+      "id": "u3_q28",
+      "unit": 3,
+      "topic": "3.5 Population Growth and Resource Availability",
+      "difficulty_b": 0.75,
+      "discrimination_a": 1.48,
+      "prompt": "A city of 100,000 residents records 1,500 births, 500 deaths, 300 immigrants, and 100 emigrants in one year. Calculate the net population growth rate for this city.",
+      "options": [
+        "1.2%",
+        "1.0%",
+        "0.8%",
+        "12.0%"
+      ],
+      "correct_idx": 0,
+      "explanation": "Net increase = (Births + Immigrants) - (Deaths + Emigrants) = (1,500 + 300) - (500 + 100) = 1,800 - 600 = 1,200. Growth rate = (1,200 / 100,000) * 100 = 1.2%."
+    },
+    {
+      "id": "u3_q29",
+      "unit": 3,
+      "topic": "3.6 Age Structure Diagrams",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.15,
+      "prompt": "An age structure diagram (population pyramid) with a very broad base tapering sharply to a narrow peak indicates that the population is experiencing:",
+      "options": [
+        "Rapid population expansion",
+        "Stable, zero population growth",
+        "Negative population growth (declining population)",
+        "High economic wealth and low infant mortality"
+      ],
+      "correct_idx": 0,
+      "explanation": "A broad base indicates a high proportion of children in pre-reproductive age brackets (0–14). As these individuals reach reproductive age, the population expands rapidly."
+    },
+    {
+      "id": "u3_q30",
+      "unit": 3,
+      "topic": "3.6 Age Structure Diagrams",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.25,
+      "prompt": "An age structure diagram with sides that are roughly vertical and uniform from the base through reproductive age groups (a column shape) represents:",
+      "options": [
+        "Rapid population expansion",
+        "Slow to zero population growth",
+        "A population crash due to severe disease",
+        "An immediate demographic transition back to Stage 1"
+      ],
+      "correct_idx": 1,
+      "explanation": "Column-shaped age structure diagrams indicate nearly equal numbers of individuals across pre-reproductive and reproductive age classes, resulting in stable or zero population growth."
+    },
+    {
+      "id": "u3_q31",
+      "unit": 3,
+      "topic": "3.6 Age Structure Diagrams",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.35,
+      "prompt": "An age structure diagram that is narrower at the base than in the middle (an inverted pyramid or urn shape) signifies:",
+      "options": [
+        "High total fertility rates",
+        "Declining population size (negative growth)",
+        "High infant mortality rates",
+        "Short overall life expectancy"
+      ],
+      "correct_idx": 1,
+      "explanation": "When the base is narrower than older cohorts, fewer children are being born than adults in reproductive years, indicating shrinking/negative growth (e.g., Japan, Germany)."
+    },
+    {
+      "id": "u3_q32",
+      "unit": 3,
+      "topic": "3.6 Age Structure Diagrams",
+      "difficulty_b": 0.8,
+      "discrimination_a": 1.5,
+      "prompt": "Demographers divide age structure diagrams into three main age categories. Which range correctly defines the pre-reproductive age category?",
+      "options": [
+        "0 to 14 years old",
+        "15 to 44 years old",
+        "45 to 64 years old",
+        "65 years and older"
+      ],
+      "correct_idx": 0,
+      "explanation": "Demographic cohorts are standardized as: Pre-reproductive (0–14 years), Reproductive (15–44 years), and Post-reproductive (45+ years)."
+    },
+    {
+      "id": "u3_q33",
+      "unit": 3,
+      "topic": "3.6 Age Structure Diagrams",
+      "difficulty_b": 0.92,
+      "discrimination_a": 1.58,
+      "prompt": "A nation whose age structure pyramid features a large bulge in post-reproductive age groups and a very small base faces which major socioeconomic challenge?",
+      "options": [
+        "Overcrowded elementary schools and shortage of pediatric doctors",
+        "A high dependency ratio, creating economic strain on healthcare and pension systems with fewer working-age taxpayers",
+        "Immediate land shortages due to rapid family expansion",
+        "Unmanageable rates of high crude birth rate spikes"
+      ],
+      "correct_idx": 1,
+      "explanation": "Aging populations (narrow base, bulge at top) face high old-age dependency ratios: a shrinking workforce must financially support growing elder populations needing pensions and care."
+    },
+    {
+      "id": "u3_q34",
+      "unit": 3,
+      "topic": "3.7 Total Fertility Rate",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "Total Fertility Rate (TFR) measures:",
+      "options": [
+        "The percentage of women of childbearing age who have children",
+        "The average number of children a woman will give birth to during her reproductive lifespan",
+        "The number of live births per 1,000 individuals in a population per year",
+        "The annual mortality rate of infants under one year of age"
+      ],
+      "correct_idx": 1,
+      "explanation": "Total Fertility Rate (TFR) is an estimate of the average number of children born alive to a woman if she lives through her childbearing years under current age-specific fertility rates."
+    },
+    {
+      "id": "u3_q35",
+      "unit": 3,
+      "topic": "3.7 Total Fertility Rate",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.22,
+      "prompt": "Replacement-level fertility is defined as the TFR required to keep population size stable over time. In developed nations, replacement-level fertility is approximately:",
+      "options": [
+        "1.0",
+        "2.1",
+        "3.5",
+        "5.0"
+      ],
+      "correct_idx": 1,
+      "explanation": "Replacement TFR is roughly 2.1 children per woman (2 children replacing the parents, plus 0.1 to account for childhood mortality prior to reaching reproductive age)."
+    },
+    {
+      "id": "u3_q36",
+      "unit": 3,
+      "topic": "3.7 Total Fertility Rate",
+      "difficulty_b": 0.4,
+      "discrimination_a": 1.3,
+      "prompt": "Which socioeconomic factor is most strongly correlated with a decline in a nation's Total Fertility Rate (TFR)?",
+      "options": [
+        "Increased economic reliance on subsistence agriculture",
+        "Increased access to educational opportunities and formal employment for women",
+        "Decreased access to family planning services and modern contraception",
+        "Rising infant mortality rates in rural provinces"
+      ],
+      "correct_idx": 1,
+      "explanation": "Educating women and expanding economic career choices consistently drives TFR declines worldwide. Educated women tend to delay marriage, enter careers, and choose smaller family sizes."
+    },
+    {
+      "id": "u3_q37",
+      "unit": 3,
+      "topic": "3.7 Total Fertility Rate",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.42,
+      "prompt": "Why is replacement-level fertility higher in developing countries (e.g., 2.5 to 3.0) than in highly developed countries (2.1)?",
+      "options": [
+        "Developing nations experience higher rates of infant and childhood mortality.",
+        "Developing nations have lower crude birth rates overall.",
+        "Women in developing nations have shorter reproductive lifespans.",
+        "Developing nations rely exclusively on immigration for population growth."
+      ],
+      "correct_idx": 0,
+      "explanation": "Higher infant and child mortality rates mean more children die before reaching reproductive age. Thus, women must bear more children on average to achieve population replacement."
+    },
+    {
+      "id": "u3_q38",
+      "unit": 3,
+      "topic": "3.7 Total Fertility Rate",
+      "difficulty_b": 0.85,
+      "discrimination_a": 1.5,
+      "prompt": "In a developing country undergoing rapid modernization, why might population growth continue for decades even after TFR drops to replacement level (2.1)?",
+      "options": [
+        "Declining death rates cause an immediate spike in crude birth rates.",
+        "Demographic momentum occurs because a massive youth cohort enters childbearing age.",
+        "Empowerment of women increases the average number of births per household.",
+        "Emigration drops to zero automatically."
+      ],
+      "correct_idx": 1,
+      "explanation": "Demographic momentum: when a country previously experienced high fertility, a huge percentage of its population is under 15. As this large age group reaches reproductive age, total births remain high even with low individual TFR."
+    },
+    {
+      "id": "u3_q39",
+      "unit": 3,
+      "topic": "3.8 Human Population Dynamics",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "Which single demographic indicator is widely considered the single best measure of a society's overall quality of life and healthcare quality?",
+      "options": [
+        "Crude Birth Rate (CBR)",
+        "Infant Mortality Rate (IMR)",
+        "Gross Domestic Product (GDP) per capita",
+        "Total migration rate"
+      ],
+      "correct_idx": 1,
+      "explanation": "Infant Mortality Rate (IMR) reflects overall societal health, clean water access, nutritional status, sanitation, and availability of maternal healthcare."
+    },
+    {
+      "id": "u3_q40",
+      "unit": 3,
+      "topic": "3.8 Human Population Dynamics",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "According to Thomas Malthus's population theory, human population growth is limited because:",
+      "options": [
+        "Food production grows exponentially, while human population grows linearly.",
+        "Human population grows exponentially, while food production grows linearly.",
+        "Technological advances perpetually increase carrying capacity faster than population growth.",
+        "Birth rates naturally decline as economic development increases."
+      ],
+      "correct_idx": 1,
+      "explanation": "Thomas Malthus proposed that human population grows exponentially while food production grows linearly, leading to inevitable famine, war, or disease unless population growth is checked."
+    },
+    {
+      "id": "u3_q41",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "During Stage 1 (Pre-industrial) of the demographic transition model, population size remains relatively stable because:",
+      "options": [
+        "Both crude birth rates and crude death rates are high.",
+        "Crude birth rates are low while crude death rates are high.",
+        "Crude birth rates are high while crude death rates are low.",
+        "Both crude birth rates and crude death rates are extremely low."
+      ],
+      "correct_idx": 0,
+      "explanation": "In Stage 1, primitive medical care, widespread disease, and poor sanitation cause high death rates, which are balanced out by high birth rates, resulting in minimal net population growth."
+    },
+    {
+      "id": "u3_q42",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "Which event triggers the transition of a nation from Stage 1 into Stage 2 (Transitional) of the demographic transition model?",
+      "options": [
+        "A sudden drop in crude birth rates due to mandatory family planning",
+        "Improvements in sanitation, clean water, healthcare, and food supplies that lower crude death rates",
+        "An economic shift where children become financial liabilities rather than farm labor",
+        "A sharp rise in infant mortality rates due to rapid urban crowding"
+      ],
+      "correct_idx": 1,
+      "explanation": "Stage 2 begins when advances in public hygiene, nutrition, clean water infrastructure, and basic healthcare significantly decrease death rates while birth rates remain elevated."
+    },
+    {
+      "id": "u3_q43",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.28,
+      "prompt": "Why does rapid population expansion occur specifically during Stage 2 of the demographic transition?",
+      "options": [
+        "Crude birth rates spike dramatically while crude death rates remain unchanged.",
+        "Crude death rates fall rapidly while crude birth rates remain high.",
+        "Both birth and death rates reach equal minimum levels.",
+        "Immigration increases exponentially while emigration falls to zero."
+      ],
+      "correct_idx": 1,
+      "explanation": "The large gap between high crude birth rates and rapidly declining crude death rates creates a high rate of natural increase, driving rapid population growth."
+    },
+    {
+      "id": "u3_q44",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.35,
+      "prompt": "In Stage 3 (Industrial) of the demographic transition model, population growth begins to slow primarily because:",
+      "options": [
+        "Crude death rates rise rapidly due to industrial pollution.",
+        "Crude birth rates decline as female education, urban living, and access to family planning increase.",
+        "Governments impose strict legal caps on maximum family size.",
+        "Infant mortality rates reach their historical highest levels."
+      ],
+      "correct_idx": 1,
+      "explanation": "In Stage 3, cultural shifts, urbanization, female literacy, and employment cause parents to prefer smaller family sizes, leading to a steady decline in crude birth rates."
+    },
+    {
+      "id": "u3_q45",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.22,
+      "prompt": "Which set of characteristics best describes a nation in Stage 4 (Post-industrial) of the demographic transition?",
+      "options": [
+        "High birth rates, falling death rates, rapid population growth",
+        "High birth rates, high death rates, zero population growth",
+        "Low birth rates, low death rates, stable or zero population growth",
+        "Falling birth rates, rising death rates, rapid population growth"
+      ],
+      "correct_idx": 2,
+      "explanation": "Stage 4 nations feature low crude birth rates balanced with low crude death rates, yielding stable, zero, or very slow population growth."
+    },
+    {
+      "id": "u3_q46",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.4,
+      "prompt": "Several highly developed modern nations have entered a proposed Stage 5 of demographic transition. Which demographic trend defines Stage 5?",
+      "options": [
+        "Crude birth rates drop below crude death rates, causing net population decline.",
+        "Crude death rates drop to zero due to advanced medical technology.",
+        "Total fertility rates rise back above replacement level naturally.",
+        "Crude birth rates experience massive unpredictable spikes."
+      ],
+      "correct_idx": 0,
+      "explanation": "Stage 5 occurs when birth rates drop below death rates (with total fertility rates well below replacement level), resulting in net population shrinkage."
+    },
+    {
+      "id": "u3_q47",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.38,
+      "prompt": "Which factor is considered a primary economic driver that causes birth rates to drop during Stage 3 and Stage 4?",
+      "options": [
+        "Children shifting from economic assets on agricultural farms to financial liabilities in urban settings",
+        "An increased demand for child labor in industrial manufacturing plants",
+        "Higher agricultural crop yields requiring larger farm families to harvest",
+        "A widespread decrease in the overall cost of higher education and childcare"
+      ],
+      "correct_idx": 0,
+      "explanation": "In agrarian societies, children provide necessary farm labor. In urbanized industrial societies, raising children requires significant financial investment, encouraging smaller family sizes."
+    },
+    {
+      "id": "u3_q48",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.78,
+      "discrimination_a": 1.46,
+      "prompt": "A developing nation achieves a rapid drop in infant mortality due to international medical aid, but social norms keep family sizes large. Which state of demographic transition is this country experiencing?",
+      "options": [
+        "A Stage 1 pre-industrial equilibrium",
+        "A Stage 2 transition with rapid population expansion",
+        "A Stage 4 post-industrial stabilization",
+        "A Stage 5 negative population growth cycle"
+      ],
+      "correct_idx": 1,
+      "explanation": "When death rates plummet while birth rates remain high due to cultural norms, countries remain in Stage 2, experiencing explosive population expansion."
+    },
+    {
+      "id": "u3_q49",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.82,
+      "discrimination_a": 1.5,
+      "prompt": "How does the age structure diagram of a country in Stage 2 compare to that of a country in Stage 4?",
+      "options": [
+        "Stage 2 has a wide pyramid base; Stage 4 has a narrow column or urn shape.",
+        "Stage 2 has an inverted pyramid shape; Stage 4 has a wide pyramid base.",
+        "Stage 2 has a uniform column shape; Stage 4 has an extremely broad base.",
+        "Both stages share identical broad pyramid shapes."
+      ],
+      "correct_idx": 0,
+      "explanation": "Stage 2 countries feature wide pyramid bases due to high birth rates, while Stage 4 countries feature narrow, column-like structures due to low birth rates."
+    },
+    {
+      "id": "u3_q50",
+      "unit": 3,
+      "topic": "3.9 Demographic Transition",
+      "difficulty_b": 0.88,
+      "discrimination_a": 1.55,
+      "prompt": "Which policy intervention is most effective at accelerating a country's transition from Stage 2 into Stage 3 of the demographic transition model?",
+      "options": [
+        "Increasing agricultural subsidies for rural farming families",
+        "Expanding access to formal secondary education and economic careers for women",
+        "Lowering tax obligations for families with more than four children",
+        "Reducing national investments in public sanitation and municipal water systems"
+      ],
+      "correct_idx": 1,
+      "explanation": "Investing in female education and career opportunities consistently correlates with delayed marriage, reduced total fertility rates, and lowered crude birth rates, accelerating the move into Stage 3."
+    }
+  ]

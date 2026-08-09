@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u5_q01",
+      "unit": 5,
+      "topic": "5.1 Tragedy of the Commons",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "Which scenario best illustrates the concept of the Tragedy of the Commons?",
+      "options": [
+        "A private landowner overgrazes cattle on their fenced pasture, degrading their own topsoil.",
+        "Multiple commercial fishing fleets overexploit unregulated international ocean waters, depleting the global tuna population.",
+        "A city government levies a carbon tax on local power plants to curb greenhouse gas emissions.",
+        "A timber corporation harvest trees on private land and immediately replants native saplings."
+      ],
+      "correct_idx": 1,
+      "explanation": "The Tragedy of the Commons occurs when individuals or groups act independently in their own self-interest to deplete or degrade a shared, open-access public resource (such as international waters)."
+    },
+    {
+      "id": "u5_q02",
+      "unit": 5,
+      "topic": "5.1 Tragedy of the Commons",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "Which resource is most susceptible to the Tragedy of the Commons?",
+      "options": [
+        "A privately owned soybean field",
+        "Atmospheric air quality across international borders",
+        "A municipal water treatment facility owned by a town",
+        "A fee-for-service toll highway operated by a corporation"
+      ],
+      "correct_idx": 1,
+      "explanation": "Shared, non-excludable resources without regulated boundaries, such as atmospheric air or open oceans, are highly vulnerable to overexploitation and pollution."
+    },
+    {
+      "id": "u5_q03",
+      "unit": 5,
+      "topic": "5.1 Tragedy of the Commons",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Which strategy effectively mitigates the Tragedy of the Commons on public rangelands?",
+      "options": [
+        "Removing all grazing limits to encourage free-market competition",
+        "Enforcing government permits and enforceable animal density caps for livestock grazing",
+        "Subsidizing the purchase of additional livestock for small farmers",
+        "Converting public lands into open, unregulated communal zones"
+      ],
+      "correct_idx": 1,
+      "explanation": "Establishing government regulation, monitoring, permits, and catch or grazing caps prevents individual users from overexploiting shared public lands."
+    },
+    {
+      "id": "u5_q04",
+      "unit": 5,
+      "topic": "5.2 Clearcutting",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.12,
+      "prompt": "What is the primary impact of clearcutting forests on local aquatic ecosystems?",
+      "options": [
+        "Decreased water temperatures due to increased stream flow",
+        "Increased soil erosion leading to elevated stream turbidity and sedimentation",
+        "Reduced nutrient runoff into surrounding waterways",
+        "Increased dissolved oxygen levels caused by increased solar exposure"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clearcutting removes root systems that anchor topsoil. Rain washes exposed sediment into streams, increasing water turbidity and disrupting aquatic life."
+    },
+    {
+      "id": "u5_q05",
+      "unit": 5,
+      "topic": "5.2 Clearcutting",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.22,
+      "prompt": "How does large-scale clearcutting contribute to global climate change?",
+      "options": [
+        "It increases the land's albedo, trapping heat in the troposphere.",
+        "It eliminates a major carbon sink and releases stored carbon dioxide when debris decomposes or burns.",
+        "It releases large volumes of methane directly from exposed forest bedrock.",
+        "It accelerates atmospheric ozone formation in the stratosphere."
+      ],
+      "correct_idx": 1,
+      "explanation": "Trees store large amounts of carbon. When clearcut, the loss of photosynthetic carbon uptake combined with decomposition or burning releases stored carbon as CO2 into the atmosphere."
+    },
+    {
+      "id": "u5_q06",
+      "unit": 5,
+      "topic": "5.2 Clearcutting",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.34,
+      "prompt": "Which forest management outcome is a consequence of clearcutting uneven-aged mature forests?",
+      "options": [
+        "Increased structural diversity and habitat complexity",
+        "Replacement of diverse forest stands with even-aged monocultures prone to disease",
+        "Enhanced soil water retention capacity across the watershed",
+        "Protection of shade-tolerant understory plant species"
+      ],
+      "correct_idx": 1,
+      "explanation": "Clearcut areas are often replanted with single fast-growing tree species of the exact same age, reducing biodiversity and making the stand vulnerable to pests and disease."
+    },
+    {
+      "id": "u5_q07",
+      "unit": 5,
+      "topic": "5.3 The Green Revolution",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.15,
+      "prompt": "Which set of agricultural innovations was central to the mid-twentieth century Green Revolution?",
+      "options": [
+        "Organic compost, crop rotation, and manual labor",
+        "High-yielding crop hybrid varieties, synthetic chemical fertilizers, pesticides, and mechanized irrigation",
+        "Polyculture planting, no-till farming, and biological pest controls",
+        "Rainwater harvesting, shade-grown cropping, and natural fallow cycles"
+      ],
+      "correct_idx": 1,
+      "explanation": "The Green Revolution dramatically increased global crop yields through selective breeding of high-yielding plant cultivars, fossil fuel-based fertilizers, synthetic pesticides, and mechanization."
+    },
+    {
+      "id": "u5_q08",
+      "unit": 5,
+      "topic": "5.3 The Green Revolution",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.25,
+      "prompt": "What is an environmental drawback associated with the practices of the Green Revolution?",
+      "options": [
+        "Decreased global grain production per hectare",
+        "Increased fossil fuel reliance and depletion of freshwater aquifers",
+        "Complete elimination of crop plant diseases worldwide",
+        "Reduction in synthetic nitrate runoff into surface waters"
+      ],
+      "correct_idx": 1,
+      "explanation": "Green Revolution techniques rely heavily on fossil fuels to run farm machinery and manufacture fertilizers, while intensive irrigation drains groundwater reserves faster than natural recharge rates."
+    },
+    {
+      "id": "u5_q09",
+      "unit": 5,
+      "topic": "5.3 The Green Revolution",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.4,
+      "prompt": "The industrial synthesis of commercial nitrogen fertilizer during the Green Revolution relies primarily on which chemical process?",
+      "options": [
+        "Transesterification",
+        "Haber-Bosch process",
+        "Anaerobic digestion",
+        "Fractional distillation"
+      ],
+      "correct_idx": 1,
+      "explanation": "The Haber-Bosch process synthesizes ammonia from atmospheric nitrogen and hydrogen gas (derived from natural gas), enabling the mass production of synthetic fertilizers."
+    },
+    {
+      "id": "u5_q10",
+      "unit": 5,
+      "topic": "5.4 Impact of Agricultural Practices",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.16,
+      "prompt": "How does repeated mechanical tilling of agricultural soil impact long-term soil health?",
+      "options": [
+        "It enhances soil organic matter content and improves soil moisture retention.",
+        "It breaks down soil structure, accelerates topsoil erosion, and depletes organic humus.",
+        "It permanently prevents soil compaction beneath the plow pan layer.",
+        "It eliminates the need for synthetic nitrogen fertilizers."
+      ],
+      "correct_idx": 1,
+      "explanation": "Tilling disrupts natural soil aggregates, exposes organic matter to rapid oxidation and microbial breakdown, leaves bare soil vulnerable to wind and water erosion, and compacts subsoil."
+    },
+    {
+      "id": "u5_q11",
+      "unit": 5,
+      "topic": "5.4 Impact of Agricultural Practices",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.24,
+      "prompt": "Why is slash-and-burn agriculture unsustainable when practiced continuously in tropical rainforests?",
+      "options": [
+        "Rainforest soils are rich in deep clay layers that store endless nutrients.",
+        "Nutrients stored in plant biomass are quickly exhausted or leached away by heavy rainfall after burning, leaving poor soil within a few years.",
+        "Ash from burned vegetation permanently acidifies soil beyond crop tolerance.",
+        "It leads to immediate sub-zero ground freezing during dry seasons."
+      ],
+      "correct_idx": 1,
+      "explanation": "Tropical soils are nutrient-poor because most nutrients are held in living plant biomass. Burning trees releases ash nutrients briefly, but rain soon washes them away, leaving degraded land."
+    },
+    {
+      "id": "u5_q12",
+      "unit": 5,
+      "topic": "5.4 Impact of Agricultural Practices",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Which ecological vulnerability is inherent to large-scale agricultural monoculture?",
+      "options": [
+        "High natural resistance to specialized insect pest outbreaks",
+        "Genetic uniformity making the entire crop susceptible to single pathogens or pests",
+        "Increased biological diversity within soil food webs",
+        "Reduced demand for chemical pesticides and herbicides"
+      ],
+      "correct_idx": 1,
+      "explanation": "Monocultures plant a single genetic crop variety over large fields. Lacking genetic diversity, an entire field can be destroyed if infected by a targeted pathogen or pest."
+    },
+    {
+      "id": "u5_q13",
+      "unit": 5,
+      "topic": "5.5 Irrigation Methods",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.14,
+      "prompt": "Which irrigation technique provides the highest water efficiency by delivering targeted moisture directly to plant roots with minimal evaporation?",
+      "options": [
+        "Flood irrigation",
+        "Furrow irrigation",
+        "Drip irrigation",
+        "Center-pivot spray irrigation"
+      ],
+      "correct_idx": 2,
+      "explanation": "Drip irrigation uses perforated hoses or emitters to drop water directly at the root zone, achieving over 90% water efficiency with minimal loss to evaporation or runoff."
+    },
+    {
+      "id": "u5_q14",
+      "unit": 5,
+      "topic": "5.5 Irrigation Methods",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.26,
+      "prompt": "What primary mechanism causes agricultural soil salinization in arid regions?",
+      "options": [
+        "Acid rain dissolving native limestone bedrock",
+        "Repeated irrigation in dry climates where water evaporates, leaving behind dissolved mineral salts in topsoil",
+        "Overapplication of organic manure containing high sodium content",
+        "Soil compaction preventing groundwater from reaching crop roots"
+      ],
+      "correct_idx": 1,
+      "explanation": "Irrigation water naturally contains small amounts of dissolved salts. In arid climates, water evaporates rapidly from topsoil, leaving salts behind to accumulate to toxic levels for crops."
+    },
+    {
+      "id": "u5_q15",
+      "unit": 5,
+      "topic": "5.5 Irrigation Methods",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.38,
+      "prompt": "How does waterlogging degrade crop health and yield?",
+      "options": [
+        "It causes soil minerals to volatilize into atmospheric gas.",
+        "Excess water raises the local water table, saturating soil pore spaces and depriving plant roots of oxygen.",
+        "It strips topsoil of all trace minerals through wind erosion.",
+        "It increases soil temperature beyond root tolerance levels."
+      ],
+      "correct_idx": 1,
+      "explanation": "Waterlogging occurs when over-irrigation fills all soil air spaces with water, raising the water table. Roots cannot access oxygen for cellular respiration and eventually rot."
+    },
+    {
+      "id": "u5_q16",
+      "unit": 5,
+      "topic": "5.6 Pest Control Methods",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "Pesticide resistance develops in target pest populations primarily through which biological mechanism?",
+      "options": [
+        "Individual pests building chemical immunity during their lifetime",
+        "Natural selection surviving individuals with pre-existing resistant genes reproduce and pass those traits to offspring",
+        "Synthetic pesticides mutating non-resistant pests into new species",
+        "Pests altering their diet to consume synthetic chemicals safely"
+      ],
+      "correct_idx": 1,
+      "explanation": "Pesticide applications kill susceptible pests. The few individuals possessing rare genetic traits that confer resistance survive and reproduce, shifting the population genetics over generations."
+    },
+    {
+      "id": "u5_q17",
+      "unit": 5,
+      "topic": "5.6 Pest Control Methods",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.22,
+      "prompt": "The term 'pesticide treadmill' describes a situation where farmers:",
+      "options": [
+        "Rotate chemical pesticides with biological controls every year",
+        "Must use higher concentrations or newer chemical pesticides as pests develop resistance to older formulations",
+        "Eliminate pest problems entirely using single chemical applications",
+        "Transition fully from industrial chemical sprays to organic compost"
+      ],
+      "correct_idx": 1,
+      "explanation": "As pests evolve resistance to pesticides, initial chemical doses become ineffective, forcing farmers to apply higher doses, apply more frequently, or purchase newer, more toxic chemical formulas."
+    },
+    {
+      "id": "u5_q18",
+      "unit": 5,
+      "topic": "5.6 Pest Control Methods",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "What major ecological risk is associated with applying broad-spectrum chemical insecticides to field crops?",
+      "options": [
+        "They selectively eliminate target pests while ignoring beneficial insect species.",
+        "They harm non-target beneficial species, such as native pollinators and natural insect predators.",
+        "They permanently increase soil organic matter and moisture retention.",
+        "They accelerate nitrogen fixation rates in leguminous crop roots."
+      ],
+      "correct_idx": 1,
+      "explanation": "Broad-spectrum insecticides kill a wide variety of insects indiscriminately, including beneficial species such as honeybees, predatory ladybugs, and parasitic wasps."
+    },
+    {
+      "id": "u5_q19",
+      "unit": 5,
+      "topic": "5.7 Meat Production Methods",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "Which environmental hazard is associated with Concentrated Animal Feeding Operations (CAFOs)?",
+      "options": [
+        "Excessive wild plant seed dispersal across open rangelands",
+        "Nutrient pollution and bacterial contamination of surface waters from manure lagoon spills",
+        "Rapid topsoil erosion caused by animal roaming over large pasture areas",
+        "Depletion of atmospheric carbon dioxide near feeding pens"
+      ],
+      "correct_idx": 1,
+      "explanation": "CAFOs produce massive amounts of animal waste stored in open waste lagoons. Leaks or flood events wash high levels of nitrates, phosphates, and pathogens (e.g., E. coli) into nearby surface waters."
+    },
+    {
+      "id": "u5_q20",
+      "unit": 5,
+      "topic": "5.7 Meat Production Methods",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.27,
+      "prompt": "Compared to producing plant crops for direct human consumption, grain-fed beef production requires:",
+      "options": [
+        "Significantly less land and water per calorie of human food produced",
+        "Significantly more land, water, and fossil fuel energy per calorie of human food produced",
+        "Equal amounts of energetic input and water usage",
+        "Zero input of feed crops or freshwater resources"
+      ],
+      "correct_idx": 1,
+      "explanation": "Due to the 10 percent rule of energy transfer across trophic levels, raising livestock requires vast feed inputs (corn, soy), water, and land compared to consuming crops directly."
+    },
+    {
+      "id": "u5_q21",
+      "unit": 5,
+      "topic": "5.7 Meat Production Methods",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Continuous overgrazing of free-range livestock on arid pasturelands contributes directly to:",
+      "options": [
+        "Increased soil water infiltration and aquifer recharge",
+        "Soil compaction, loss of vegetation cover, and desertification",
+        "Rapid accumulation of thick, organic topsoil horizons",
+        "Decreased stream sediment loads and erosion"
+      ],
+      "correct_idx": 1,
+      "explanation": "Overgrazing strips vegetative cover and hooves compact topsoil. Without root structures or ground cover, soil loses water-holding capacity, accelerating erosion and turning semi-arid land into desert."
+    },
+    {
+      "id": "u5_q22",
+      "unit": 5,
+      "topic": "5.8 Impacts of Overfishing",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.1,
+      "prompt": "In commercial marine fisheries, what does the term 'bycatch' refer to?",
+      "options": [
+        "Targeted fish species caught strictly within annual catch limit quotas",
+        "Unintentional capture of non-target marine species, such as sea turtles, sharks, and juvenile fish",
+        "Farmed fish that escape from open-ocean aquaculture net cages",
+        "Total weight of processed fish meal sold for agricultural feed"
+      ],
+      "correct_idx": 1,
+      "explanation": "Bycatch consists of untargeted animals accidentally trapped or hooked by commercial gear (e.g., drift nets, longlines, trawls), often discarded dead or dying back into the ocean."
+    },
+    {
+      "id": "u5_q23",
+      "unit": 5,
+      "topic": "5.8 Impacts of Overfishing",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.2,
+      "prompt": "How does commercial overfishing alter open-ocean ecological food webs?",
+      "options": [
+        "It expands populations of top apex predators by reducing competition.",
+        "It causes 'fishing down the food web,' shifting harvest focus to smaller lower-trophic-level species as top predators are depleted.",
+        "It increases overall biodiversity across all marine trophic tiers.",
+        "It eliminates toxic algal blooms by expanding herbivorous fish populations."
+      ],
+      "correct_idx": 1,
+      "explanation": "When large predatory fish (e.g., tuna, cod, swordfish) are overfished, commercial fleets target smaller, lower-trophic-level planktivores and invertebrates, disrupting marine food webs."
+    },
+    {
+      "id": "u5_q24",
+      "unit": 5,
+      "topic": "5.8 Impacts of Overfishing",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Which commercial fishing technique causes the highest degree of physical benthic habitat destruction?",
+      "options": [
+        "Pole-and-line fishing",
+        "Bottom trawling",
+        "Surface drift gillnets",
+        "Potted crab traps"
+      ],
+      "correct_idx": 1,
+      "explanation": "Bottom trawling drags heavy weighted nets along the seafloor, crushing fragile coral reefs, sponges, and benthic habitats in its path."
+    },
+    {
+      "id": "u5_q25",
+      "unit": 5,
+      "topic": "5.9 Impacts of Mining",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "What distinction differentiates surface mining methods (e.g., strip mining) from underground subsurface mining?",
+      "options": [
+        "Surface mining creates zero mine tailings or overburden waste.",
+        "Surface mining causes extensive surface land disruption and habitat loss but is generally safer for miners than subsurface mining.",
+        "Underground mining requires the removal of all surface vegetation and topsoil.",
+        "Underground mining produces larger quantities of surface overburden debris than open-pit mining."
+      ],
+      "correct_idx": 1,
+      "explanation": "Surface mining strips away all overlying soil and rock (overburden) to reach mineral deposits near the surface, causing massive habitat destruction, but carries lower miner collapse risks than underground mining."
+    },
+    {
+      "id": "u5_q26",
+      "unit": 5,
+      "topic": "5.9 Impacts of Mining",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Acid Mine Drainage (AMD) forms when rainwater reacts with exposed underground or tailing rocks containing high concentrations of:",
+      "options": [
+        "Limestone (calcium carbonate)",
+        "Iron sulfide minerals (pyrite)",
+        "Silicate quartz crystals",
+        "Halite (sodium chloride)"
+      ],
+      "correct_idx": 1,
+      "explanation": "Mining exposes iron sulfide minerals (such as pyrite) to oxygen and water, creating sulfuric acid. This acidic runoff leaches heavy metals (e.g., copper, lead, arsenic) into local streams."
+    },
+    {
+      "id": "u5_q27",
+      "unit": 5,
+      "topic": "5.9 Impacts of Mining",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.35,
+      "prompt": "What major environmental risk is posed by mining tailing ponds?",
+      "options": [
+        "High rates of atmospheric methane uptake",
+        "Breaches or seepage releasing toxic heavy metals and processing chemicals into watershed streams",
+        "Accelerated forest canopy growth along impoundment edges",
+        "Rapid depletion of global atmospheric nitrogen"
+      ],
+      "correct_idx": 1,
+      "explanation": "Tailings are crushed rock waste remaining after target minerals are extracted. Stored in large earthen impoundments (tailing ponds), structural failures or leaks release dangerous chemicals (e.g., cyanide, arsenic) into surrounding ecosystems."
+    },
+    {
+      "id": "u5_q28",
+      "unit": 5,
+      "topic": "5.9 Impacts of Mining",
+      "difficulty_b": 0.7,
+      "discrimination_a": 1.44,
+      "prompt": "Under the Surface Mining Control and Reclamation Act (SMCRA), mining companies are required to restore degraded land by:",
+      "options": [
+        "Leaving open mine pits untouched to create artificial lakes for wildlife",
+        "Recontouring the land to original topography, replacing topsoil, and re-establishing native plant cover",
+        "Converting mined lands exclusively into industrial manufacturing parks",
+        "Flooding underground mine shafts with untreated chemical solutions"
+      ],
+      "correct_idx": 1,
+      "explanation": "Land reclamation requires companies to backfill open pits, recontour the land surface, cover it with original topsoil, and plant native vegetation to restore ecological stability."
+    },
+    {
+      "id": "u5_q29",
+      "unit": 5,
+      "topic": "5.10 Impacts of Urbanization",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.12,
+      "prompt": "What primary surface characteristic causes the Urban Heat Island effect in densely populated cities?",
+      "options": [
+        "Abundant tree canopy foliage absorbing infrared light",
+        "High concentration of dark, low-albedo impervious surfaces like asphalt and concrete that absorb and re-radiate heat",
+        "Increased rates of plant evapotranspiration cooling urban air",
+        "High reflection of solar energy back into space by green roofs"
+      ],
+      "correct_idx": 1,
+      "explanation": "Asphalt, concrete, and dark roofs have low albedo. They absorb solar radiation during the day and slowly re-radiate thermal energy at night, making cities significantly warmer than surrounding rural areas."
+    },
+    {
+      "id": "u5_q30",
+      "unit": 5,
+      "topic": "5.10 Impacts of Urbanization",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.18,
+      "prompt": "How does replacing natural ground cover with urban impervious surfaces alter local watershed hydrology?",
+      "options": [
+        "It increases groundwater recharge and lowers peak stream flooding.",
+        "It decreases stormwater runoff volume and prevents soil erosion.",
+        "It decreases groundwater infiltration, increases stormwater runoff volume, and accelerates flash flooding.",
+        "It increases soil water storage capacity across the watershed."
+      ],
+      "correct_idx": 2,
+      "explanation": "Impervious surfaces (roads, roofs, parking lots) block rainwater from soaking into the soil. Water channels quickly into storm drains, reducing aquifer recharge and causing rapid, severe flash floods."
+    },
+    {
+      "id": "u5_q31",
+      "unit": 5,
+      "topic": "5.10 Impacts of Urbanization",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "Which environmental impact is directly associated with urban sprawl?",
+      "options": [
+        "Decreased per-capita gasoline consumption due to expanded walkability",
+        "Increased dependence on personal motor vehicles, leading to higher greenhouse gas emissions and land fragmentation",
+        "Concentration of human populations in high-density transit-oriented urban cores",
+        "Expanded preservation of contiguous wildlife migration corridors"
+      ],
+      "correct_idx": 1,
+      "explanation": "Urban sprawl expands low-density housing across suburban fringes. Residents must commute further via personal automobiles, increasing fuel consumption, carbon emissions, and fragmenting rural habitats."
+    },
+    {
+      "id": "u5_q32",
+      "unit": 5,
+      "topic": "5.10 Impacts of Urbanization",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.45,
+      "prompt": "How does heavy groundwater extraction in expanding coastal cities lead to saltwater intrusion?",
+      "options": [
+        "Pumping freshwater lowers the inland water table pressure, allowing denser ocean saltwater to migrate inland into freshwater aquifers.",
+        "Pumping pushes freshwater out to sea, raising ocean levels around coastal wells.",
+        "Salt dissolves out of coastal concrete foundations into deep groundwater.",
+        "Stormwater drains redirect ocean water straight into municipal drinking wells."
+      ],
+      "correct_idx": 0,
+      "explanation": "In coastal areas, fresh groundwater rests above denser saltwater. Over-pumping lowers the freshwater table and reduces hydraulic pressure, drawing underlying seawater into coastal wells."
+    },
+    {
+      "id": "u5_q33",
+      "unit": 5,
+      "topic": "5.11 Ecological Footprints",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.1,
+      "prompt": "An individual's ecological footprint is a measurement of:",
+      "options": [
+        "The total financial cost of a person's annual consumption habits",
+        "The amount of biologically productive land and water area required to supply the resources consumed and absorb the wastes generated by that individual",
+        "The physical area occupied by a person's house and vehicle garage",
+        "The total weight of solid plastic trash generated by a household each month"
+      ],
+      "correct_idx": 1,
+      "explanation": "An ecological footprint calculates the total hectares of land and water needed to continuously supply food, timber, energy, and infrastructure for an individual or population and absorb their carbon waste."
+    },
+    {
+      "id": "u5_q34",
+      "unit": 5,
+      "topic": "5.11 Ecological Footprints",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.24,
+      "prompt": "Why do developed nations (e.g., the United States) typically have a much larger per-capita ecological footprint than developing nations?",
+      "options": [
+        "Developed nations have higher human population growth rates.",
+        "Developed nations consume higher amounts of fossil fuels, meat, manufactured goods, and electricity per person.",
+        "Developing nations generate higher volumes of industrial carbon emissions per person.",
+        "Developing nations possess zero natural biologically productive land area."
+      ],
+      "correct_idx": 1,
+      "explanation": "Per capita ecological footprint correlates strongly with affluence and industrialization. Higher meat consumption, private vehicle use, and energy demands drive up resource use and carbon footprints in developed countries."
+    },
+    {
+      "id": "u5_q35",
+      "unit": 5,
+      "topic": "5.11 Ecological Footprints",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.35,
+      "prompt": "Which personal lifestyle modification would produce the greatest reduction in an individual's ecological footprint in a developed nation?",
+      "options": [
+        "Switching from plastic straws to paper straws",
+        "Transitioning to a plant-based diet and utilizing public transit or renewable electricity",
+        "Mowing the lawn with an electric lawnmower instead of a gas mower",
+        "Recycling aluminum beverage cans weekly"
+      ],
+      "correct_idx": 1,
+      "explanation": "Dietary shifts away from resource-intensive meat products combined with major reductions in personal fossil fuel transport and home energy use yield the largest quantifiable reductions in land and carbon footprints."
+    },
+    {
+      "id": "u5_q36",
+      "unit": 5,
+      "topic": "5.12 Introduction to Sustainability",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.15,
+      "prompt": "What does harvesting a renewable resource at its Maximum Sustainable Yield (MSY) achieve?",
+      "options": [
+        "Depleting the resource to zero within a fixed ten-year period",
+        "Harvesting the maximum amount of resource possible without reducing the population's ability to naturally regenerate long-term",
+        "Allowing the resource population to grow completely uninhibited to carrying capacity",
+        "Sterilizing the breeding population to stabilize current stock size"
+      ],
+      "correct_idx": 1,
+      "explanation": "Maximum Sustainable Yield is the maximum rate at which a renewable resource (like timber or fish) can be harvested without impairing its natural population growth and replenishment rate over time."
+    },
+    {
+      "id": "u5_q37",
+      "unit": 5,
+      "topic": "5.12 Introduction to Sustainability",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.26,
+      "prompt": "Which environmental metric is recognized as a key global indicator of environmental sustainability?",
+      "options": [
+        "Total volume of synthetic plastic manufactured annually",
+        "Global biodiversity loss rate and atmospheric carbon dioxide concentration",
+        "Average speed of commercial passenger vehicles",
+        "Total real estate square footage constructed per city"
+      ],
+      "correct_idx": 1,
+      "explanation": "Global environmental indicators used to assess Earth systems sustainability include biodiversity status, atmospheric greenhouse gas levels, global surface temperatures, food production capacity, and resource depletion rates."
+    },
+    {
+      "id": "u5_q38",
+      "unit": 5,
+      "topic": "5.12 Introduction to Sustainability",
+      "difficulty_b": 0.58,
+      "discrimination_a": 1.38,
+      "prompt": "Incorporating permeable pavers, rain gardens, and bioswales into urban design enhances sustainability primarily by:",
+      "options": [
+        "Increasing urban surface runoff velocity into storm sewers",
+        "Restoring natural hydrological infiltration, filtering pollutants, and recharging aquifers",
+        "Eliminating the need for municipal wastewater treatment facilities",
+        "Increasing atmospheric urban temperatures during summer months"
+      ],
+      "correct_idx": 1,
+      "explanation": "Green infrastructure such as permeable pavers and bioswales allows stormwater to soak into the ground naturally, reducing urban flooding, filtering contaminants, and replenishing groundwater."
+    },
+    {
+      "id": "u5_q39",
+      "unit": 5,
+      "topic": "5.13 Sustainable Agriculture",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.12,
+      "prompt": "Which sustainable agricultural practice involves plowing and planting crops along the natural elevation lines of a sloped hill?",
+      "options": [
+        "Terracing",
+        "Contour plowing",
+        "Windbreak planting",
+        "Strip clearcutting"
+      ],
+      "correct_idx": 1,
+      "explanation": "Contour plowing follows the natural curves and contours of sloped land. The horizontal furrows slow surface water runoff, preventing topsoil erosion and gully formation."
+    },
+    {
+      "id": "u5_q40",
+      "unit": 5,
+      "topic": "5.13 Sustainable Agriculture",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.25,
+      "prompt": "How does rotating nitrogen-fixing leguminous crops (e.g., soybeans, clover) with nutrient-demanding crops (e.g., corn) benefit agricultural sustainability?",
+      "options": [
+        "It eliminates insect pests by flooding fields with water.",
+        "It naturally replenishes soil nitrogen levels without requiring heavy applications of synthetic fertilizer.",
+        "It permanently prevents weeds from germinating in the topsoil.",
+        "It reduces the need for sunlight during crop growing cycles."
+      ],
+      "correct_idx": 1,
+      "explanation": "Legumes harbor symbiotic Rhizobium bacteria in their root nodules that fix atmospheric nitrogen gas into plant-available ammonium, naturally enriching soil fertility for subsequent crops."
+    },
+    {
+      "id": "u5_q41",
+      "unit": 5,
+      "topic": "5.13 Sustainable Agriculture",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.4,
+      "prompt": "What primary ecological benefit is achieved through rotational grazing of livestock?",
+      "options": [
+        "Livestock are confined to single pastures to eliminate weed growth permanently.",
+        "Moving herds between paddocks allows grazed vegetation time to recover root systems, preventing soil erosion and overgrazing.",
+        "It completely eliminates livestock methane emissions into the atmosphere.",
+        "It removes the need to supply livestock with freshwater drinking sources."
+      ],
+      "correct_idx": 1,
+      "explanation": "Rotational grazing shifts herds regularly between smaller pasture paddocks. This gives grazed pasture plants adequate time to regrow foliage and root biomass, protecting topsoil from degradation."
+    },
+    {
+      "id": "u5_q42",
+      "unit": 5,
+      "topic": "5.14 Integrated Pest Management (IPM)",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.16,
+      "prompt": "What is the primary overarching goal of Integrated Pest Management (IPM)?",
+      "options": [
+        "To eradicate 100 percent of insect species in agricultural fields using heavy chemical sprays",
+        "To minimize crop damage economically using a combination of biological, physical, cultural, and targeted chemical controls while reducing ecological harm",
+        "To rely exclusively on broad-spectrum synthetic chemical pesticides sprayed on fixed calendar schedules",
+        "To ban all human intervention in field pest dynamics"
+      ],
+      "correct_idx": 1,
+      "explanation": "IPM aims not to completely eradicate pests, but to manage pest populations below economically damaging levels using ecologically sound, multi-tiered strategies, minimizing chemical inputs."
+    },
+    {
+      "id": "u5_q43",
+      "unit": 5,
+      "topic": "5.14 Integrated Pest Management (IPM)",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.22,
+      "prompt": "Which practice serves as an example of a biological control method within an IPM program?",
+      "options": [
+        "Spraying synthetic organophosphate insecticides on young crop leaves",
+        "Releasing natural biological predators, such as ladybugs or parasitic wasps, to control aphid infestations",
+        "Tilling fields mechanically to bury weed seeds before planting",
+        "Installing physical netting barriers over fruit crops"
+      ],
+      "correct_idx": 1,
+      "explanation": "Biological control leverages natural beneficial organisms (predators, parasites, or pathogens) to naturally regulate and suppress pest populations below damaging levels."
+    },
+    {
+      "id": "u5_q44",
+      "unit": 5,
+      "topic": "5.14 Integrated Pest Management (IPM)",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "In IPM, when are synthetic chemical pesticides applied to crops?",
+      "options": [
+        "On a strict, routine weekly schedule throughout the entire growing season regardless of pest counts",
+        "Only as a targeted last resort when pest monitoring shows populations have crossed the economic injury threshold",
+        "Immediately after planting seeds before any insect eggs have hatched",
+        "Never under any circumstances, as IPM strictly forbids all chemicals"
+      ],
+      "correct_idx": 1,
+      "explanation": "IPM uses chemical pesticides as a targeted last resort. Farmers continuously monitor field pest populations and apply chemicals only when pest density reaches a threshold where financial crop loss exceeds treatment cost."
+    },
+    {
+      "id": "u5_q45",
+      "unit": 5,
+      "topic": "5.15 Sustainable Aquaculture",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.14,
+      "prompt": "What environmental drawback is frequently caused by conventional open-net pen marine aquaculture?",
+      "options": [
+        "Depletion of oxygen in upper atmospheric layers",
+        "High concentration of fish waste and excess feed causing localized eutrophication and parasite transmission to wild fish stocks",
+        "Increased topsoil loss along inland riverbanks",
+        "Zero demand for wild-caught forage fish meal"
+      ],
+      "correct_idx": 1,
+      "explanation": "Dense fish populations held in open water net pens release large volumes of concentrated organic waste and parasites (like sea lice) into surrounding marine ecosystems, harming wild populations."
+    },
+    {
+      "id": "u5_q46",
+      "unit": 5,
+      "topic": "5.15 Sustainable Aquaculture",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.28,
+      "prompt": "Integrated Multi-Trophic Aquaculture (IMTA) increases sustainability by combining fish farming with:",
+      "options": [
+        "Chemical pesticide application directly into ocean currents",
+        "Complementary organisms like shellfish and seaweed that filter organic waste and absorb excess inorganic nutrients",
+        "Land-based feedlots that dump raw waste into coastal rivers",
+        "Synthetic net enclosures that eliminate all biological organisms except single fish species"
+      ],
+      "correct_idx": 1,
+      "explanation": "IMTA mimics natural ecosystems: waste from fed species (like salmon) acts as nutrients for extractive species (like mussels filtering organic waste, and kelp absorbing inorganic nitrates/phosphates)."
+    },
+    {
+      "id": "u5_q47",
+      "unit": 5,
+      "topic": "5.15 Sustainable Aquaculture",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.42,
+      "prompt": "Why does farming carnivorous fish species (such as salmon or tuna) present a sustainability challenge?",
+      "options": [
+        "Carnivorous fish produce zero metabolic nitrogenous waste.",
+        "They require large inputs of wild-caught forage fish (anchovies, sardines) processed into fishmeal, placing pressure on wild marine food webs.",
+        "They feed exclusively on floating aquatic plant macroalgae.",
+        "They grow to adult size without consuming dietary protein energy."
+      ],
+      "correct_idx": 1,
+      "explanation": "Rearing carnivorous farmed species requires feeding them processed wild fish meal. This 'fish-in to fish-out' imbalance can exacerbate overfishing of wild forage fish populations."
+    },
+    {
+      "id": "u5_q48",
+      "unit": 5,
+      "topic": "5.16 Sustainable Forestry",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.15,
+      "prompt": "What is the primary ecological purpose of conducting prescribed burns in forest management?",
+      "options": [
+        "To clear all mature living canopy trees for commercial timber sale",
+        "To clear accumulated underbrush and dead woody debris, reducing the risk of catastrophic high-intensity crown fires",
+        "To eliminate soil fungal networks necessary for tree root health",
+        "To sterilize forest soils and prevent all plant germination for several years"
+      ],
+      "correct_idx": 1,
+      "explanation": "Controlled, low-intensity prescribed burns clear built-up dry underbrush and dead fuel from the forest floor. This prevents future natural blazes from escalating into destructive crown fires."
+    },
+    {
+      "id": "u5_q49",
+      "unit": 5,
+      "topic": "5.16 Sustainable Forestry",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.25,
+      "prompt": "Compared to clearcutting, selective cutting timber harvesting methods:",
+      "options": [
+        "Remove every tree species across large contiguous square miles of land",
+        "Harvest individual mature trees or small groups, preserving forest canopy, soil structure, and wildlife habitat",
+        "Require complete destruction of understory vegetation",
+        "Cause higher rates of topsoil runoff and aquatic stream siltation"
+      ],
+      "correct_idx": 1,
+      "explanation": "Selective cutting removes only specific mature trees while leaving the majority of the forest canopy, root systems, and habitat structure intact, minimizing soil erosion and ecological disruption."
+    },
+    {
+      "id": "u5_q50",
+      "unit": 5,
+      "topic": "5.16 Sustainable Forestry",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.48,
+      "prompt": "Which practice supports long-term ecological sustainability in commercial timber management?",
+      "options": [
+        "Suppressing all natural low-intensity fires for over a century to accumulate fuel biomass",
+        "Maintaining buffer zones of uncut forest along stream corridors and leaving dead standing trees (snags) for wildlife habitat",
+        "Converting old-growth forests into fast-growing single-species timber plantations",
+        "Paving extensive networks of unlined logging roads through steep mountainous terrain"
+      ],
+      "correct_idx": 1,
+      "explanation": "Sustainable forestry maintains riparian buffer zones to filter stream runoff, leaves dead standing snags for cavity-nesting wildlife, and preserves natural biological diversity alongside selective harvesting."
+    }
+  ]

@@ -1,0 +1,802 @@
+[
+    {
+      "id": "u2_q01",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": -0.35,
+      "discrimination_a": 1.15,
+      "prompt": "Biodiversity is measured across three distinct levels of biological organization: genetic diversity, species diversity, and habitat diversity. Which statement correctly describes genetic diversity?",
+      "options": [
+        "The variety of ecosystems present within a given geographic biome",
+        "The range of different gene alleles present within the population of a single species",
+        "The total number of individual organisms inhabiting a specific community",
+        "The relative abundance of different trophic levels in a food web"
+      ],
+      "correct_idx": 1,
+      "explanation": "Genetic diversity refers to the total variety of genetic material and gene alleles present within individuals of a population or species. Higher genetic variability increases the likelihood that some individuals will possess traits to survive environmental changes."
+    },
+    {
+      "id": "u2_q02",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.2,
+      "discrimination_a": 1.25,
+      "prompt": "Two forest communities both contain 100 individual trees across 4 distinct species. Forest A contains 25 individuals of each species. Forest B contains 91 individuals of one species and 3 individuals of each of the remaining 3 species. How do these forests compare in species richness and species evenness?",
+      "options": [
+        "Forest A has higher species richness and higher species evenness than Forest B.",
+        "Forest A and Forest B have equal species richness, but Forest A has higher species evenness.",
+        "Forest B has higher species richness, but Forest A has higher species evenness.",
+        "Forest A and Forest B have equal species evenness, but Forest B has higher species richness."
+      ],
+      "correct_idx": 1,
+      "explanation": "Species richness is the total number of species present (both forests have 4 species, so richness is equal). Species evenness measures how balanced the relative abundances are; Forest A is perfectly balanced (25 each), so it has higher species evenness."
+    },
+    {
+      "id": "u2_q03",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": -0.1,
+      "discrimination_a": 1.18,
+      "prompt": "Why are species with high genetic diversity better equipped to withstand novel disease outbreaks or environmental stressors than species with low genetic diversity?",
+      "options": [
+        "High genetic diversity allows organisms to clone beneficial mutations within a single generation.",
+        "A broad gene pool increases the probability that some individuals possess pre-existing resistance alleles.",
+        "High genetic diversity accelerates the rate of abiotic nutrient cycling.",
+        "Low genetic diversity increases the rate of beneficial evolutionary selection."
+      ],
+      "correct_idx": 1,
+      "explanation": "High genetic diversity ensures a wider variety of genetic traits (alleles). When a novel pathogen or environmental stressor strikes, there is a higher probability that certain individuals possess existing genetic variations that confer immunity or tolerance."
+    },
+    {
+      "id": "u2_q04",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "The cheetah (Acinonyx jubatus) population experienced a severe historical bottleneck event thousands of years ago, reducing its numbers drastically before recovering. What is a direct long-term genetic consequence of this population bottleneck?",
+      "options": [
+        "Increased rate of speciation into localized sub-species",
+        "Extreme reduction in genetic diversity, leading to high susceptibility to disease and reproductive abnormalities",
+        "Enhanced ecological tolerance across all abiotic temperature regimes",
+        "Immediate transition from a specialist feeder to a generalist feeder"
+      ],
+      "correct_idx": 1,
+      "explanation": "A population bottleneck occurs when a sharp drop in population size eliminates many alleles from the gene pool. The surviving population exhibits low genetic diversity, making individuals susceptible to disease, low fertility, and inbreeding depression."
+    },
+    {
+      "id": "u2_q05",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.22,
+      "prompt": "Under conditions of rapid environmental disturbance and habitat fragmentation, which ecological group of organisms is generally more resilient to extinction?",
+      "options": [
+        "Specialist species with narrow niche requirements and specific diets",
+        "Generalist species with broad ecological niches and varied dietary flexibility",
+        "Endemic species restricted to single island habitats",
+        "Apex carnivores with large territorial home ranges"
+      ],
+      "correct_idx": 1,
+      "explanation": "Generalist species (e.g., raccoons, coyotes) adapt easily to changing conditions because they utilize a wide variety of food sources and habitat types. Specialist species (e.g., koalas, giant pandas) depend on specific resources and are far more vulnerable to habitat disruption."
+    },
+    {
+      "id": "u2_q06",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.4,
+      "prompt": "An ecological researcher calculates the Shannon-Wiener Diversity Index for two marine tidal pools. Pool X yields an index of H = 2.45, while Pool Y yields an index of H = 1.12. What does this quantitative comparison indicate?",
+      "options": [
+        "Pool Y has greater total biomass than Pool X.",
+        "Pool X possesses higher overall biological diversity, accounting for both species richness and evenness.",
+        "Pool Y has experienced more recent secondary ecological succession than Pool X.",
+        "Pool X is composed entirely of invasive specialist species."
+      ],
+      "correct_idx": 1,
+      "explanation": "The Shannon-Wiener Diversity Index (H) combines species richness and species evenness into a single numeric value. Higher H values reflect higher overall community biodiversity."
+    },
+    {
+      "id": "u2_q07",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.28,
+      "prompt": "How does high habitat diversity across a region influence overall regional species diversity?",
+      "options": [
+        "It decreases overall species diversity by forcing all organisms into direct competition.",
+        "It increases overall species diversity by creating a wider variety of ecological niches and microclimates.",
+        "It eliminates the need for primary producers in food webs.",
+        "It restricts genetic mutation rates in local populations."
+      ],
+      "correct_idx": 1,
+      "explanation": "A landscape containing diverse habitat types (e.g., forests, wetlands, meadows, stream corridors) offers a broader array of ecological niches, structural microclimates, and resources, supporting a larger total number of different species."
+    },
+    {
+      "id": "u2_q08",
+      "unit": 2,
+      "topic": "2.1 Introduction to Biodiversity",
+      "difficulty_b": 0.5,
+      "discrimination_a": 1.35,
+      "prompt": "Modern industrial agriculture often relies on planting vast monocultures of genetically uniform crop strains. What environmental risk is associated with this agricultural practice?",
+      "options": [
+        "Increased resilience against global climate oscillations",
+        "High vulnerability of the entire crop yield to widespread destruction by a single adapted pathogen or pest",
+        "Spontaneous doubling of soil micro-nutrient concentrations",
+        "Complete suppression of secondary succession in adjacent natural biomes"
+      ],
+      "correct_idx": 1,
+      "explanation": "Genetically uniform crop monocultures lack genetic diversity. If a targeted disease, fungus, or pest evolves to overcome the crops' defense mechanisms, the entire crop yield can be wiped out simultaneously."
+    },
+    {
+      "id": "u2_q09",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.12,
+      "prompt": "Ecosystem services are benefits humans receive free of charge from natural ecosystem functions. Into which four recognized categories are ecosystem services categorized?",
+      "options": [
+        "Primary, secondary, tertiary, and quaternary services",
+        "Provisioning, regulating, cultural, and supporting services",
+        "Abiotic, biotic, climatic, and geological services",
+        "Commercial, industrial, domestic, and agricultural services"
+      ],
+      "correct_idx": 1,
+      "explanation": "The Millennium Ecosystem Assessment classifies ecosystem services into four major categories: Provisioning (goods obtained), Regulating (environmental control), Cultural (non-material benefits), and Supporting (underlying natural processes)."
+    },
+    {
+      "id": "u2_q10",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": -0.15,
+      "discrimination_a": 1.18,
+      "prompt": "Which of the following is classified as a provisioning ecosystem service?",
+      "options": [
+        "Attenuating storm surges using coastal wetlands",
+        "Harvesting wild medicinal plants and lumber from natural forests",
+        "Experiencing spiritual renewal during mountain hiking",
+        "Generating organic soil horizons through bacterial decomposition"
+      ],
+      "correct_idx": 1,
+      "explanation": "Provisioning services consist of tangible physical products harvested or extracted directly from ecosystems for human use, such as food, freshwater, fuel, timber, and medicinal chemical compounds."
+    },
+    {
+      "id": "u2_q11",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.26,
+      "prompt": "Forests absorb large volumes of atmospheric carbon dioxide (CO₂) during photosynthesis and store it as woody biomass. Which category of ecosystem service does this process exemplify?",
+      "options": [
+        "Provisioning service",
+        "Regulating service",
+        "Cultural service",
+        "Commercial service"
+      ],
+      "correct_idx": 1,
+      "explanation": "Regulating services are benefits obtained from the natural moderation and control of ecosystem processes, such as climate regulation through carbon sequestration, flood prevention, and water filtration."
+    },
+    {
+      "id": "u2_q12",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "A coastal town generates significant economic revenue by guiding eco-tours for whale watching and scuba diving along local coral reefs. This economic activity relies on which ecosystem service category?",
+      "options": [
+        "Provisioning service",
+        "Cultural service",
+        "Supporting service",
+        "Regulating service"
+      ],
+      "correct_idx": 1,
+      "explanation": "Cultural services represent non-material benefits people derive from ecosystems through aesthetic appreciation, recreation, ecotourism, artistic inspiration, and spiritual enrichment."
+    },
+    {
+      "id": "u2_q13",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.4,
+      "discrimination_a": 1.3,
+      "prompt": "Why are soil formation, nutrient cycling (e.g., nitrogen and phosphorus cycles), and primary production categorized as supporting ecosystem services?",
+      "options": [
+        "They generate direct cash revenue through retail commodity markets.",
+        "They provide foundational natural processes necessary for the functioning of all other ecosystem services.",
+        "They occur exclusively in urban green infrastructure projects.",
+        "They operate independently of photosynthetic autotrophs."
+      ],
+      "correct_idx": 1,
+      "explanation": "Supporting services are fundamental biological and physical processes (such as nutrient cycling, soil generation, and primary production) that sustain the ecosystems, allowing provisioning, regulating, and cultural services to exist."
+    },
+    {
+      "id": "u2_q14",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.38,
+      "prompt": "Deforestation on steep mountain slopes often leads to severe downstream flooding, mudslides, and siltation of municipal drinking reservoirs. This economic disruption demonstrates:",
+      "options": [
+        "An increase in natural supporting services provided by bare rocks",
+        "The loss of regulating ecosystem services previously provided by root systems and forest canopy cover",
+        "The direct expansion of provisioning clean water services",
+        "The transition from primary succession to secondary succession"
+      ],
+      "correct_idx": 1,
+      "explanation": "Tree roots stabilize topsoil, while canopy vegetation intercepts rainfall and regulates hydrologic flow. Removing forest cover destroys these regulating services, causing erosion, severe flooding, and expensive infrastructure damage downstream."
+    },
+    {
+      "id": "u2_q15",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Mangrove forests along tropical coastlines trap sediment, absorb wave energy, and shelter juvenile marine fish. Destroying mangroves to build commercial shrimp farms often results in:",
+      "options": [
+        "Enhanced long-term storm protection for coastal inland towns",
+        "The loss of vital regulating and supporting services, leading to shoreline erosion and collapsed offshore fisheries",
+        "Immediate doubling of regional species evenness",
+        "Elimination of all natural pest species"
+      ],
+      "correct_idx": 1,
+      "explanation": "Converting mangroves into aquaculture operations trades long-term natural regulating (storm surge attenuation) and supporting (nursery grounds for marine life) services for short-term economic gains, causing severe long-term coastal degradation."
+    },
+    {
+      "id": "u2_q16",
+      "unit": 2,
+      "topic": "2.2 Ecosystem Services",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.45,
+      "prompt": "Widespread declines in native insect pollinator populations (such as bees and butterflies) due to pesticide use directly threaten global food security. This environmental crisis highlights anthropogenic disruption of which ecosystem service?",
+      "options": [
+        "Cultural landscape aesthetics",
+        "Regulating and supporting service of crop pollination essential for food crop production",
+        "Provisioning service of heavy mineral extraction",
+        "Abiotic nitrogen fixation by lightning"
+      ],
+      "correct_idx": 1,
+      "explanation": "Pollination is a crucial ecosystem service (regulating/supporting). Over one-third of global human crop production relies on animal pollinators. Pollinator population crashes directly reduce crop yields and agricultural stability."
+    },
+    {
+      "id": "u2_q17",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.16,
+      "prompt": "The Theory of Island Biogeography developed by MacArthur and Wilson proposes that species richness on an island is determined by a dynamic equilibrium between which two processes?",
+      "options": [
+        "Photosynthesis and cellular respiration",
+        "Immigration (colonization) rate and extinction rate",
+        "Primary succession and secondary succession",
+        "Nitrification and denitrification"
+      ],
+      "correct_idx": 1,
+      "explanation": "Island Biogeography theory models island species richness as a balance between the rate at which new species immigrate to and colonize the island and the rate at which established species become extinct."
+    },
+    {
+      "id": "u2_q18",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.22,
+      "discrimination_a": 1.24,
+      "prompt": "According to the Theory of Island Biogeography, how does island size affect the rates of colonization and extinction?",
+      "options": [
+        "Smaller islands have higher immigration rates and lower extinction rates.",
+        "Larger islands present a bigger target for immigrating species and support larger populations, lowering extinction rates.",
+        "Island size has no measurable effect on extinction or immigration rates.",
+        "Larger islands experience higher extinction rates due to increased space."
+      ],
+      "correct_idx": 1,
+      "explanation": "Larger islands have higher immigration rates because they represent a larger physical target for dispersing organisms. They also support larger population sizes and diverse habitats, which significantly lowers extinction rates."
+    },
+    {
+      "id": "u2_q19",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.3,
+      "discrimination_a": 1.27,
+      "prompt": "How does an island's distance from the mainland continent influence its rate of species immigration?",
+      "options": [
+        "Islands farther from the mainland experience higher immigration rates.",
+        "Islands closer to the mainland experience higher immigration rates because dispersing organisms can cross shorter physical distances.",
+        "Distance from mainland affects extinction rates only, having zero impact on immigration.",
+        "Mainland distance increases genetic mutation rates in island plants."
+      ],
+      "correct_idx": 1,
+      "explanation": "Islands located near a mainland source pool experience higher immigration rates because seeds, birds, insects, and floating debris can travel across shorter distances of open water more easily."
+    },
+    {
+      "id": "u2_q20",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.1,
+      "discrimination_a": 1.2,
+      "prompt": "Based on the Theory of Island Biogeography, which combination of physical characteristics will yield the HIGHEST equilibrium species richness?",
+      "options": [
+        "A small island located far from the mainland",
+        "A small island located near the mainland",
+        "A large island located far from the mainland",
+        "A large island located near the mainland"
+      ],
+      "correct_idx": 3,
+      "explanation": "A large island near the mainland combines high immigration rates (due to proximity) with low extinction rates (due to size and habitat availability), resulting in the highest overall species richness."
+    },
+    {
+      "id": "u2_q21",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.18,
+      "discrimination_a": 1.22,
+      "prompt": "Which oceanic island expectedly exhibits the LOWEST overall species richness and highest vulnerability to local extinctions?",
+      "options": [
+        "A small island located far from the mainland continent",
+        "A large island located near the mainland continent",
+        "A large island located far from the mainland continent",
+        "A small island located near the mainland continent"
+      ],
+      "correct_idx": 0,
+      "explanation": "Small, isolated (far) islands have low immigration rates and high extinction rates (due to small habitat area and tiny population sizes), yielding the lowest species richness."
+    },
+    {
+      "id": "u2_q22",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.36,
+      "prompt": "Why are endemic specialist species living on isolated oceanic islands particularly susceptible to extinction when non-native invasive species are introduced?",
+      "options": [
+        "Endemic island species possess elevated rates of genetic mutation.",
+        "Island specialists evolved in isolation without natural predators or competitors, lacking defense mechanisms against aggressive generalist invaders.",
+        "Invasive species increase the physical distance between the island and mainland.",
+        "Island species only reproduce during major hurricane events."
+      ],
+      "correct_idx": 1,
+      "explanation": "Endemic island species often evolve specialized niches in isolated conditions free from major predators. When generalist invasive species (e.g., rats, snakes, goats) are introduced, native island species lack defensive adaptations and are quickly outcompeted or preyed upon."
+    },
+    {
+      "id": "u2_q23",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.42,
+      "prompt": "The evolution of dozens of distinct honeycreeper bird species on the Hawaiian archipelago from a single ancestral finch-like colonist species is an example of:",
+      "options": [
+        "Competitive exclusion",
+        "Adaptive radiation",
+        "Primary ecological succession",
+        "Thermal ocean stratification"
+      ],
+      "correct_idx": 1,
+      "explanation": "Adaptive radiation occurs when an ancestral species immigrates to an isolated island chain with numerous unoccupied ecological niches, rapidly diversifying into multiple specialized species adapted to distinct food sources and microenvironments."
+    },
+    {
+      "id": "u2_q24",
+      "unit": 2,
+      "topic": "2.3 Island Biogeography",
+      "difficulty_b": 0.78,
+      "discrimination_a": 1.48,
+      "prompt": "Conservation biologists apply principles of island biogeography to terrestrial nature reserves surrounded by human agricultural landscapes. Which habitat design best minimizes extinction rates of interior forest species?",
+      "options": [
+        "Multiple tiny, isolated forest fragments separated by broad paved highways",
+        "A single large, continuous reserve connected to adjacent forest patches by protected wildlife corridors",
+        "Narrow strip habitats along urban industrial zones",
+        "Fragmented forest patches arranged far apart without structural connectivity"
+      ],
+      "correct_idx": 1,
+      "explanation": "Applying island biogeography to land reserves (habitat islands) shows that large continuous protected areas reduce edge effects and lower extinction rates. Wildlife corridors connect fragments, facilitating immigration and gene flow."
+    },
+    {
+      "id": "u2_q25",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": -0.3,
+      "discrimination_a": 1.14,
+      "prompt": "The law of tolerance states that an organism's survival and performance are dictated by abiotic conditions falling within specific physical limits. Which region of an ecological tolerance curve represents where an organism experiences decreased growth, lower reproduction, and biological stress?",
+      "options": [
+        "Optimum range",
+        "Zone of physiological stress",
+        "Zone of intolerance (lethal zone)",
+        "Climax range"
+      ],
+      "correct_idx": 1,
+      "explanation": "The zone of physiological stress lies on either side of the optimum range. In this zone, abiotic conditions (such as temperature or pH) deviate from optimal levels, causing organisms to expend extra energy on survival, resulting in reduced growth and reproduction."
+    },
+    {
+      "id": "u2_q26",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.12,
+      "discrimination_a": 1.2,
+      "prompt": "What occurs to an animal population when an environmental variable (such as ambient water temperature) moves completely outside its zone of tolerance into the zone of intolerance?",
+      "options": [
+        "The population reproduces at maximum exponential rates.",
+        "Individuals experience severe physiological failure resulting in death or total absence from the habitat.",
+        "The population transitions immediately into primary producers.",
+        "Individuals increase their genetic mutation rate to reverse temperature shifts."
+      ],
+      "correct_idx": 1,
+      "explanation": "The zone of intolerance consists of abiotic conditions so extreme that organisms cannot survive. Physiological processes fail, leading to localized death or absolute absence of the species from that environment."
+    },
+    {
+      "id": "u2_q27",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.42,
+      "discrimination_a": 1.3,
+      "prompt": "Industrial thermal pollution occurs when power plants discharge hot water into cool rivers. How does this temperature increase stress cold-water fish species like brook trout?",
+      "options": [
+        "Warm water holds higher concentrations of dissolved oxygen, causing oxygen toxicity.",
+        "Warm water holds less dissolved oxygen while simultaneously increasing the metabolic respiration rates of the fish.",
+        "Warm water stops all aquatic plant photosynthesis permanently.",
+        "Warm water increases the solubility of heavy metals while lowering ambient pH to 1.0."
+      ],
+      "correct_idx": 1,
+      "explanation": "As water temperature rises, the solubility of dissolved oxygen (DO) decreases. Concurrently, fish are ectotherms whose metabolic rates speed up in warm water, demanding MORE oxygen just as DO levels plunge, pushing them into physiological stress or death."
+    },
+    {
+      "id": "u2_q28",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.35,
+      "discrimination_a": 1.28,
+      "prompt": "Coral bleaching is a phenomenon where reef-building corals expel their symbiotic zooxanthellae algae, turning white. What environmental stressor primarily triggers coral bleaching by exceeding the corals' thermal tolerance limit?",
+      "options": [
+        "Slight drops in sea surface atmospheric pressure",
+        "Sustained elevated ocean water temperatures caused by regional marine heatwaves",
+        "Excessive input of dark river mud during volcanic winters",
+        "Decreases in dissolved ocean salt concentrations"
+      ],
+      "correct_idx": 1,
+      "explanation": "Corals have narrow thermal tolerance limits. When sea surface temperatures rise 1–2 °C above summer maximums for prolonged periods, coral polyps experience thermal stress and expel their photosynthesizing zooxanthellae, leading to bleaching and potential coral death."
+    },
+    {
+      "id": "u2_q29",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.52,
+      "discrimination_a": 1.34,
+      "prompt": "Acid precipitation can cause lake pH levels to drop from 6.5 down to 4.2. How does this shift affect sensitive freshwater organisms like freshwater snails and fish fry?",
+      "options": [
+        "It expands their optimum growth range, increasing shell deposition.",
+        "It pushes water conditions past their physiological tolerance threshold, causing calcium loss, gill damage, and population collapse.",
+        "It converts all inorganic nitrates into N₂ gas.",
+        "It causes fish to transition from gills to pulmonary lung respiration."
+      ],
+      "correct_idx": 1,
+      "explanation": "Most aquatic species have a narrow pH tolerance range (typically pH 6.0–8.0). Drops below pH 5.0 disrupt ion regulation, damage delicate gill tissues, and dissolve calcium carbonate shells, killing eggs, larvae, and adult organisms."
+    },
+    {
+      "id": "u2_q30",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.38,
+      "prompt": "Which aquatic organism classification describes species with broad physiological tolerance ranges for salinity, enabling them to inhabit dynamic estuarine environments?",
+      "options": [
+        "Stenohaline organisms",
+        "Euryhaline organisms",
+        "Benthic extremophiles",
+        "Aphotic heterotrophs"
+      ],
+      "correct_idx": 1,
+      "explanation": "Euryhaline organisms (e.g., salmon, blue crabs, mangroves) possess broad salinity tolerance limits, allowing them to adjust osmoregulation in estuaries where salt concentrations change rapidly with tidal cycles."
+    },
+    {
+      "id": "u2_q31",
+      "unit": 2,
+      "topic": "2.4 Ecological Tolerance",
+      "difficulty_b": 0.75,
+      "discrimination_a": 1.46,
+      "prompt": "Biomonitoring studies often sample benthic macroinvertebrates to evaluate stream health. Mayfly nymphs require dissolved oxygen (DO) levels above 6.0 mg/L, whereas sludge worms tolerate DO levels below 1.0 mg/L. How are mayfly nymphs classified in water quality assessments?",
+      "options": [
+        "Invasive secondary consumers",
+        "Indicator species with narrow tolerance limits for dissolved oxygen",
+        "Generalist detritivores with unlimited physiological tolerance",
+        "Chemoautotrophic primary producers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Mayfly nymphs act as indicator species because they have narrow ranges of tolerance for water quality factors like dissolved oxygen. Their presence confirms clean, well-oxygenated water, while their absence signals organic pollution or low DO stress."
+    },
+    {
+      "id": "u2_q32",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": -0.25,
+      "discrimination_a": 1.15,
+      "prompt": "Natural disturbances disrupt ecosystems across varying timescales. Which categorization correctly pairs a natural event with its disturbance frequency type?",
+      "options": [
+        "Volcanic eruption — periodic daily event",
+        "Ocean tides — periodic daily event",
+        "Meteorite impact — predictable seasonal cycle",
+        "Glacial-interglacial cycles — random hourly event"
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural disruptions are categorized by frequency: Periodic (occurring at regular repeating intervals, e.g., ocean tides, day/night cycles), Episodic (occurring at irregular intervals, e.g., volcanic eruptions, El Niño), and Random (unpredictable, e.g., asteroid strikes)."
+    },
+    {
+      "id": "u2_q33",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.28,
+      "discrimination_a": 1.25,
+      "prompt": "Milankovitch cycles involve long-term periodic variations in Earth's orbital eccentricity, axial tilt, and precession over tens of thousands of years. What natural global climate outcome is driven by these periodic astronomical shifts?",
+      "options": [
+        "Daily fluctuations in estuarine salinity",
+        "Cyclical shifts between glacial ice ages and warm interglacial periods",
+        "Immediate localized extinction of deep-sea hydrothermal vents",
+        "Reversal of atmospheric oxygen and nitrogen ratios"
+      ],
+      "correct_idx": 1,
+      "explanation": "Milankovitch cycles alter the geographic and seasonal distribution of solar radiation reaching Earth in predictable 21,000, 41,000, and 100,000-year periodic cycles, driving natural ice ages and interglacial warm periods."
+    },
+    {
+      "id": "u2_q34",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.45,
+      "discrimination_a": 1.32,
+      "prompt": "Major volcanic eruptions release millions of tons of sulfur dioxide (SO₂) gas and ash aerosols high into the stratosphere. What short-term global climate disruption follows a super-eruption?",
+      "options": [
+        "Global atmospheric warming due to increased solar radiation absorption",
+        "Global atmospheric cooling caused by atmospheric haze reflecting incoming sunlight back into space",
+        "Immediate doubling of sea surface height worldwide",
+        "Complete halting of the global hydrologic cycle"
+      ],
+      "correct_idx": 1,
+      "explanation": "Volcanic sulfate aerosols injected into the stratosphere reflect incoming solar radiation back into space, creating a temporary global cooling effect ('volcanic winter') lasting 1 to 3 years."
+    },
+    {
+      "id": "u2_q35",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.3,
+      "prompt": "How have natural long-term changes in global climate and sea level historically impacted coastal and continental species distribution?",
+      "options": [
+        "Sea level changes forced coastal species to migrate inland or drown, shifting geographic species ranges significantly.",
+        "Sea level changes prevented species from evolving through natural selection.",
+        "Glacial expansions had zero impact on tree canopy migration across North America.",
+        "Ocean volumes remained completely static over the past 2 million years."
+      ],
+      "correct_idx": 0,
+      "explanation": "Historical glacial and interglacial cycles altered global ocean levels by over 100 meters, creating land bridges, flooding coastal continental shelves, and forcing plant and animal species to shift geographic ranges toward the equator or poles."
+    },
+    {
+      "id": "u2_q36",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.6,
+      "discrimination_a": 1.38,
+      "prompt": "During the Pleistocene epoch, continental ice sheets advanced and retreated repeatedly across North America. How did forest communities respond to these natural climate disturbances?",
+      "options": [
+        "Trees became extinct across the entire northern hemisphere.",
+        "Forest biomes gradually migrated southward during glacial advances and northward during interglacial warmings.",
+        "Broadleaf trees altered their genetic structure into oceanic algae.",
+        "Forest vegetation remained stationary by developing subterranean roots 10 kilometers deep."
+      ],
+      "correct_idx": 1,
+      "explanation": "As glaciers advanced south, tree species dispersed seeds southward over generations to track compatible climate envelopes. As glaciers retreated, forest communities migrated back northward."
+    },
+    {
+      "id": "u2_q37",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.68,
+      "discrimination_a": 1.42,
+      "prompt": "Wildfire is a natural episodic disturbance in biomes like chaparral and temperate pine forests. What ecological function do periodic low-intensity natural surface fires perform?",
+      "options": [
+        "They destroy all soil micro-nutrients permanently.",
+        "They clear accumulated dead underbrush litter, recycle bound nutrients, and trigger seed germination in fire-adapted plant species.",
+        "They permanently prevent secondary ecological succession from occurring.",
+        "They convert atmospheric N₂ gas into radioactive isotopes."
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural surface fires perform essential ecological services: clearing dead leaf litter and combustible underbrush, returning mineral nutrients (calcium, phosphorus, potassium) to the soil, and opening serotinous pine cones for seed dispersal."
+    },
+    {
+      "id": "u2_q38",
+      "unit": 2,
+      "topic": "2.5 Natural Disruptions to Ecosystems",
+      "difficulty_b": 0.82,
+      "discrimination_a": 1.5,
+      "prompt": "Why do natural disturbances like wild fires or storm events often maintain HIGHER overall species diversity in an ecosystem compared to ecosystems that undergo zero disturbances over centuries?",
+      "options": [
+        "Absence of disturbance allows a single dominant competitor to outcompete all other species (competitive exclusion).",
+        "Disturbances eliminate all autotrophic producers, leaving only decomposers.",
+        "Zero disturbance accelerates the rate of genetic mutation in animal species.",
+        "Disturbances convert generalist species into obligate mutualist specialists."
+      ],
+      "correct_idx": 0,
+      "explanation": "According to the Intermediate Disturbance Hypothesis, moderate natural disturbances prevent dominant K-selected competitors from completely monopolizing habitat space, allowing pioneer species and early-successional organisms to coexist."
+    },
+    {
+      "id": "u2_q39",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": -0.2,
+      "discrimination_a": 1.15,
+      "prompt": "Which statement correctly describes the mechanism of natural selection driving evolutionary adaptation within a population?",
+      "options": [
+        "Individual organisms deliberately alter their genes during their lifetime to adapt to immediate physical stress.",
+        "Individuals with favorable heritable traits survive and reproduce at higher rates, passing those beneficial genes to offspring.",
+        "Natural selection guarantees that all individuals in a population adapt at identical rates.",
+        "Environmental changes directly cause targeted, beneficial mutations to occur in organisms."
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural selection acts on existing genetic variation within a population. Individuals possessing heritable traits (adaptations) better suited to prevailing selective pressures are more likely to survive, reproduce, and pass those alleles to subsequent generations."
+    },
+    {
+      "id": "u2_q40",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": 0.25,
+      "discrimination_a": 1.24,
+      "prompt": "When synthetic pesticides are applied repeatedly to crop fields, insect populations frequently develop pesticide resistance over several years. What process drives this rapid evolutionary shift?",
+      "options": [
+        "Pesticides cause insects to transform into non-insect species.",
+        "Pesticide application acts as a strong selective pressure, killing susceptible individuals while allowing rare pre-adapted resistant individuals to survive and reproduce.",
+        "Insects absorb pesticides and turn them into nutritional carbohydrate sugars.",
+        "Insects acquire immunity by drinking clean groundwater."
+      ],
+      "correct_idx": 1,
+      "explanation": "Pesticide resistance is microevolution via natural selection. A tiny fraction of insects naturally possess genetic mutations conferring resistance. Spraying kills susceptible individuals, leaving resistant individuals to reproduce and dominate future generations."
+    },
+    {
+      "id": "u2_q41",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": 0.38,
+      "discrimination_a": 1.3,
+      "prompt": "Cacti and succulent xerophytes possess thick waxy cuticles, modified spines instead of broad leaves, and deep taproot systems. These physical structures are examples of:",
+      "options": [
+        "Behavioral adaptations designed to increase nighttime transpiration",
+        "Structural adaptations designed to reduce water loss and defend against herbivores in arid environments",
+        "Biochemical mutations caused by high UV exposure in rainforest canopies",
+        "Artificial selection traits bred by human farmers"
+      ],
+      "correct_idx": 1,
+      "explanation": "Structural adaptations are physical anatomical features evolved through natural selection to enhance survival. Spines reduce surface area for transpirational water loss and protect water-storing stems from herbivores."
+    },
+    {
+      "id": "u2_q42",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": 0.48,
+      "discrimination_a": 1.32,
+      "prompt": "Desert kangaroo rats remain underground in cool burrows during daytime heat and emerge only at night to forage for seeds. This activity pattern is an example of:",
+      "options": [
+        "A structural adaptation",
+        "A behavioral adaptation designed to avoid extreme heat and transpirational water loss",
+        "A physiological adaptation converting sand into drinking water",
+        "An artificial selection breeding outcome"
+      ],
+      "correct_idx": 1,
+      "explanation": "Behavioral adaptations are actions or activity patterns organisms perform to increase survival. Nocturnal activity enables desert animals to avoid extreme daytime heat and minimize evaporative water loss."
+    },
+    {
+      "id": "u2_q43",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": 0.62,
+      "discrimination_a": 1.38,
+      "prompt": "What outcome is most likely for a highly specialized species when its local environment undergoes an extremely rapid anthropogenic disturbance?",
+      "options": [
+        "The species will instantly mutate to generate novel physiological traits.",
+        "The species will experience population decline or localized extinction because the rate of environmental change outpaces natural selection.",
+        "The species will increase its reproductive rate by 1,000% to overcome mortality.",
+        "The species will convert into an autotroph."
+      ],
+      "correct_idx": 1,
+      "explanation": "Natural selection requires generations to alter allele frequencies within a gene pool. When environmental change occurs too rapidly, specialist populations with long generation times or low genetic diversity cannot adapt fast enough, leading to extinction."
+    },
+    {
+      "id": "u2_q44",
+      "unit": 2,
+      "topic": "2.6 Adaptations",
+      "difficulty_b": 0.72,
+      "discrimination_a": 1.44,
+      "prompt": "Deep tubular flowers with nectar hidden at their base have evolved alongside hummingbirds possessing long, slender bill structures specifically curved to fit those blossoms. This reciprocal evolutionary adaptation between two species is known as:",
+      "options": [
+        "Competitive exclusion",
+        "Coevolution",
+        "Primary ecological succession",
+        "Biomagnification"
+      ],
+      "correct_idx": 1,
+      "explanation": "Coevolution occurs when two or more species exert selective pressures on each other, causing them to evolve complementary physical or behavioral adaptations over time (such as specialized plant-pollinator pairings)."
+    },
+    {
+      "id": "u2_q45",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": -0.4,
+      "discrimination_a": 1.1,
+      "prompt": "What primary ecological factor distinguishes primary ecological succession from secondary ecological succession?",
+      "options": [
+        "Primary succession occurs only in marine biomes, while secondary succession occurs in terrestrial biomes.",
+        "Primary succession begins on newly exposed substrate lacking soil, whereas secondary succession begins on pre-existing soil.",
+        "Primary succession occurs after forest fires, while secondary succession follows volcanic lava flows.",
+        "Secondary succession takes thousands of years longer than primary succession."
+      ],
+      "correct_idx": 1,
+      "explanation": "Primary succession starts on bare inorganic surfaces where NO soil exists (e.g., cooled volcanic lava, retreating glaciers). Secondary succession occurs in areas where a disturbance destroyed existing vegetation but left the organic soil intact."
+    },
+    {
+      "id": "u2_q46",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": 0.15,
+      "discrimination_a": 1.2,
+      "prompt": "Which organisms typically act as pioneer species during primary succession on bare exposed rock?",
+      "options": [
+        "Shade-tolerant oak and hickory hardwood trees",
+        "Lichens and mosses capable of breaking down rock into initial organic soil layers",
+        "Deep-rooted perennial prairie grasses",
+        "Apex predatory birds"
+      ],
+      "correct_idx": 1,
+      "explanation": "Pioneer species in primary succession must survive on bare rock without soil. Lichens (fungus-algae mutualism) and mosses secrete organic acids that chemically weather rock into mineral soil while trapping windblown organic debris."
+    },
+    {
+      "id": "u2_q47",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": 0.32,
+      "discrimination_a": 1.26,
+      "prompt": "An abandoned agricultural cornfield slowly transitions over several decades into an oak-hickory forest. This process is an example of:",
+      "options": [
+        "Primary succession",
+        "Secondary succession",
+        "Oceanic acidification",
+        "Island biogeography equilibrium"
+      ],
+      "correct_idx": 1,
+      "explanation": "Old-field succession is a classic example of secondary succession. Because fertile soil is already present, opportunistic weeds and fast-growing grasses colonize quickly, followed over decades by shrubs, pine forests, and climax hardwood trees."
+    },
+    {
+      "id": "u2_q48",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": 0.55,
+      "discrimination_a": 1.35,
+      "prompt": "How do pioneer plant species differ from climax forest tree species in terms of life-history traits and shade tolerance?",
+      "options": [
+        "Pioneer species are slow-growing and highly shade-tolerant; climax trees are fast-growing and require full sunlight.",
+        "Pioneer species are fast-growing, light-demanding, and produce easily dispersed seeds; climax trees are shade-tolerant and slow-growing.",
+        "Pioneer species rely entirely on large K-selected seed reserves.",
+        "Climax species colonize bare volcanic basalt within 24 hours."
+      ],
+      "correct_idx": 1,
+      "explanation": "Pioneer species (r-selected) thrive in high-sunlight, disturbed environments with rapid growth and abundant wind-dispersed seeds. Climax trees (K-selected) can germinate in the deep shade of established canopies, growing slowly to dominate late successional stages."
+    },
+    {
+      "id": "u2_q49",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": 0.65,
+      "discrimination_a": 1.4,
+      "prompt": "During secondary ecological succession, how do pioneer weed species facilitate the establishment of later successional shrub and tree species?",
+      "options": [
+        "Pioneer species eliminate all solar radiation from reaching the ecosystem.",
+        "Pioneer species die and decompose, adding organic humus, improving soil moisture retention, and enriching nitrogen content.",
+        "Pioneer species secret toxin proteins that prevent root growth of larger trees.",
+        "Pioneer species increase soil erosion down to bare bedrock."
+      ],
+      "correct_idx": 1,
+      "explanation": "In facilitation, early successional pioneer species alter environmental conditions favorably for subsequent species: as pioneers die and decompose, they build up organic soil depth, nutrient concentration, and water retention capacity."
+    },
+    {
+      "id": "u2_q50",
+      "unit": 2,
+      "topic": "2.7 Ecological Succession",
+      "difficulty_b": 0.82,
+      "discrimination_a": 1.5,
+      "prompt": "A mature climax forest community is characterized by dynamic equilibrium. Which condition best describes a climax forest ecosystem?",
+      "options": [
+        "Biomass accumulation is zero because all vegetation has died.",
+        "A stable complex plant community dominated by shade-tolerant species where overall gross primary productivity balances ecosystem respiration.",
+        "An unstable habitat dominated exclusively by single-celled lichen pioneers.",
+        "A simplified ecosystem containing only one herbivore species."
+      ],
+      "correct_idx": 1,
+      "explanation": "A climax community represents the final, relatively stable stage of ecological succession. It features complex food webs, high species diversity, shade-tolerant dominant species, and dynamic balance where gross primary production balances total community respiration."
+    }
+  ]
