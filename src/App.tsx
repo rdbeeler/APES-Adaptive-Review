@@ -9,22 +9,46 @@ import {
   BarChart3, 
   Sparkles
 } from 'lucide-react'
-import { VisualAsset } from './components/VisualAsset'
-import { allQuestions } from './questions'
-import type { Question } from './questions/types'
+import unit1Data from './questions/unit1.json'
+
+// Question Interface
+interface Question {
+  id?: string | number
+  unit?: number
+  topic?: string
+  prompt?: string
+  question?: string
+  options: string[]
+  correct_idx?: number
+  correctIndex?: number
+  explanation?: string
+  difficulty_b?: number
+}
 
 export default function App() {
+  // Load and normalize questions directly from unit1.json
+  const allQuestions: Question[] = useMemo(() => {
+    return (unit1Data as unknown as Question[]).map((q, idx) => ({
+      ...q,
+      id: q.id ?? idx,
+      unit: q.unit ?? 1,
+      topic: q.topic ?? '1.1 Ecosystem Interactions',
+      prompt: q.prompt ?? q.question ?? 'Question prompt missing',
+      correct_idx: q.correct_idx ?? q.correctIndex ?? 0,
+      explanation: q.explanation ?? 'No explanation provided.'
+    }))
+  }, [])
+
   const [selectedUnit, setSelectedUnit] = useState<number | 'all'>('all')
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [isAnswered, setIsAnswered] = useState(false)
   const [score, setScore] = useState({ correct: 0, total: 0, streak: 0 })
 
-  // Filter questions by selected unit
   const filteredQuestions = useMemo(() => {
     if (selectedUnit === 'all') return allQuestions
     return allQuestions.filter((q) => q.unit === selectedUnit)
-  }, [selectedUnit])
+  }, [selectedUnit, allQuestions])
 
   const currentQuestion: Question | undefined = filteredQuestions[currentIndex]
 
@@ -36,11 +60,11 @@ export default function App() {
   }
 
   const handleSelectOption = (index: number) => {
-    if (isAnswered) return
+    if (isAnswered || !currentQuestion) return
     setSelectedOption(index)
     setIsAnswered(true)
 
-    const isCorrect = index === currentQuestion?.correct_idx
+    const isCorrect = index === currentQuestion.correct_idx
     setScore((prev) => ({
       correct: isCorrect ? prev.correct + 1 : prev.correct,
       total: prev.total + 1,
@@ -63,8 +87,8 @@ export default function App() {
     setScore({ correct: 0, total: 0, streak: 0 })
   }
 
-  // IRT Difficulty badge mapping
-  const getDifficultyBadge = (b: number) => {
+  const getDifficultyBadge = (b?: number) => {
+    if (b === undefined) return null
     if (b < -0.2) return { label: 'Easy', color: 'bg-emerald-100 text-emerald-800 border-emerald-300' }
     if (b <= 0.4) return { label: 'Medium', color: 'bg-amber-100 text-amber-800 border-amber-300' }
     return { label: 'Hard (AP Level)', color: 'bg-rose-100 text-rose-800 border-rose-300' }
@@ -141,7 +165,7 @@ export default function App() {
         {/* Question Card */}
         {currentQuestion ? (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-            {/* Question Card Header */}
+            {/* Question Header */}
             <div className="bg-slate-100/80 px-6 py-4 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-full border border-emerald-200">
@@ -153,13 +177,13 @@ export default function App() {
               </div>
 
               <div className="flex items-center gap-2">
-                {currentQuestion.difficulty_b !== undefined && (
+                {getDifficultyBadge(currentQuestion.difficulty_b) && (
                   <span
                     className={`text-xs font-semibold px-2.5 py-0.5 rounded-full border ${
-                      getDifficultyBadge(currentQuestion.difficulty_b).color
+                      getDifficultyBadge(currentQuestion.difficulty_b)?.color
                     }`}
                   >
-                    {getDifficultyBadge(currentQuestion.difficulty_b).label}
+                    {getDifficultyBadge(currentQuestion.difficulty_b)?.label}
                   </span>
                 )}
                 <span className="text-xs text-slate-400 font-mono">
@@ -169,16 +193,6 @@ export default function App() {
             </div>
 
             <div className="p-6 md:p-8">
-              {/* Render Visual Asset (if question contains visual fields) */}
-              {currentQuestion.visualType && (
-                <div className="mb-6 p-4 bg-slate-50 border border-slate-200 rounded-xl flex justify-center items-center">
-                  <VisualAsset
-                    type={currentQuestion.visualType}
-                    data={currentQuestion.visualData}
-                  />
-                </div>
-              )}
-
               {/* Question Text */}
               <h2 className="text-lg md:text-xl font-semibold text-slate-900 leading-relaxed mb-6">
                 {currentQuestion.prompt}
@@ -260,13 +274,13 @@ export default function App() {
                 </div>
               )}
 
-              {/* Card Footer Actions */}
+              {/* Actions */}
               <div className="flex items-center justify-between pt-4 border-t border-slate-100">
                 <button
                   onClick={handleReset}
                   className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-slate-800 transition"
                 >
-                  <RotateCcw className="w-3.5 h-3.5" /> Reset Quiz Progress
+                  <RotateCcw className="w-3.5 h-3.5" /> Reset Progress
                 </button>
 
                 {isAnswered && (
