@@ -70,6 +70,17 @@ function thetaToMasteryPct(theta: number, scorePct: number): number {
   return Math.round(thetaScaled * 0.6 + scorePct * 0.4);
 }
 
+// Helper to extract numeric values for topic sorting (e.g. "1.2" -> 1.002, "1.10" -> 1.010)
+function getTopicSortValue(topicStr: string): number {
+  const match = topicStr.match(/(\d+)\.(\d+)/);
+  if (match) {
+    const unit = parseInt(match[1], 10);
+    const topic = parseInt(match[2], 10);
+    return unit * 1000 + topic;
+  }
+  return 0;
+}
+
 export default function App() {
   const [appMode, setAppMode] = useState<'mcq' | 'frq'>('mcq');
   const [selectedUnit, setSelectedUnit] = useState<number>(1);
@@ -425,6 +436,7 @@ export default function App() {
 
               <h2 style={styles.prompt}>{currentQuestion.prompt}</h2>
 
+              {/* Black Option Boxes */}
               <div style={styles.optionsList}>
                 {currentQuestion.shuffledOptions.map((optionText, idx) => {
                   let btnStyle = { ...styles.optionBtn };
@@ -439,6 +451,17 @@ export default function App() {
                     }
                   }
 
+                  let badgeBg = '#000000';
+                  if (isAnswerSubmitted) {
+                    if (idx === currentQuestion.shuffledCorrectIdx) {
+                      badgeBg = '#16a34a';
+                    } else if (selectedOption === idx) {
+                      badgeBg = '#dc2626';
+                    } else {
+                      badgeBg = '#94a3b8';
+                    }
+                  }
+
                   return (
                     <button
                       key={idx}
@@ -446,8 +469,25 @@ export default function App() {
                       style={btnStyle}
                       disabled={isAnswerSubmitted}
                     >
-                      <strong style={{ marginRight: '8px' }}>{String.fromCharCode(65 + idx)}.</strong>
-                      {optionText}
+                      <span
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          width: '24px',
+                          height: '24px',
+                          borderRadius: '50%',
+                          backgroundColor: badgeBg,
+                          color: '#ffffff',
+                          fontSize: '0.8rem',
+                          fontWeight: '700',
+                          marginRight: '12px',
+                          flexShrink: 0,
+                        }}
+                      >
+                        {String.fromCharCode(65 + idx)}
+                      </span>
+                      <span style={{ flex: 1, marginTop: '2px' }}>{optionText}</span>
                     </button>
                   );
                 })}
@@ -516,19 +556,38 @@ export default function App() {
             </div>
 
             <h3 style={{ marginTop: '24px', marginBottom: '12px' }}>Topic Mastery Breakdown</h3>
-            <div style={styles.breakdownList}>
+            <div style={styles.breakdownListVertical}>
               {Object.entries(scoreStats.topicBreakdown)
-                .sort(([topicA], [topicB]) => 
-                  topicA.localeCompare(topicB, undefined, { numeric: true, sensitivity: 'base' })
-                )
-                .map(([tName, data]) => (
-                  <div key={tName} style={styles.unitScoreCard}>
-                    <strong style={{ fontSize: '0.95rem' }}>{tName}</strong>
-                    <p style={{ margin: '4px 0 0 0', color: '#4b5563', fontSize: '0.9rem' }}>
-                      {data.correct} / {data.total} Correct ({((data.correct / data.total) * 100).toFixed(0)}%)
-                    </p>
-                  </div>
-                ))}
+                .sort(([topicA], [topicB]) => {
+                  const valA = getTopicSortValue(topicA);
+                  const valB = getTopicSortValue(topicB);
+                  if (valA !== 0 && valB !== 0) return valA - valB;
+                  return topicA.localeCompare(topicB, undefined, { numeric: true, sensitivity: 'base' });
+                })
+                .map(([tName, data]) => {
+                  const pct = Math.round((data.correct / data.total) * 100);
+                  return (
+                    <div key={tName} style={styles.topicRowCard}>
+                      <div style={{ flex: 1, paddingRight: '12px' }}>
+                        <strong style={{ fontSize: '0.95rem', color: '#1f2937' }}>{tName}</strong>
+                      </div>
+                      <div style={{ textAlign: 'right', flexShrink: 0 }}>
+                        <span
+                          style={{
+                            fontWeight: '700',
+                            fontSize: '0.95rem',
+                            color: pct >= 70 ? '#15803d' : pct >= 50 ? '#d97706' : '#b91c1c'
+                          }}
+                        >
+                          {pct}%
+                        </span>
+                        <span style={{ fontSize: '0.85rem', color: '#6b7280', marginLeft: '8px' }}>
+                          ({data.correct}/{data.total} Correct)
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
             </div>
 
             <button onClick={() => setQuizStarted(false)} style={styles.primaryBtn}>
@@ -640,7 +699,7 @@ export default function App() {
                       style={styles.frqTextarea}
                     />
 
-                    {/* Revealed Scoring Rubric section */}
+                    {/* Revealed Scoring Rubric Section */}
                     {showFrqRubric && (
                       <div style={styles.rubricBox}>
                         <h4 style={{ margin: '0 0 8px 0', color: '#15803d', fontSize: '0.95rem' }}>
@@ -874,237 +933,245 @@ const styles: Record<string, React.CSSProperties> = {
     transition: 'width 0.3s ease',
   },
   progressText: {
-    fontSize: '0.85rem',
-    color: '#6b7280',
-    marginTop: '6px',
     textAlign: 'right',
+    fontSize: '0.8rem',
+    color: '#6b7280',
+    marginTop: '4px',
   },
   prompt: {
-    fontSize: '1.2rem',
+    fontSize: '1.15rem',
     fontWeight: '600',
-    margin: '18px 0 22px 0',
-    lineHeight: '1.5',
     color: '#111827',
+    margin: '16px 0 20px 0',
+    lineHeight: '1.5',
   },
   optionsList: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '12px',
+    gap: '10px',
+    marginBottom: '20px',
   },
   optionBtn: {
-    textAlign: 'left',
-    padding: '14px 18px',
+    display: 'flex',
+    alignItems: 'flex-start',
+    width: '100%',
+    padding: '14px 16px',
     borderRadius: '8px',
-    border: '1px solid #d1d5db',
+    border: '2px solid #000000',
     backgroundColor: '#ffffff',
+    color: '#000000',
+    fontSize: '0.95rem',
+    fontWeight: '500',
+    textAlign: 'left',
     cursor: 'pointer',
-    fontSize: '0.98rem',
-    lineHeight: '1.4',
     transition: 'all 0.15s ease',
+    boxSizing: 'border-box',
   },
   optionSelected: {
-    borderColor: '#0284c7',
-    backgroundColor: '#f0f9ff',
-    boxShadow: '0 0 0 1px #0284c7',
+    border: '2px solid #000000',
+    backgroundColor: '#f1f5f9',
   },
   optionCorrect: {
-    borderColor: '#16a34a',
+    border: '2px solid #16a34a',
     backgroundColor: '#f0fdf4',
-    color: '#15803d',
-    fontWeight: '600',
+    color: '#14532d',
   },
   optionIncorrect: {
-    borderColor: '#dc2626',
+    border: '2px solid #dc2626',
     backgroundColor: '#fef2f2',
-    color: '#b91c1c',
+    color: '#7f1d1d',
   },
   actionRow: {
     display: 'flex',
     justifyContent: 'space-between',
-    marginTop: '24px',
+    alignItems: 'center',
+    marginTop: '20px',
   },
   navBtn: {
-    padding: '10px 20px',
+    padding: '8px 16px',
     borderRadius: '6px',
     border: '1px solid #d1d5db',
     backgroundColor: '#ffffff',
+    color: '#374151',
     cursor: 'pointer',
-    fontWeight: '500',
+    fontWeight: '600',
   },
   disabledNavBtn: {
-    padding: '10px 20px',
+    padding: '8px 16px',
     borderRadius: '6px',
     border: '1px solid #e5e7eb',
     backgroundColor: '#f9fafb',
     color: '#9ca3af',
     cursor: 'not-allowed',
+    fontWeight: '600',
   },
   submitBtn: {
-    padding: '10px 22px',
+    padding: '10px 20px',
     borderRadius: '6px',
     border: 'none',
     backgroundColor: '#0284c7',
     color: '#ffffff',
-    fontWeight: '600',
     cursor: 'pointer',
-  },
-  primaryBtn: {
-    marginTop: '10px',
-    width: '100%',
-    padding: '14px',
-    backgroundColor: '#0284c7',
-    color: '#ffffff',
-    border: 'none',
-    borderRadius: '8px',
     fontWeight: '700',
-    fontSize: '1rem',
-    cursor: 'pointer',
   },
   disabledBtn: {
-    padding: '10px 22px',
+    padding: '10px 20px',
     borderRadius: '6px',
     border: 'none',
-    backgroundColor: '#9ca3af',
-    color: '#ffffff',
+    backgroundColor: '#e2e8f0',
+    color: '#94a3b8',
     cursor: 'not-allowed',
+    fontWeight: '700',
+    width: '100%',
+  },
+  primaryBtn: {
+    padding: '12px 20px',
+    borderRadius: '8px',
+    border: 'none',
+    backgroundColor: '#0284c7',
+    color: '#ffffff',
+    cursor: 'pointer',
+    fontWeight: '700',
+    width: '100%',
+    fontSize: '0.95rem',
   },
   explanationBox: {
-    marginTop: '24px',
-    padding: '18px',
+    marginTop: '20px',
+    padding: '16px',
     backgroundColor: '#f8fafc',
     borderRadius: '8px',
-    borderLeftWidth: '4px',
-    borderLeftStyle: 'solid',
+    borderLeft: '4px solid #0284c7',
   },
   explanationTitle: {
-    margin: '0 0 8px 0',
-    fontSize: '1.05rem',
+    margin: '0 0 6px 0',
+    fontSize: '0.95rem',
     fontWeight: '700',
   },
   explanationBody: {
     margin: 0,
-    fontSize: '0.95rem',
+    fontSize: '0.9rem',
     color: '#334155',
     lineHeight: '1.5',
   },
   scoreBox: {
-    textAlign: 'center',
-    padding: '24px',
     backgroundColor: '#f0f9ff',
-    borderRadius: '8px',
     border: '1px solid #bae6fd',
+    borderRadius: '8px',
+    padding: '16px',
+    textAlign: 'center',
+    margin: '16px 0',
   },
   scoreText: {
-    fontSize: '1.35rem',
     margin: 0,
+    fontSize: '1.2rem',
     color: '#0369a1',
   },
   apScoreText: {
-    fontSize: '1.2rem',
     margin: '8px 0 0 0',
-    color: '#0284c7',
+    fontSize: '1.1rem',
+    color: '#0c4a6e',
   },
-  breakdownList: {
+  breakdownListVertical: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '10px',
+    gap: '8px',
+    marginBottom: '20px',
   },
-  unitScoreCard: {
+  topicRowCard: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '14px 18px',
-    border: '1px solid #e5e7eb',
+    backgroundColor: '#f8fafc',
+    border: '1px solid #e2e8f0',
     borderRadius: '8px',
-    backgroundColor: '#f9fafb',
+    padding: '12px 16px',
   },
   frqCardItem: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '16px',
     border: '1px solid #e5e7eb',
+    padding: '16px',
     borderRadius: '8px',
-    backgroundColor: '#f8fafc',
+    backgroundColor: '#ffffff',
     gap: '16px',
   },
   frqStartBtn: {
     padding: '8px 14px',
+    borderRadius: '6px',
     backgroundColor: '#0284c7',
     color: '#ffffff',
     border: 'none',
-    borderRadius: '6px',
     fontWeight: '600',
-    fontSize: '0.85rem',
     cursor: 'pointer',
-    whiteSpace: 'nowrap',
+    flexShrink: 0,
   },
   scenarioBlock: {
-    margin: 0,
-    padding: '14px 18px',
-    backgroundColor: '#f0f9ff',
+    margin: '12px 0',
+    padding: '14px',
+    backgroundColor: '#f8fafc',
     borderLeft: '4px solid #0284c7',
-    borderRadius: '0 8px 8px 0',
+    borderRadius: '4px',
     fontSize: '0.95rem',
-    color: '#0c4a6e',
+    color: '#334155',
     lineHeight: '1.5',
   },
   frqPartBox: {
-    padding: '16px',
     border: '1px solid #e2e8f0',
     borderRadius: '8px',
-    backgroundColor: '#ffffff',
+    padding: '16px',
+    backgroundColor: '#fafafa',
   },
   frqTextarea: {
     width: '100%',
-    padding: '12px',
+    padding: '10px',
     borderRadius: '6px',
     border: '1px solid #cbd5e1',
     fontFamily: 'inherit',
-    fontSize: '0.95rem',
-    boxSizing: 'border-box',
+    fontSize: '0.9rem',
     resize: 'vertical',
+    boxSizing: 'border-box',
   },
   rubricBox: {
     marginTop: '14px',
-    padding: '14px',
+    paddingTop: '14px',
+    borderTop: '1px solid #e2e8f0',
     backgroundColor: '#f0fdf4',
-    border: '1px solid #bbf7d0',
-    borderRadius: '8px',
+    padding: '14px',
+    borderRadius: '6px',
   },
   sampleAnswerText: {
-    fontSize: '0.9rem',
     fontStyle: 'italic',
-    color: '#166534',
+    fontSize: '0.88rem',
+    color: '#1e293b',
     backgroundColor: '#ffffff',
     padding: '10px',
-    borderRadius: '6px',
-    border: '1px solid #dcfce7',
+    borderRadius: '4px',
+    border: '1px solid #cbd5e1',
+    margin: '4px 0 10px 0',
   },
   pointBtn: {
     padding: '4px 10px',
-    border: '1px solid #cbd5e1',
     borderRadius: '4px',
+    border: '1px solid #cbd5e1',
     backgroundColor: '#ffffff',
     cursor: 'pointer',
     fontSize: '0.8rem',
-    fontWeight: '600',
-    color: '#475569',
   },
   pointBtnActive: {
     padding: '4px 10px',
-    border: '1px solid #16a34a',
     borderRadius: '4px',
-    backgroundColor: '#16a34a',
+    border: '1px solid #15803d',
+    backgroundColor: '#15803d',
+    color: '#ffffff',
     cursor: 'pointer',
     fontSize: '0.8rem',
     fontWeight: '700',
-    color: '#ffffff',
   },
   scoreSummaryBox: {
-    padding: '14px',
     backgroundColor: '#f0f9ff',
     border: '1px solid #bae6fd',
+    padding: '12px',
     borderRadius: '8px',
     textAlign: 'center',
   },
