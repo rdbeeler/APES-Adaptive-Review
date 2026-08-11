@@ -1,802 +1,802 @@
 [
-    {
-      "id": "u1_q01",
-      "unit": 1,
-      "topic": "1.1 Introduction to Ecosystems",
-      "difficulty_b": -0.4,
-      "discrimination_a": 1.1,
-      "prompt": "Which symbiotic relationship is demonstrated by lichens, where a photosynthetic alga provides organic carbohydrates while a fungus provides structural protection and moisture retention?",
-      "options": [
-        "Parasitism",
-        "Mutualism",
-        "Commensalism",
-        "Interspecific competition"
-      ],
-      "correct_idx": 1,
-      "explanation": "Mutualism is a symbiotic interaction where both participating organisms benefit. In lichens, the algal partner provides photosynthesized sugars while the fungal partner supplies physical shelter and absorbs mineral nutrients."
-    },
-    {
-      "id": "u1_q02",
-      "unit": 1,
-      "topic": "1.1 Introduction to Ecosystems",
-      "difficulty_b": 0.15,
-      "discrimination_a": 1.22,
-      "prompt": "Five species of insectivorous warblers forage for caterpillars in the same spruce forest, but each species hunts exclusively within a distinct vertical height zone of the tree canopy. This ecological behavior is an example of:",
-      "options": [
-        "Competitive exclusion",
-        "Resource partitioning",
-        "Biomagnification",
-        "Predator-prey oscillations"
-      ],
-      "correct_idx": 1,
-      "explanation": "Resource partitioning occurs when competing species evolve specialized traits or behaviors to divide shared resources by time, space, or diet, thereby reducing direct interspecific competition."
-    },
-    {
-      "id": "u1_q03",
-      "unit": 1,
-      "topic": "1.1 Introduction to Ecosystems",
-      "difficulty_b": 0.35,
-      "discrimination_a": 1.28,
-      "prompt": "Cattle egrets walk alongside grazing livestock, eating insects stirred up by the animals' movement. The egrets obtain food while the livestock are neither helped nor harmed. Which symbiotic interaction does this represent?",
-      "options": [
-        "Mutualism",
-        "Commensalism",
-        "Parasitism",
-        "Predation"
-      ],
-      "correct_idx": 1,
-      "explanation": "Commensalism is an interaction between two species where one species benefits (egrets get insects) and the other species is unaffected (livestock experience no benefit or harm)."
-    },
-    {
-      "id": "u1_q04",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": -0.3,
-      "discrimination_a": 1.12,
-      "prompt": "Which terrestrial biome is characterized by consistently high year-round temperatures, abundant rainfall, high biodiversity, and nutrient-poor topsoil caused by rapid vegetative nutrient uptake and leaching?",
-      "options": [
-        "Taiga (Boreal forest)",
-        "Temperate deciduous forest",
-        "Tropical rainforest",
-        "Temperate grassland"
-      ],
-      "correct_idx": 2,
-      "explanation": "Tropical rainforests feature high temperatures and high precipitation year-round. Despite lush vegetation, soil nutrient levels are low because high warmth and moisture cause rapid decomposition, and plant roots absorb available nutrients instantly."
-    },
-    {
-      "id": "u1_q05",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": 0.1,
-      "discrimination_a": 1.18,
-      "prompt": "The boreal forest (taiga) is dominated by needle-leaf evergreen conifers. Which environmental condition drives the prevalence of evergreen conifers over broadleaf deciduous trees in this biome?",
-      "options": [
-        "Extremely long, warm growing seasons with alkaline soils",
-        "Short growing seasons, nutrient-deficient acidic soils, and severe sub-freezing winters",
-        "Frequent wild grassland fires occurring every summer",
-        "High solar insolation coupled with permafrost thawing year-round"
-      ],
-      "correct_idx": 1,
-      "explanation": "Taiga ecosystems endure long, freezing winters and short growing seasons. Evergreen needles retain chlorophyll year-round, allowing immediate photosynthesis when warmth returns without burning energy to rebuild broad leaf canopies."
-    },
-    {
-      "id": "u1_q06",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": -0.15,
-      "discrimination_a": 1.15,
-      "prompt": "Which soil characteristic restricts the growth of deep-rooted trees in the Arctic tundra biome?",
-      "options": [
-        "Dense clay horizons packed with iron oxides",
-        "Permafrost, a permanently frozen subsoil layer",
-        "Excessive organic humus accumulation blocking root growth",
-        "Extreme salinity caused by high evaporation rates"
-      ],
-      "correct_idx": 1,
-      "explanation": "Permafrost is a permanently frozen layer of soil beneath the surface in arctic regions. It prevents tree roots from penetrating deeply into the ground and restricts drainage, leaving topsoil waterlogged in summer."
-    },
-    {
-      "id": "u1_q07",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": 0.42,
-      "discrimination_a": 1.3,
-      "prompt": "Which terrestrial biome features distinct four-season weather cycles, moderate precipitation, broadleaf trees that drop their leaves autumnally, and rich organic leaf-litter soil horizons?",
-      "options": [
-        "Temperate deciduous forest",
-        "Chaparral",
-        "Savanna",
-        "Desert"
-      ],
-      "correct_idx": 0,
-      "explanation": "Temperate deciduous forests experience warm summers and cold winters. Trees shed broad leaves each autumn, providing rich leaf litter that decomposes into fertile topsoil (A horizon)."
-    },
-    {
-      "id": "u1_q08",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": 0.55,
-      "discrimination_a": 1.36,
-      "prompt": "Plants adapted to desert biomes often feature thick waxy cuticles, reduced leaves modified into spines, deep taproots, and Crassulacean Acid Metabolism (CAM). These adaptations primarily serve to:",
-      "options": [
-        "Maximize nitrogen fixation during night hours",
-        "Minimize transpirational water loss while enabling photosynthesis in arid environments",
-        "Prevent root damage during severe winter soil freezes",
-        "Accelerate soil leaching in nutrient-saturated ground"
-      ],
-      "correct_idx": 1,
-      "explanation": "Xeric (desert) plant adaptations conserve water. CAM photosynthesis allows plants to open stomata at night to capture CO₂, reducing daytime transpirational water loss caused by intense solar heat."
-    },
-    {
-      "id": "u1_q09",
-      "unit": 1,
-      "topic": "1.2 Terrestrial Biomes",
-      "difficulty_b": 0.7,
-      "discrimination_a": 1.44,
-      "prompt": "How do savannas differ from temperate grasslands in terms of climate patterns and vegetation structure?",
-      "options": [
-        "Savannas experience freezing sub-zero temperatures year-round with dense evergreen canopies.",
-        "Savannas feature tropical warm temperatures with wet/dry seasons and scattered drought-resistant trees.",
-        "Temperate grasslands receive double the annual rainfall of tropical rainforests.",
-        "Temperate grasslands are dominated by woody shrubs maintained by ocean salt spray."
-      ],
-      "correct_idx": 1,
-      "explanation": "Savannas are tropical grasslands with warm temperatures year-round, distinct wet and dry seasons, and scattered drought- and fire-resistant trees (e.g., acacia), whereas temperate grasslands have cold winters."
-    },
-    {
-      "id": "u1_q10",
-      "unit": 1,
-      "topic": "1.3 Aquatic Biomes",
-      "difficulty_b": -0.2,
-      "discrimination_a": 1.14,
-      "prompt": "Estuaries are highly productive aquatic ecosystems formed where freshwater rivers meet the open ocean. What physical parameter fluctuates continuously within an estuary during a 24-hour cycle?",
-      "options": [
-        "Barometric surface pressure",
-        "Water salinity, driven by incoming and outgoing ocean tides",
-        "Atmospheric nitrogen concentrations",
-        "Deep ocean floor volcanic activity"
-      ],
-      "correct_idx": 1,
-      "explanation": "Estuaries feature brackish water. As ocean tides flood in and ebb out twice daily, salinity levels fluctuate continuously, requiring organisms living there to possess wide salinity tolerances."
-    },
-    {
-      "id": "u1_q11",
-      "unit": 1,
-      "topic": "1.3 Aquatic Biomes",
-      "difficulty_b": 0.25,
-      "discrimination_a": 1.24,
-      "prompt": "Coral reefs thrive in shallow, clear, nutrient-poor tropical waters. What organism lives mutualistically inside coral polyps, providing glucose via photosynthesis in exchange for shelter and inorganic nutrients?",
-      "options": [
-        "Cyanobacteria",
-        "Zooxanthellae (microscopic dinoflagellate algae)",
-        "Nitrifying marine bacteria",
-        "Benthic detritivores"
-      ],
-      "correct_idx": 1,
-      "explanation": "Coral polyps harbor endosymbiotic zooxanthellae algae. The algae photosynthesize and provide the coral host with energy and organic carbon, giving corals their vibrant colors."
-    },
-    {
-      "id": "u1_q12",
-      "unit": 1,
-      "topic": "1.3 Aquatic Biomes",
-      "difficulty_b": 0.45,
-      "discrimination_a": 1.32,
-      "prompt": "In a deep freshwater lake, which vertical zone consists of the open, sunlit surface water away from the shore, dominated by photosynthetic phytoplankton?",
-      "options": [
-        "Littoral zone",
-        "Limnetic zone",
-        "Profundal zone",
-        "Benthic zone"
-      ],
-      "correct_idx": 1,
-      "explanation": "The limnetic zone is the open surface layer of a lake away from shore where light penetrates, supporting floating autotrophs (phytoplankton). The littoral zone is near the shallow shoreline with rooted plants."
-    },
-    {
-      "id": "u1_q13",
-      "unit": 1,
-      "topic": "1.3 Aquatic Biomes",
-      "difficulty_b": 0.65,
-      "discrimination_a": 1.42,
-      "prompt": "Deep-sea hydrothermal vent ecosystems operate entirely in the aphotic benthic zone without sunlight. What biochemical process forms the foundational base of the primary producer food web at these vents?",
-      "options": [
-        "Oxygenic photosynthesis",
-        "Chemosynthesis conducted by sulfur-oxidizing bacteria",
-        "Anaerobic cellular respiration by giant tubeworms",
-        "Photophosphorylation"
-      ],
-      "correct_idx": 1,
-      "explanation": "In lightless deep-ocean vent zones, specialized chemoautotrophic bacteria perform chemosynthesis, utilizing chemical energy stored in dissolved inorganic compounds like hydrogen sulfide (H₂S) to produce organic compounds."
-    },
-    {
-      "id": "u1_q14",
-      "unit": 1,
-      "topic": "1.3 Aquatic Biomes",
-      "difficulty_b": 0.3,
-      "discrimination_a": 1.26,
-      "prompt": "Which ecological service provided by freshwater wetlands (such as marshes and swamps) directly protects human coastal communities from flooding?",
-      "options": [
-        "Releasing stored methane gas into urban air masses",
-        "Absorbing and storing excess precipitation and storm runoff like a sponge, releasing it slowly",
-        "Increasing river current velocities to scour silt channels",
-        "Reflecting 100% of incoming solar radiation into space"
-      ],
-      "correct_idx": 1,
-      "explanation": "Wetlands act as natural sponges and hydrological buffers. Their spongy soils and dense root mats hold surface water runoff, attenuating downstream flood peaks."
-    },
-    {
-      "id": "u1_q15",
-      "unit": 1,
-      "topic": "1.4 The Carbon Cycle",
-      "difficulty_b": -0.35,
-      "discrimination_a": 1.12,
-      "prompt": "Which reservoir represents the largest long-term storage sink of carbon on Earth?",
-      "options": [
-        "Terrestrial forest vegetation",
-        "Atmospheric carbon dioxide gas (CO₂)",
-        "Sedimentary rocks (such as limestone, CaCO₃)",
-        "Freshwater lake ice"
-      ],
-      "correct_idx": 2,
-      "explanation": "The largest planetary carbon reservoir is sedimentary rock (especially limestone, CaCO₃), locking up hundreds of millions of gigatons of carbon over geological timescales."
-    },
-    {
-      "id": "u1_q16",
-      "unit": 1,
-      "topic": "1.4 The Carbon Cycle",
-      "difficulty_b": 0.1,
-      "discrimination_a": 1.18,
-      "prompt": "Which balanced equation correctly summarizes the biological process of oxygenic photosynthesis carried out by plants and algae?",
-      "options": [
-        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP",
-        "6CO₂ + 6H₂O + Solar Energy → C₆H₁₂O₆ + 6O₂",
-        "6CH₄ + 6O₂ → 6CO₂ + 12H₂O",
-        "2NH₃ + 3O₂ → 2NO₂⁻ + 2H⁺ + 2H₂O"
-      ],
-      "correct_idx": 1,
-      "explanation": "Photosynthesis absorbs inorganic carbon dioxide (6CO₂) and water (6H₂O) using sunlight to yield organic energy-dense glucose (C₆H₁₂O₆) and molecular oxygen (6O₂)."
-    },
-    {
-      "id": "u1_q17",
-      "unit": 1,
-      "topic": "1.4 The Carbon Cycle",
-      "difficulty_b": 0.52,
-      "discrimination_a": 1.35,
-      "prompt": "Excess absorption of atmospheric CO₂ by ocean surface waters forms carbonic acid (H₂CO₃), leading to ocean acidification. How does ocean acidification hinder shell-building marine organisms like oysters and corals?",
-      "options": [
-        "It elevates dissolved oxygen to toxic levels.",
-        "Free hydrogen ions (H⁺) react with carbonate ions (CO₃²⁻), reducing the availability of calcium carbonate (CaCO₃) required for shell formation.",
-        "It dissolves all organic phytoplankton within 24 hours.",
-        "It converts surface saltwater into pure freshwater."
-      ],
-      "correct_idx": 1,
-      "explanation": "As ocean water absorbs excess CO₂, H⁺ ion concentration increases. These H⁺ ions bind to available carbonate ions (CO₃²⁻) to form bicarbonate (HCO₃⁻), robbing organisms like oysters and corals of the free carbonate needed to build CaCO₃ shells."
-    },
-    {
-      "id": "u1_q18",
-      "unit": 1,
-      "topic": "1.4 The Carbon Cycle",
-      "difficulty_b": 0.2,
-      "discrimination_a": 1.22,
-      "prompt": "How does the extraction and combustion of fossil fuels (coal, oil, natural gas) perturb the global carbon cycle?",
-      "options": [
-        "It destroys atmospheric nitrogen reserves.",
-        "It rapidly transfers carbon locked in deep geological reservoirs into the fast atmospheric carbon cycle as CO₂.",
-        "It permanently halts cellular respiration in soil microbes.",
-        "It accelerates the precipitation of limestone onto continental shelves."
-      ],
-      "correct_idx": 1,
-      "explanation": "Fossil fuels store carbon that was sequestered underground millions of years ago. Burning them rapidly transfers that ancient geological carbon into the atmosphere as CO₂, accelerating atmospheric buildup."
-    },
-    {
-      "id": "u1_q19",
-      "unit": 1,
-      "topic": "1.4 The Carbon Cycle",
-      "difficulty_b": 0.78,
-      "discrimination_a": 1.48,
-      "prompt": "Methanogenesis performed by anaerobic archaea in waterlogged wetland sediments converts organic matter into methane gas (CH₄). Which process converts atmospheric CH₄ back into CO₂ over a 10-to-12-year lifespan?",
-      "options": [
-        "Chemical oxidation in the atmosphere reacting with hydroxyl radicals (OH)",
-        "Plant stomatal uptake during cellular respiration",
-        "Nitrogenase enzymatic decay",
-        "Sedimentation onto deep lake floors"
-      ],
-      "correct_idx": 0,
-      "explanation": "Atmospheric methane (CH₄) is a potent greenhouse gas that is gradually oxidized in the troposphere via chemical reactions with hydroxyl radicals (OH), turning into CO₂ and H₂O."
-    },
-    {
-      "id": "u1_q20",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": -0.45,
-      "discrimination_a": 1.1,
-      "prompt": "Atmospheric nitrogen gas (N₂) comprises roughly 78% of Earth's atmosphere but cannot be directly absorbed by plants. Which biological process converts N₂ gas into biologically usable ammonia (NH₃) or ammonium (NH₄⁺)?",
-      "options": [
-        "Denitrification",
-        "Nitrogen fixation",
-        "Assimilation",
-        "Transpiration"
-      ],
-      "correct_idx": 1,
-      "explanation": "Nitrogen fixation breaks the strong triple bond of N₂ gas and converts it into bioavailable ammonia (NH₃) or ammonium (NH₄⁺). This is performed by specialized nitrogen-fixing bacteria (e.g., Rhizobium living in legume root nodules, Cyanobacteria)."
-    },
-    {
-      "id": "u1_q21",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": 0.22,
-      "discrimination_a": 1.25,
-      "prompt": "In the nitrogen cycle, specialized soil bacteria convert soil ammonium (NH₄⁺) first into nitrites (NO₂⁻) and then into nitrates (NO₃⁻). This two-step oxygen-requiring pathway is called:",
-      "options": [
-        "Ammonification",
-        "Nitrification",
-        "Denitrification",
-        "Nitrogen fixation"
-      ],
-      "correct_idx": 1,
-      "explanation": "Nitrification is an aerobic process where nitrifying bacteria (e.g., Nitrosomonas and Nitrobacter) oxidize ammonium (NH₄⁺) into nitrite (NO₂⁻) and then into nitrate (NO₃⁻), the preferred form for plant uptake."
-    },
-    {
-      "id": "u1_q22",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": 0.38,
-      "discrimination_a": 1.3,
-      "prompt": "Plant roots absorb nitrate (NO₃⁻) and ammonium (NH₄⁺) ions from the soil solution to construct essential plant proteins and nucleic acids. This uptake process is known as:",
-      "options": [
-        "Assimilation",
-        "Denitrification",
-        "Ammonification",
-        "Eutrophication"
-      ],
-      "correct_idx": 0,
-      "explanation": "Assimilation occurs when plants take up dissolved inorganic nitrogen ions (NO₃⁻ or NH₄⁺) through their roots and incorporate them into organic molecules like amino acids, DNA, and RNA."
-    },
-    {
-      "id": "u1_q23",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": 0.5,
-      "discrimination_a": 1.34,
-      "prompt": "When dead plants, animal wastes, and organic debris decompose, fungal and bacterial decomposers convert organic nitrogen compounds back into inorganic ammonium (NH₄⁺). This process is termed:",
-      "options": [
-        "Ammonification (Decomposition)",
-        "Denitrification",
-        "Nitrogen fixation",
-        "Sublimation"
-      ],
-      "correct_idx": 0,
-      "explanation": "Ammonification occurs when decomposers break down organic compounds in nitrogenous waste and dead tissues, returning nitrogen to the soil as inorganic ammonium (NH₄⁺)."
-    },
-    {
-      "id": "u1_q24",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": 0.62,
-      "discrimination_a": 1.4,
-      "prompt": "Under anaerobic conditions found in waterlogged soils or wetland sediments, which step of the nitrogen cycle relies on anaerobic bacteria to convert soil nitrate (NO₃⁻) back into atmospheric N₂ gas?",
-      "options": [
-        "Nitrification",
-        "Denitrification",
-        "Nitrogen fixation",
-        "Assimilation"
-      ],
-      "correct_idx": 1,
-      "explanation": "Denitrification is performed by specialized anaerobic bacteria (e.g., Pseudomonas) in oxygen-depleted soils, using nitrate (NO₃⁻) as a final electron acceptor and releasing N₂ gas back into the atmosphere."
-    },
-    {
-      "id": "u1_q25",
-      "unit": 1,
-      "topic": "1.5 The Nitrogen Cycle",
-      "difficulty_b": 0.8,
-      "discrimination_a": 1.5,
-      "prompt": "How does the industrial Haber-Bosch process impact global biogeochemical cycles?",
-      "options": [
-        "It eliminates phosphorus from marine ecosystems.",
-        "It synthetically converts atmospheric N₂ gas into ammonia fertilizer, doubling the global rate of nitrogen fixation.",
-        "It halts denitrification in terrestrial biomes.",
-        "It prevents nitrogen runoff from entering watersheds."
-      ],
-      "correct_idx": 1,
-      "explanation": "The Haber-Bosch process fixes atmospheric N₂ into synthetic ammonia fertilizer on an industrial scale. This massive influx of reactive nitrogen doubles natural global nitrogen fixation rates, often causing downstream eutrophication."
-    },
-    {
-      "id": "u1_q26",
-      "unit": 1,
-      "topic": "1.6 The Phosphorus Cycle",
-      "difficulty_b": -0.2,
-      "discrimination_a": 1.15,
-      "prompt": "Unlike the carbon, nitrogen, and water cycles, the phosphorus cycle is unique because:",
-      "options": [
-        "It relies entirely on plant stomata for circulation.",
-        "It lacks a significant gaseous atmospheric component.",
-        "It operates exclusively inside marine thermal vents.",
-        "It proceeds faster than any other biogeochemical cycle."
-      ],
-      "correct_idx": 1,
-      "explanation": "Phosphorus does not form a stable gas under Earth's atmospheric conditions. Consequently, the phosphorus cycle operates locally and regionally through rock weathering, soil, water, and biological organisms without an atmospheric phase."
-    },
-    {
-      "id": "u1_q27",
-      "unit": 1,
-      "topic": "1.6 The Phosphorus Cycle",
-      "difficulty_b": 0.3,
-      "discrimination_a": 1.25,
-      "prompt": "What is the primary natural reservoir of phosphorus in the global phosphorus cycle?",
-      "options": [
-        "Atmospheric water vapor",
-        "Sedimentary rocks and phosphate mineral deposits",
-        "Dissolved surface air masses",
-        "Stratospheric ozone layers"
-      ],
-      "correct_idx": 1,
-      "explanation": "The chief reservoir for phosphorus is terrestrial sedimentary rock and mineral deposits containing phosphate compounds (PO₄³⁻), which are slowly released via physical and chemical weathering."
-    },
-    {
-      "id": "u1_q28",
-      "unit": 1,
-      "topic": "1.6 The Phosphorus Cycle",
-      "difficulty_b": 0.48,
-      "discrimination_a": 1.32,
-      "prompt": "Guano (accumulated droppings from roosting seabirds and bats) is historically mined by humans for use as an agricultural fertilizer because it is exceptionally rich in:",
-      "options": [
-        "Atmospheric argon",
-        "Phosphorus and nitrogen",
-        "Calcium carbonate crystal structures",
-        "Heavy lead isotopes"
-      ],
-      "correct_idx": 1,
-      "explanation": "Seabirds and bats feed on marine fish and insects, concentrating consumed phosphorus and nitrogen into their droppings (guano). Guano deposits are major commercial sources of organic phosphate fertilizer."
-    },
-    {
-      "id": "u1_q29",
-      "unit": 1,
-      "topic": "1.6 The Phosphorus Cycle",
-      "difficulty_b": 0.68,
-      "discrimination_a": 1.42,
-      "prompt": "Why is soluble phosphate (PO₄³⁻) typically a limiting nutrient in undisturbed freshwater lakes and streams?",
-      "options": [
-        "Phosphate reacts instantaneously with dissolved nitrogen to create toxic gas.",
-        "Phosphate binds tightly to soil minerals and dissolves very slowly in water, keeping natural concentrations low.",
-        "Phosphate gas escapes into the upper mesosphere during daylight.",
-        "Aquatic autotrophs refuse to absorb inorganic phosphate."
-      ],
-      "correct_idx": 1,
-      "explanation": "Phosphate minerals weather very slowly and bind easily to iron and aluminum in soil. Because dissolved PO₄³⁻ concentrations in unpolluted freshwater are naturally very low, phosphorus limits primary productivity."
-    },
-    {
-      "id": "u1_q30",
-      "unit": 1,
-      "topic": "1.7 The Hydrologic Cycle",
-      "difficulty_b": -0.5,
-      "discrimination_a": 1.08,
-      "prompt": "Which process in the hydrologic cycle describes the loss of water vapor from plant leaves into the atmosphere through microscopic stomatal pores?",
-      "options": [
-        "Infiltration",
-        "Transpiration",
-        "Percolation",
-        "Condensation"
-      ],
-      "correct_idx": 1,
-      "explanation": "Transpiration is the movement of water through plants from roots to leaves, where it evaporates into the atmosphere through open stomatal pores."
-    },
-    {
-      "id": "u1_q31",
-      "unit": 1,
-      "topic": "1.7 The Hydrologic Cycle",
-      "difficulty_b": 0.15,
-      "discrimination_a": 1.2,
-      "prompt": "What primary solar-driven thermodynamic process transforms surface liquid ocean water into atmospheric water vapor?",
-      "options": [
-        "Sublimation",
-        "Evaporation",
-        "Precipitation",
-        "Deposition"
-      ],
-      "correct_idx": 1,
-      "explanation": "Solar energy warms ocean surface waters, driving evaporation: the phase change of liquid water into atmospheric water vapor."
-    },
-    {
-      "id": "u1_q32",
-      "unit": 1,
-      "topic": "1.7 The Hydrologic Cycle",
-      "difficulty_b": 0.35,
-      "discrimination_a": 1.28,
-      "prompt": "When warm, moist air rises and cools high in the troposphere, water vapor undergoes a phase change to form water droplets or ice crystals in clouds. This process is called:",
-      "options": [
-        "Transpiration",
-        "Condensation",
-        "Infiltration",
-        "Evapotranspiration"
-      ],
-      "correct_idx": 1,
-      "explanation": "Condensation is the process where water vapor cools and transitions back into liquid water droplets or ice crystals, forming clouds and mist."
-    },
-    {
-      "id": "u1_q33",
-      "unit": 1,
-      "topic": "1.7 The Hydrologic Cycle",
-      "difficulty_b": 0.72,
-      "discrimination_a": 1.45,
-      "prompt": "Approximately what percentage of all Earth's freshwater is locked up in polar ice caps and glaciers?",
-      "options": [
-        "10%",
-        "30%",
-        "69%",
-        "97%"
-      ],
-      "correct_idx": 2,
-      "explanation": "Although oceans hold ~97% of Earth's total water, freshwater makes up only ~3%. Of that freshwater, roughly 68.7% (nearly 69%) is frozen in ice caps and glaciers."
-    },
-    {
-      "id": "u1_q34",
-      "unit": 1,
-      "topic": "1.8 Primary Productivity",
-      "difficulty_b": -0.1,
-      "discrimination_a": 1.15,
-      "prompt": "Gross Primary Productivity (GPP) is best defined as:",
-      "options": [
-        "The net rate of plant tissue biomass accumulation after cellular respiration losses",
-        "The total rate at which primary producers convert solar energy into chemical energy via photosynthesis per unit area per time",
-        "The total amount of energy consumed by herbivores in an ecosystem",
-        "The rate of soil organic matter decomposition"
-      ],
-      "correct_idx": 1,
-      "explanation": "Gross Primary Productivity (GPP) measures the total chemical energy autotrophs capture through photosynthesis over a given timeframe, before subtracting energy used for plant cellular respiration."
-    },
-    {
-      "id": "u1_q35",
-      "unit": 1,
-      "topic": "1.8 Primary Productivity",
-      "difficulty_b": 0.25,
-      "discrimination_a": 1.24,
-      "prompt": "What standard mathematical equation models the relationship between Gross Primary Productivity (GPP), Net Primary Productivity (NPP), and Plant Cellular Respiration (R)?",
-      "options": [
-        "NPP = GPP - R",
-        "GPP = NPP - R",
-        "R = GPP + NPP",
-        "NPP = GPP / R"
-      ],
-      "correct_idx": 0,
-      "explanation": "Net Primary Productivity (NPP) is the net chemical energy remaining after primary producers satisfy their own metabolic energy needs via cellular respiration: NPP = GPP - R."
-    },
-    {
-      "id": "u1_q36",
-      "unit": 1,
-      "topic": "1.8 Primary Productivity",
-      "difficulty_b": 0.45,
-      "discrimination_a": 1.32,
-      "prompt": "Which set of units is standard for measuring Net Primary Productivity in an ecosystem?",
-      "options": [
-        "Kilograms per liter per hour (kg/L/hr)",
-        "Grams of organic carbon produced per square meter per year (g C/m²/yr)",
-        "Parts per million per meter (ppm/m)",
-        "Joules per degree Celsius (J/°C)"
-      ],
-      "correct_idx": 1,
-      "explanation": "Primary productivity measures mass of carbon or energy accumulated per unit surface area per unit time, expressed as g C/m²/yr or kcal/m²/yr."
-    },
-    {
-      "id": "u1_q37",
-      "unit": 1,
-      "topic": "1.8 Primary Productivity",
-      "difficulty_b": 0.6,
-      "discrimination_a": 1.38,
-      "prompt": "Which two biomes exhibit the HIGHEST average Net Primary Productivity per unit area (g C/m²/yr)?",
-      "options": [
-        "Open ocean and arctic tundra",
-        "Tropical rainforests and estuaries/coral reefs",
-        "Taiga and temperate deserts",
-        "Continental shelf mudflats and deep ocean benthic trenches"
-      ],
-      "correct_idx": 1,
-      "explanation": "Tropical rainforests (terrestrial) and estuaries/coral reefs (aquatic) have abundant warmth, sunlight, water, and nutrient availability, driving the highest NPP rates per unit area on Earth."
-    },
-    {
-      "id": "u1_q38",
-      "unit": 1,
-      "topic": "1.8 Primary Productivity",
-      "difficulty_b": 0.82,
-      "discrimination_a": 1.52,
-      "prompt": "Although the open ocean has a very low Net Primary Productivity per square meter, it contributes more total global annual NPP than any other single biome. Why?",
-      "options": [
-        "Deep ocean water contains higher glucose concentrations than topsoil.",
-        "The open ocean covers over 70% of Earth's total surface area, multiplying its low unit rate by an enormous area.",
-        "Phytoplankton carry out photosynthesis without requiring light.",
-        "Benthic tubeworms reflect solar radiation back to surface waters."
-      ],
-      "correct_idx": 1,
-      "explanation": "Even though open oceans are nutrient-sparse deserts per square meter (low unit NPP), their vast global expanse (covering ~70% of the planet) allows them to dominate total global primary productivity."
-    },
-    {
-      "id": "u1_q39",
-      "unit": 1,
-      "topic": "1.9 Trophic Levels",
-      "difficulty_b": -0.3,
-      "discrimination_a": 1.12,
-      "prompt": "Organisms that generate their own organic organic macromolecules directly from inorganic carbon sources (like CO₂) using solar energy or inorganic chemical energy are classified as:",
-      "options": [
-        "Heterotrophs",
-        "Autotrophs (Producers)",
-        "Secondary consumers",
-        "Apex predators"
-      ],
-      "correct_idx": 1,
-      "explanation": "Autotrophs (producers) synthesize organic molecules from inorganic materials using energy from sunlight (photoautotrophs) or inorganic chemical oxidation (chemoautotrophs)."
-    },
-    {
-      "id": "u1_q40",
-      "unit": 1,
-      "topic": "1.9 Trophic Levels",
-      "difficulty_b": 0.1,
-      "discrimination_a": 1.18,
-      "prompt": "A grasshopper feeds directly on green meadow grasses. Within this food web, the grasshopper occupies which trophic level?",
-      "options": [
-        "Primary producer",
-        "Primary consumer (Herbivore)",
-        "Secondary consumer (Carnivore)",
-        "Tertiary consumer"
-      ],
-      "correct_idx": 1,
-      "explanation": "Primary consumers are herbivores that feed directly on autotrophic primary producers (plants/algae)."
-    },
-    {
-      "id": "u1_q41",
-      "unit": 1,
-      "topic": "1.9 Trophic Levels",
-      "difficulty_b": 0.4,
-      "discrimination_a": 1.3,
-      "prompt": "What essential ecological role is fulfilled by detritivores (e.g., earthworms, millipedes) and decomposers (e.g., fungi, bacteria)?",
-      "options": [
-        "Converting high-grade thermal heat back into sunlight photons",
-        "Breaking down organic wastes and dead tissue, recycling inorganic nutrients back into soil and water for producers",
-        "Preventing primary productivity from exceeding 10%",
-        "Removing nitrogen gas from plant root nodules"
-      ],
-      "correct_idx": 1,
-      "explanation": "Decomposers and detritivores break down complex organic molecules in dead organic matter, releasing inorganic nutrients (like nitrates and phosphates) back into abiotic reservoirs for autotroph absorption."
-    },
-    {
-      "id": "u1_q42",
-      "unit": 1,
-      "topic": "1.10 Energy Flow and the 10% Rule",
-      "difficulty_b": -0.4,
-      "discrimination_a": 1.1,
-      "prompt": "According to the 10% Rule of ecological efficiency, roughly what percentage of energy is passed from one trophic level up to the next higher trophic level?",
-      "options": [
-        "1%",
-        "10%",
-        "50%",
-        "90%"
-      ],
-      "correct_idx": 1,
-      "explanation": "The 10% rule states that only about 10% of chemical energy stored as biomass at one trophic level is converted into biomass at the next trophic level. The remaining 90% is lost."
-    },
-    {
-      "id": "u1_q43",
-      "unit": 1,
-      "topic": "1.10 Energy Flow and the 10% Rule",
-      "difficulty_b": 0.2,
-      "discrimination_a": 1.22,
-      "prompt": "If a meadow ecosystem contains 20,000 kcal/m²/yr of net energy stored in primary producer plants, how much energy is theoretically available to secondary consumers?",
-      "options": [
-        "20,000 kcal/m²/yr",
-        "2,000 kcal/m²/yr",
-        "200 kcal/m²/yr",
-        "20 kcal/m²/yr"
-      ],
-      "correct_idx": 2,
-      "explanation": "Applying the 10% rule step by step: Producers = 20,000 kcal. Primary consumers (10%) = 2,000 kcal. Secondary consumers (10% of 2,000) = 200 kcal/m²/yr."
-    },
-    {
-      "id": "u1_q44",
-      "unit": 1,
-      "topic": "1.10 Energy Flow and the 10% Rule",
-      "difficulty_b": 0.52,
-      "discrimination_a": 1.34,
-      "prompt": "Why is 90% of energy lost between adjacent trophic levels in an energy pyramid?",
-      "options": [
-        "Energy is destroyed completely during chemical bond breaking.",
-        "Most energy is expended for metabolic cellular respiration and lost as unrecoverable low-grade waste heat (entropy).",
-        "Primary consumers reflect 90% of incoming light rays back to space.",
-        "Decomposers store 90% of all energy permanently inside deep rock strata."
-      ],
-      "correct_idx": 1,
-      "explanation": "In accordance with the Second Law of Thermodynamics, energy transformations are inefficient. Most energy consumed is metabolized for respiration, movement, and heat, radiating away as low-grade thermal energy."
-    },
-    {
-      "id": "u1_q45",
-      "unit": 1,
-      "topic": "1.10 Energy Flow and the 10% Rule",
-      "difficulty_b": 0.75,
-      "discrimination_a": 1.46,
-      "prompt": "In an open ocean ecosystem, a snapshot pyramid of standing biomass can occasionally appear inverted (smaller phytoplankton biomass supporting a larger zooplankton biomass). What dynamic explains this inverted pyramid?",
-      "options": [
-        "Phytoplankton produce zero cellular respiration losses.",
-        "Phytoplankton have an extremely rapid turnover rate, reproducing and dying quickly while sustaining high productivity.",
-        "Zooxanthellae consume zooplankton directly.",
-        "Secondary consumers fix atmospheric nitrogen gas into sugars."
-      ],
-      "correct_idx": 1,
-      "explanation": "Phytoplankton have a high turnover rate: their total standing biomass at any given instant is low, but they reproduce extremely fast, producing enough cumulative energy to support a larger standing biomass of long-lived zooplankton."
-    },
-    {
-      "id": "u1_q46",
-      "unit": 1,
-      "topic": "1.10 Energy Flow and the 10% Rule",
-      "difficulty_b": 0.65,
-      "discrimination_a": 1.4,
-      "prompt": "Based on ecological efficiency and trophic energy loss, why does a vegetarian human diet require vastly less agricultural land area than a meat-based diet?",
-      "options": [
-        "Crops fix nitrogen directly into animal fat cells.",
-        "Eating at a lower trophic level (producer level) avoids the 90% energy loss incurred when feeding grain to livestock primary consumers.",
-        "Vegetable crops require zero water or sunlight to reach harvest maturity.",
-        "Livestock convert 100% of feed calories into harvestable muscle mass."
-      ],
-      "correct_idx": 1,
-      "explanation": "Eating plants directly taps energy at Trophic Level 1. Feeding plant grains to livestock incurs a ~90% energy loss at Trophic Level 2, requiring dramatically more crop land to produce an equivalent amount of human food energy."
-    },
-    {
-      "id": "u1_q47",
-      "unit": 1,
-      "topic": "1.11 Food Chains and Food Webs",
-      "difficulty_b": -0.1,
-      "discrimination_a": 1.15,
-      "prompt": "How does food web complexity impact an ecosystem's resistance to environmental disturbances?",
-      "options": [
-        "Complex food webs are fragile because removing one organism causes instant collapse.",
-        "High food web complexity increases ecosystem stability by providing alternative feeding pathways if one prey species declines.",
-        "Complex food webs prevent plants from conducting photosynthesis.",
-        "Complex food webs eliminate competition for resources."
-      ],
-      "correct_idx": 1,
-      "explanation": "Ecosystems with highly complex, interconnected food webs are more resilient. If one prey species collapses, predators can rely on alternative food sources within the web."
-    },
-    {
-      "id": "u1_q48",
-      "unit": 1,
-      "topic": "1.11 Food Chains and Food Webs",
-      "difficulty_b": 0.35,
-      "discrimination_a": 1.28,
-      "prompt": "The removal of sea otters from a Pacific kelp forest ecosystem allowed sea urchin populations to explode, resulting in severe overgrazing and total destruction of the kelp forest. The sea otter is acting as a:",
-      "options": [
-        "Pioneer species",
-        "Keystone species driving a top-down trophic cascade",
-        "Dominant primary producer",
-        "Invasive generalist competitor"
-      ],
-      "correct_idx": 1,
-      "explanation": "Sea otters are keystone species. Their removal triggers a top-down trophic cascade: without otter predation, herbivorous sea urchins overpopulate and strip the kelp forest habitat."
-    },
-    {
-      "id": "u1_q49",
-      "unit": 1,
-      "topic": "1.11 Food Chains and Food Webs",
-      "difficulty_b": 0.58,
-      "discrimination_a": 1.36,
-      "prompt": "Fat-soluble synthetic toxins like DDT accumulate in fatty tissues of individual organisms over time (bioaccumulation) and increase in concentration at higher trophic levels. This trophic escalation is called:",
-      "options": [
-        "Eutrophication",
-        "Biomagnification",
-        "Nitrogen fixation",
-        "Resource partitioning"
-      ],
-      "correct_idx": 1,
-      "explanation": "Biomagnification is the process where persistent, fat-soluble chemical pollutants become increasingly concentrated in tissue biomass at higher trophic levels as apex predators consume large quantities of lower-level prey."
-    },
-    {
-      "id": "u1_q50",
-      "unit": 1,
-      "topic": "1.11 Food Chains and Food Webs",
-      "difficulty_b": 0.85,
-      "discrimination_a": 1.55,
-      "prompt": "In a food web, a bottom-up control dynamic occurs when:",
-      "options": [
-        "Apex predators dictate the population size of all lower herbivores.",
-        "Abiotic nutrient availability and primary producer biomass limit the energy available to all higher trophic levels.",
-        "Invasive species consume all decomposers.",
-        "Parasites reduce top predator survival to zero."
-      ],
-      "correct_idx": 1,
-      "explanation": "Bottom-up control occurs when the ecosystem structure is regulated primarily by resource availability (nutrients, light, water) and primary producer biomass at the base of the food web."
-    }
-  ]
+  {
+    "id": "u1_q01",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.6,
+    "discrimination_a": 1.1,
+    "prompt": "Which terrestrial biome is characterized by a layer of permanently frozen subsoil (permafrost), extremely low annual precipitation, and a short growing season?",
+    "options": [
+      "Taiga (Boreal Forest)",
+      "Tundra",
+      "Tropical Rainforest",
+      "Temperate Grassland"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: The tundra biome is defined by permafrost, which limits root growth to shallow depths, as well as very low temperatures and sparse annual precipitation.\n\nWHY DISTRACTORS ARE WRONG:\n• Taiga (Boreal Forest): Contains acidic soils and coniferous evergreen forests; lacks widespread permafrost.\n• Tropical Rainforest: Features high year-round temperatures, extreme annual rainfall, and dense multi-layered canopy vegetation.\n• Temperate Grassland: Characterized by deep, fertile soils (mollisols), cold winters, warm summers, and moderate rainfall dominated by grasses."
+  },
+  {
+    "id": "u1_q02",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.2,
+    "prompt": "Which terrestrial biome exhibits high primary productivity but has soils that are notably nutrient-poor due to rapid nutrient cycling and heavy precipitation leaching minerals?",
+    "options": [
+      "Taiga (Boreal Forest)",
+      "Tundra",
+      "Tropical Rainforest",
+      "Temperate Grassland"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: In tropical rainforests, high temperatures and humidity drive rapid microbial decomposition. Combined with heavy rainfall that leaches soluble nutrients deep below the root zone, soil organic matter remains minimal as plants rapidly absorb available nutrients.\n\nWHY DISTRACTORS ARE WRONG:\n• Taiga (Boreal Forest): Has slow needle decomposition resulting in thick, acidic litter layer rather than heavy rain leaching.\n• Tundra: Decomposes organic matter very slowly, building up nutrient-rich peat despite short growing seasons.\n• Temperate Grassland: Has exceptionally nutrient-rich soils created by deep organic grass root systems and moderate decomposition."
+  },
+  {
+    "id": "u1_q03",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.0,
+    "prompt": "Which terrestrial biome is dominated by coniferous evergreen trees adapted to cold climates, with acidic soil resulting from the slow decomposition of pine needles?",
+    "options": [
+      "Taiga (Boreal Forest)",
+      "Tundra",
+      "Tropical Rainforest",
+      "Temperate Grassland"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: The taiga (boreal forest) is dominated by conifers such as spruce and fir. Their acidic needles decompose slowly in cold conditions, leading to nutrient-poor spodosol soils.\n\nWHY DISTRACTORS ARE WRONG:\n• Tundra: Lacks tall coniferous trees entirely due to permafrost and extreme exposure.\n• Tropical Rainforest: Broadleaf evergreen hardwoods dominate; acidic pine needles are absent.\n• Temperate Grassland: Dominated by herbaceous grasses and flowering plants rather than coniferous trees."
+  },
+  {
+    "id": "u1_q04",
+    "unit": 1,
+    "topic": "1.6 The Phosphorus Cycle",
+    "difficulty_b": -0.7,
+    "discrimination_a": 1.3,
+    "prompt": "Unlike the carbon, nitrogen, and hydrologic cycles, which biogeochemical cycle does NOT include a significant atmospheric gas reservoir?",
+    "options": [
+      "Carbon Cycle",
+      "Nitrogen Cycle",
+      "Phosphorus Cycle",
+      "Hydrologic Cycle"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Phosphorus lacks a stable gaseous phase under normal environmental conditions; it cycles almost exclusively through rocks, water, soil, and living organisms.\n\nWHY DISTRACTORS ARE WRONG:\n• Carbon Cycle: Possesses a major atmospheric gas reservoir in the form of carbon dioxide (CO₂) and methane (CH₄).\n• Nitrogen Cycle: Features atmospheric nitrogen gas (N₂) as its primary global reservoir (~78% of air).\n• Hydrologic Cycle: Involves atmospheric water vapor as a critical flux component for global transport."
+  },
+  {
+    "id": "u1_q05",
+    "unit": 1,
+    "topic": "1.5 The Nitrogen Cycle",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.4,
+    "prompt": "Which biogeochemical cycle relies primarily on specialized soil and root-associated bacteria to convert its inert atmospheric gas into bioavailable forms for plants?",
+    "options": [
+      "Carbon Cycle",
+      "Nitrogen Cycle",
+      "Phosphorus Cycle",
+      "Hydrologic Cycle"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Inert N₂ gas has a strong triple covalent bond that plants cannot absorb. Nitrogen-fixing bacteria (such as Rhizobium or Azotobacter) break this bond to convert N₂ into ammonia (NH₃) or ammonium (NH₄⁺).\n\nWHY DISTRACTORS ARE WRONG:\n• Carbon Cycle: Carbon dioxide is fixed directly by photosynthetic plants without requiring bacterial transformation.\n• Phosphorus Cycle: Weathering of phosphate rocks provides bioavailable orthophosphates directly into solution without gas fixation.\n• Hydrologic Cycle: Driven by physical processes (solar evaporation, condensation) rather than bacterial transformations."
+  },
+  {
+    "id": "u1_q06",
+    "unit": 1,
+    "topic": "1.4 The Carbon Cycle",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.1,
+    "prompt": "In which biogeochemical cycle does short-term cycling occur through biological processes like photosynthesis and cellular respiration, while long-term storage occurs in limestone deposits and deep oceanic sediments?",
+    "options": [
+      "Carbon Cycle",
+      "Nitrogen Cycle",
+      "Phosphorus Cycle",
+      "Hydrologic Cycle"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: Biological photosynthesis and respiration exchange carbon rapidly (years to decades), whereas calcium carbonate (CaCO₃) in limestone and fossil fuel formation stores carbon over millions of years.\n\nWHY DISTRACTORS ARE WRONG:\n• Nitrogen Cycle: Does not form limestone rock deposits or deep geological carbonate sinks.\n• Phosphorus Cycle: Lacks a rapid gas exchange biological driver equivalent to photosynthesis/respiration atmospheric carbon flux.\n• Hydrologic Cycle: Operates on rapid phase changes (evaporation/precipitation) and deep aquifers rather than mineral carbonate sinks."
+  },
+  {
+    "id": "u1_q07",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": -0.8,
+    "discrimination_a": 1.0,
+    "prompt": "Rhizobium bacteria reside inside nodules on legume root systems. The bacteria convert atmospheric nitrogen into fixed ammonia for the plant, while receiving carbohydrates synthesized by the plant. What type of ecological interaction is this?",
+    "options": [
+      "Mutualism",
+      "Commensalism",
+      "Parasitism",
+      "Resource Partitioning"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: Mutualism is an interaction where both species benefit (+/+). The legume gains bioavailable nitrogen and the bacteria gain organic energy and shelter.\n\nWHY DISTRACTORS ARE WRONG:\n• Commensalism: Describes an interaction where one species benefits while the other is completely unaffected (+/0).\n• Parasitism: Involves one species benefiting at the direct energetic expense/harm of the host (+/-).\n• Resource Partitioning: Refers to species dividing niche spaces or resources to avoid direct interspecific competition."
+  },
+  {
+    "id": "u1_q08",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.2,
+    "prompt": "Five species of warblers feed on insects in different vertical canopy zones of the exact same spruce tree species. Which ecological phenomenon allows these competing species to coexist?",
+    "options": [
+      "Mutualism",
+      "Commensalism",
+      "Parasitism",
+      "Resource Partitioning"
+    ],
+    "correct_idx": 3,
+    "explanation": "CORRECT: Resource partitioning occurs when competing species evolve spatial or temporal behavioral adaptations to divide shared resources, minimizing direct niche overlap and competition.\n\nWHY DISTRACTORS ARE WRONG:\n• Mutualism: Involves direct mutual benefit (+/+) between different organisms, not competitive avoidance.\n• Commensalism: Involves one organism benefitting while the other remains neutral (+/0).\n• Parasitism: Represents a host-consumer relationship where one partner suffers physical detriment."
+  },
+  {
+    "id": "u1_q09",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": -0.5,
+    "discrimination_a": 0.9,
+    "prompt": "An epiphytic orchid attaches high onto the branch of a tall tropical rainforest tree to gain access to sunlight. The orchid absorbs rainwater and nutrients from the air without harming or benefiting the tree. Which interaction does this demonstrate?",
+    "options": [
+      "Mutualism",
+      "Commensalism",
+      "Parasitism",
+      "Resource Partitioning"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Commensalism (+/0) occurs when one organism gains a clear advantage (the orchid gains sunlight) while the supporting host species experiences neither harm nor benefit.\n\nWHY DISTRACTORS ARE WRONG:\n• Mutualism: Would require the host tree to gain a distinct biological advantage from the orchid (+/+).\n• Parasitism: Would require the epiphytic plant to siphon vascular nutrients or structural strength from the host tree (+/-).\n• Resource Partitioning: Focuses on evolutionary niche differentiation among species competing for the exact same resource."
+  },
+  {
+    "id": "u1_q10",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.1,
+    "prompt": "Which aquatic ecosystem consists of a semi-enclosed coastal body of water where freshwater from rivers mixes with saltwater from the ocean, creating a highly productive marine nursery ground?",
+    "options": [
+      "Coral Reef",
+      "Estuary",
+      "Freshwater Wetland",
+      "Open Ocean (Pelagic Zone)"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Estuaries are brackish transitional zones where nutrient-rich river discharge mixes with tides, creating nutrient traps that foster vital juvenile fish and invertebrate nursery habitats.\n\nWHY DISTRACTORS ARE WRONG:\n• Coral Reef: Marine ecosystem formed by calcium carbonate polyps in warm, shallow, fully saline marine waters.\n• Freshwater Wetland: Inundated land areas dominated by emergent vegetation with zero oceanic salinity influence.\n• Open Ocean (Pelagic Zone): Deep offshore marine water column characterized by low nutrient availability and distance from coastal river inputs."
+  },
+  {
+    "id": "u1_q11",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.5,
+    "discrimination_a": 1.0,
+    "prompt": "Which shallow marine ecosystem is built by living invertebrate animals that maintain a mutualistic symbiosis with photosynthetic microscopic algae known as zooxanthellae?",
+    "options": [
+      "Coral Reef",
+      "Estuary",
+      "Freshwater Wetland",
+      "Open Ocean (Pelagic Zone)"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: Coral reefs are constructed by cnidarian polyps that host photosynthetic zooxanthellae endosymbionts, providing energy for secretion of calcium carbonate exoskeletons.\n\nWHY DISTRACTORS ARE WRONG:\n• Estuary: Coastal brackish water mixing zone dominated by salt marshes or mangroves, not calcium carbonate structures.\n• Freshwater Wetland: Non-saline submerged inland ecosystem dominated by plants like cattails and cypress trees.\n• Open Ocean (Pelagic Zone): Deep offshore water column where benthic coral reef structures cannot form due to lack of sunlight penetration to the ocean floor."
+  },
+  {
+    "id": "u1_q12",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.1,
+    "prompt": "Which inland aquatic ecosystem is submerged in shallow fresh water for at least part of the year, supporting emergent aquatic vegetation while serving as a natural water purification filter and flood buffer?",
+    "options": [
+      "Coral Reef",
+      "Estuary",
+      "Freshwater Wetland",
+      "Open Ocean (Pelagic Zone)"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Freshwater wetlands (swamps, marshes, bogs) act as ecological sponges that store floodwaters, drop out suspended sediments, and allow vegetation/microbes to absorb runoff pollutants.\n\nWHY DISTRACTORS ARE WRONG:\n• Coral Reef: Marine benthic structure located exclusively in high-salinity oceanic environments.\n• Estuary: Brackish coastal transitional zone where seawater and river water merge.\n• Open Ocean (Pelagic Zone): Deep offshore marine ecosystem devoid of rooted emergent terrestrial vegetation."
+  },
+  {
+    "id": "u1_q13",
+    "unit": 1,
+    "topic": "1.5 The Nitrogen Cycle",
+    "difficulty_b": 0.2,
+    "discrimination_a": 1.3,
+    "prompt": "Which specific biochemical process in the nitrogen cycle is performed by specialized anaerobic bacteria to convert soil nitrate ions (NO₃⁻) back into inert atmospheric nitrogen gas (N₂)?",
+    "options": [
+      "Nitrification",
+      "Nitrogen Fixation",
+      "Denitrification",
+      "Assimilation"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Denitrification is performed by facultative anaerobic bacteria (like Pseudomonas) in waterlogged soils or sediments, utilizing NO₃⁻ as an oxygen source and reducing it to N₂ gas.\n\nWHY DISTRACTORS ARE WRONG:\n• Nitrification: Soil bacteria oxidize ammonium (NH₄⁺) into nitrite (NO₂⁻) and then usable nitrate (NO₃⁻).\n• Nitrogen Fixation: Converts gaseous atmospheric N₂ into bioavailable ammonia (NH₃) or ammonium (NH₄⁺).\n• Assimilation: The cellular process where plants absorb nitrates or ammonium through root systems to build plant proteins."
+  },
+  {
+    "id": "u1_q14",
+    "unit": 1,
+    "topic": "1.6 The Phosphorus Cycle",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.2,
+    "prompt": "Runoff containing excessive synthetic fertilizer application on agricultural lands alters aquatic phosphorus cycles primarily by initiating which environmental chain reaction?",
+    "options": [
+      "Increased stratospheric ozone depletion",
+      "Eutrophication and subsequent hypoxia in downstream water bodies",
+      "Severe acidification of groundwater aquifers",
+      "Atmospheric buildup of toxic phosphorus dioxide gas"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Excessive phosphorus inputs stimulate massive phytoplankton/algal blooms. When algae die, decomposers consume dissolved oxygen during cellular respiration, causing severe aquatic hypoxia (\"dead zones\").\n\nWHY DISTRACTORS ARE WRONG:\n• Increased stratospheric ozone depletion: Caused by synthetic halogenated gases (CFCs) or nitrous oxide (N₂O), not phosphorus runoff.\n• Severe acidification of groundwater aquifers: Primarily tied to mine drainage or atmospheric acid deposition, not nutrient agricultural fertilizers.\n• Atmospheric buildup of toxic phosphorus dioxide gas: Phosphorus lacks a stable gaseous phase involved in atmospheric accumulation."
+  },
+  {
+    "id": "u1_q15",
+    "unit": 1,
+    "topic": "1.7 The Hydrologic Cycle",
+    "difficulty_b": -0.6,
+    "discrimination_a": 0.9,
+    "prompt": "In the hydrologic cycle, which term specifically describes the process by which liquid water absorbed by plant roots moves through plant tissues and escapes as water vapor through leaf stomata?",
+    "options": [
+      "Condensation",
+      "Infiltration",
+      "Transpiration",
+      "Percolation"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Transpiration is the phase change where water evaporates from the internal vascular systems of living plants into the atmosphere through stomatal pores.\n\nWHY DISTRACTORS ARE WRONG:\n• Condensation: The process where atmospheric water vapor cools and transforms into liquid water droplets (clouds/fog).\n• Infiltration: The initial entry of liquid precipitation downward into the surface boundary of soil.\n• Percolation: The deeper movement of infiltrated water through soil layers and permeable rock into subsurface groundwater aquifers."
+  },
+  {
+    "id": "u1_q16",
+    "unit": 1,
+    "topic": "1.10 Energy Flow and the 10% Rule",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.1,
+    "prompt": "An ecosystem's producers generate 12,000 kcal/m²/year of energy in biomass. The primary consumers in this ecosystem store 1,200 kcal/m²/year in their biomass. What is the efficiency of energy transfer between these two trophic levels?",
+    "options": [
+      "1.0%",
+      "10%",
+      "15%",
+      "90%"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Ecological efficiency = (Energy at higher level / Energy at lower level) × 100 = (1,200 / 12,000) × 100 = 10%.\n\nWHY DISTRACTORS ARE WRONG:\n• 1.0%: Represents energy efficiency if calculated across two complete trophic transitions (e.g., producers to secondary consumers).\n• 15%: Exceeds the standard calculated transfer efficiency for this specific dataset.\n• 90%: Represents the approximate percentage of energy lost as heat and waste rather than the percentage transferred."
+  },
+  {
+    "id": "u1_q17",
+    "unit": 1,
+    "topic": "1.10 Energy Flow and the 10% Rule",
+    "difficulty_b": 0.0,
+    "discrimination_a": 1.2,
+    "prompt": "According to the Laws of Thermodynamics, why is approximately 90% of available energy lost as trophic levels increase from primary consumers to secondary consumers?",
+    "options": [
+      "Energy is destroyed by soil decomposers during nutrient recycling.",
+      "Energy is converted into heavy matter and sequestered permanently in topsoil.",
+      "Energy is lost as low-grade heat through metabolic cellular respiration and unconsumed waste.",
+      "Energy is converted back into radiant solar energy by animal heat dissipation."
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: The Second Law of Thermodynamics states that energy transformations increase entropy. Organisms expend substantial chemical energy on respiration, movement, and heat, losing it from the food web.\n\nWHY DISTRACTORS ARE WRONG:\n• Energy is destroyed by soil decomposers...: Violates the First Law of Thermodynamics; energy cannot be destroyed.\n• Energy is converted into heavy matter...: Biomass decreases at higher trophic levels due to energy loss, rather than sequestering excess mass.\n• Energy is converted back into radiant solar energy...: Metabolic heat loss is thermal radiation, which cannot be converted back into photosynthetic solar wavelengths."
+  },
+  {
+    "id": "u1_q18",
+    "unit": 1,
+    "topic": "1.9 Trophic Levels",
+    "difficulty_b": 0.1,
+    "discrimination_a": 1.3,
+    "prompt": "When fat-soluble synthetic pollutants like DDT enter an ecosystem, which trophic level will exhibit the highest concentration of the toxin within individual tissues due to biomagnification?",
+    "options": [
+      "Producers",
+      "Primary Consumers",
+      "Secondary Consumers",
+      "Tertiary Consumers"
+    ],
+    "correct_idx": 3,
+    "explanation": "CORRECT: Biomagnification occurs because persistent fat-soluble compounds are retained in body fat. Higher-level carnivores must consume large quantities of biomass from lower levels, accumulating elevated concentrations.\n\nWHY DISTRACTORS ARE WRONG:\n• Producers: Take up low environmental background concentrations directly from soil or water without biomagnifying from ingested prey.\n• Primary Consumers: Concentrate toxins relative to water/producers, but at significantly lower tissue levels than higher carnivores.\n• Secondary Consumers: Accumulate toxins from herbivores, but undergo further concentration steps before reaching top apex predators."
+  },
+  {
+    "id": "u1_q19",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.2,
+    "prompt": "A freshwater lake has a Gross Primary Productivity (GPP) of 15,000 kcal/m²/year. Phytoplankton in the lake expend 8,000 kcal/m²/year on cellular respiration. What is the Net Primary Productivity (NPP) of this ecosystem?",
+    "options": [
+      "23,000 kcal/m²/year",
+      "15,000 kcal/m²/year",
+      "7,000 kcal/m²/year",
+      "1.875 kcal/m²/year"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Net Primary Productivity (NPP) = Gross Primary Productivity (GPP) - Respiration (R). NPP = 15,000 - 8,000 = 7,000 kcal/m²/year.\n\nWHY DISTRACTORS ARE WRONG:\n• 23,000 kcal/m²/year: Incorrectly adds GPP and Respiration instead of subtracting respiration loss.\n• 15,000 kcal/m²/year: Represents total Gross Primary Productivity before autotrophic metabolic energy expenditure is subtracted.\n• 1.875 kcal/m²/year: Incorrectly divides GPP by Respiration."
+  },
+  {
+    "id": "u1_q20",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.0,
+    "prompt": "Which terrestrial biome yields the highest Net Primary Productivity (NPP) per unit area due to optimal solar radiation, high temperatures, and continuous water availability?",
+    "options": [
+      "Taiga",
+      "Tropical Rainforest",
+      "Temperate Grassland",
+      "Desert"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Tropical rainforests possess ideal year-round conditions (abundant sunlight, warmth, high precipitation) that maximize photosynthetic rates per square meter.\n\nWHY DISTRACTORS ARE WRONG:\n• Taiga: Limited by severe winter freezing, low sun angles, and short seasonal growing windows.\n• Temperate Grassland: Limited by seasonal cold winters and periodic summer moisture deficits.\n• Desert: Severely limited by extreme water scarcity despite receiving high solar radiation."
+  },
+  {
+    "id": "u1_q21",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": 0.2,
+    "discrimination_a": 1.4,
+    "prompt": "Which aquatic biome exhibits very low Net Primary Productivity (NPP) per unit of surface area, yet produces the greatest total amount of organic matter globally due to its vast size?",
+    "options": [
+      "Coral Reef",
+      "Freshwater Lake",
+      "Estuary",
+      "Open Ocean"
+    ],
+    "correct_idx": 3,
+    "explanation": "CORRECT: Open ocean pelagic zones are nutrient-limited deserts per square meter. However, covering ~70% of Earth's surface area, their combined global primary output is immense.\n\nWHY DISTRACTORS ARE WRONG:\n• Coral Reef: Has extremely high NPP per unit area, but occupies a tiny fraction of global ocean surface area.\n• Freshwater Lake: Highly variable local productivity, but accounts for a very small total percentage of global surface area.\n• Estuary: Exceptionally productive per unit area due to nutrient runoff, but limited in geographic extent."
+  },
+  {
+    "id": "u1_q22",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": 0.1,
+    "discrimination_a": 1.2,
+    "prompt": "Sea otters prey upon sea urchins, which graze on giant kelp holdfasts. When sea otter populations were extirpated, urchin populations exploded and destroyed kelp forests. Reintroducing otters suppressed urchins and allowed kelp to recover. This ecosystem phenomenon is best described as:",
+    "options": [
+      "The competitive exclusion principle",
+      "A trophic cascade",
+      "A mutualistic symbiosis",
+      "Primary ecological succession"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: A trophic cascade occurs when changes in top predator abundance propagate down through multiple trophic levels, indirectly altering producer biomass.\n\nWHY DISTRACTORS ARE WRONG:\n• The competitive exclusion principle: States two species competing for identical limiting resources cannot permanently coexist.\n• A mutualistic symbiosis: Refers to direct beneficial cooperative living arrangements between two organisms (+/+).\n• Primary ecological succession: The gradual colonization of bare substrate lacking existing soil after severe disturbances like volcanic activity."
+  },
+  {
+    "id": "u1_q23",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.1,
+    "prompt": "Because sea otters exert strong top-down control over urchin herbivores, preserving the entire structural kelp forest community despite having relatively low overall numerical abundance, sea otters are categorized as a:",
+    "options": [
+      "Primary producer",
+      "Keystone species",
+      "Invasive generalist",
+      "Pioneer species"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: A keystone species plays a disproportionately crucial role in maintaining ecosystem structure and diversity relative to its total biomass or population size.\n\nWHY DISTRACTORS ARE WRONG:\n• Primary producer: Autotrophic organisms (like kelp or algae) that synthesize organic compounds from light energy.\n• Invasive generalist: Non-native species with broad environmental tolerances that disrupt native ecosystems.\n• Pioneer species: Early colonizing organisms (like lichens or mosses) that initiate ecological succession on barren land."
+  },
+  {
+    "id": "u1_q24",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": 0.0,
+    "discrimination_a": 1.0,
+    "prompt": "Giant kelp forests thrive along coastal marine environments. Which combination of abiotic conditions is most vital for sustaining these highly productive macroalgae ecosystems?",
+    "options": [
+      "High salinity and stagnant warm water",
+      "Cold water temperatures and abundant dissolved mineral nutrients",
+      "Warm water temperatures and extremely low light intensity",
+      "Deep abyssal depth and extreme hydrostatic pressure"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Giant kelp requires cold water enriched with upwelled nutrients (nitrates/phosphates) and adequate sunlight penetration through shallow coastal zones.\n\nWHY DISTRACTORS ARE WRONG:\n• High salinity and stagnant warm water: Warm, stagnant water holds less dissolved gases and leads to kelp tissue sloughing and death.\n• Warm water temperatures and low light intensity: Inhibits photosynthetic growth rate and causes thermal stress.\n• Deep abyssal depth and extreme hydrostatic pressure: Deprives macroalgae of the sunlight necessary for primary production."
+  },
+  {
+    "id": "u1_q25",
+    "unit": 1,
+    "topic": "1.7 The Hydrologic Cycle",
+    "difficulty_b": -0.5,
+    "discrimination_a": 1.0,
+    "prompt": "Which environmental reservoir contains the majority of Earth's total supply of fresh water?",
+    "options": [
+      "Subsurface groundwater aquifers",
+      "The atmosphere",
+      "Ice caps and glaciers",
+      "Surface rivers and freshwater lakes"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Approximately 68.7% of Earth's total fresh water is locked up in polar ice caps, continental ice sheets, and mountain glaciers.\n\nWHY DISTRACTORS ARE WRONG:\n• Subsurface groundwater aquifers: Contains the second-largest freshwater reservoir (~30.1%), but significantly less than frozen ice reserves.\n• The atmosphere: Holds a very small fraction (~0.001%) of global fresh water as water vapor and clouds.\n• Surface rivers and freshwater lakes: Combined, liquid surface fresh water accounts for less than 0.3% of global freshwater stores."
+  },
+  {
+    "id": "u1_q26",
+    "unit": 1,
+    "topic": "1.5 The Nitrogen Cycle",
+    "difficulty_b": 0.1,
+    "discrimination_a": 1.3,
+    "prompt": "During which step of the soil nitrogen cycle do specialized chemoautotrophic nitrifying bacteria convert toxic ammonium (NH₄⁺) ions into nitrite (NO₂⁻) and then usable nitrate (NO₃⁻) ions?",
+    "options": [
+      "Ammonification",
+      "Nitrification",
+      "Denitrification",
+      "Nitrogen Fixation"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Nitrification is a two-step aerobic bacterial process where Nitrosomonas convert NH₄⁺ to NO₂⁻, and Nitrobacter convert NO₂⁻ into plant-assimilable NO₃⁻.\n\nWHY DISTRACTORS ARE WRONG:\n• Ammonification: Biological process where decomposers convert organic nitrogen compounds (proteins/urea) back into inorganic ammonium (NH₄⁺).\n• Denitrification: Anaerobic bacterial conversion of soil nitrates back into atmospheric N₂ gas.\n• Nitrogen Fixation: The initial conversion of atmospheric gaseous N₂ into ammonia/ammonium."
+  },
+  {
+    "id": "u1_q27",
+    "unit": 1,
+    "topic": "1.4 The Carbon Cycle",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.1,
+    "prompt": "Clear-cutting and burning large tracts of natural forest impacts the global carbon cycle primarily through which dual mechanism?",
+    "options": [
+      "Increasing deep geological carbon sequestration while slowing marine carbonate precipitation",
+      "Eliminating a photosynthetic carbon dioxide sink while releasing stored biomass carbon via combustion",
+      "Accelerating carbon dioxide conversion into calcium carbonate while inhibiting plant transpiration",
+      "Reducing soil microbial cellular respiration while elevating atmospheric methane production"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Living trees remove CO₂ through photosynthesis. Removing trees destroys this active sink, and combustion/decomposition rapidly oxidizes stored structural carbon directly into atmospheric CO₂ gas.\n\nWHY DISTRACTORS ARE WRONG:\n• Increasing deep geological carbon sequestration...: Deforestation accelerates carbon release into the atmosphere, decreasing terrestrial sequestration.\n• Accelerating carbon dioxide conversion into calcium carbonate...: Deforestation elevates atmospheric CO₂, driving ocean acidification which reduces carbonate ion availability.\n• Reducing soil microbial cellular respiration...: Clearing vegetation initially increases microbial respiration as uncollected slash and detritus decompose."
+  },
+  {
+    "id": "u1_q28",
+    "unit": 1,
+    "topic": "1.9 Trophic Levels",
+    "difficulty_b": -0.5,
+    "discrimination_a": 0.9,
+    "prompt": "Examine the following terrestrial food chain: Grass -> Grasshopper -> Toad -> Snake -> Hawk. Which organism functions as the secondary consumer?",
+    "options": [
+      "Grasshopper",
+      "Toad",
+      "Snake",
+      "Hawk"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Grass is the primary producer (trophic level 1). Grasshopper is the herbivorous primary consumer (trophic level 2). Toad is the carnivore that eats the herbivore, making it the secondary consumer (trophic level 3).\n\nWHY DISTRACTORS ARE WRONG:\n• Grasshopper: Operates as the primary consumer (herbivore) directly feeding on producers.\n• Snake: Functions as the tertiary consumer (trophic level 4) feeding on secondary consumers.\n• Hawk: Serves as the quaternary consumer / top apex predator (trophic level 5)."
+  },
+  {
+    "id": "u1_q29",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.1,
+    "prompt": "In a freshwater lake ecosystem, which zone comprises the shallow perimeter area where sunlight reaches the bottom sediment, allowing rooted aquatic vegetation to grow?",
+    "options": [
+      "Littoral Zone",
+      "Limnetic Zone",
+      "Profundal Zone",
+      "Benthic Zone"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: The littoral zone is the shallow, sunlit warm perimeter zone of a lake where light penetrates to the sediment, supporting emergent rooted plants like cattails and water lilies.\n\nWHY DISTRACTORS ARE WRONG:\n• Limnetic Zone: The sunlit open surface waters away from the shore, dominated by microscopic floating phytoplankton.\n• Profundal Zone: The deep, dark open water layer below light penetration where photosynthesis cannot occur.\n• Benthic Zone: The entire bottom sediment surface layer of a water body, regardless of light availability."
+  },
+  {
+    "id": "u1_q30",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.0,
+    "prompt": "In a lake ecosystem, which open sunlit water zone away from the shoreline supports the vast majority of floating microscopic phytoplankton primary production?",
+    "options": [
+      "Littoral Zone",
+      "Limnetic Zone",
+      "Profundal Zone",
+      "Benthic Zone"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: The limnetic zone is the well-lit open surface layer extended away from the shore where ample solar energy drives floating phytoplankton photosynthesis.\n\nWHY DISTRACTORS ARE WRONG:\n• Littoral Zone: Shoreline zone dominated by rooted vascular plants rather than open-water phytoplankton systems.\n• Profundal Zone: Aphotic deep layer below the limnetic zone where light is insufficient for primary producers.\n• Benthic Zone: Refers strictly to the bottom floor layer of mud/sediments rather than the open water column."
+  },
+  {
+    "id": "u1_q31",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": 0.2,
+    "discrimination_a": 1.2,
+    "prompt": "The profundal zone of a deep lake receives zero sunlight penetration. Which biological process dominates this region?",
+    "options": [
+      "Net primary productivity by submerged macrophytes",
+      "Decomposition and heterotrophic cellular respiration",
+      "Elevated rates of plant evapotranspiration",
+      "Symbiotic nitrogen fixation by coral zooxanthellae"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Without light, photosynthesis cannot take place. Organic debris (\"marine/lake snow\") falls into the profundal zone, where aerobic heterotrophic bacteria break down detritus, depleting dissolved oxygen.\n\nWHY DISTRACTORS ARE WRONG:\n• Net primary productivity by submerged macrophytes: Requires sunlight, which is absent in the aphotic profundal zone.\n• Elevated rates of plant evapotranspiration: Occurs in terrestrial foliage exposure to dry air and sunlight, not deep aquatic layers.\n• Symbiotic nitrogen fixation by coral zooxanthellae: Corals and zooxanthellae are marine organisms that require sunlight in marine photic zones."
+  },
+  {
+    "id": "u1_q32",
+    "unit": 1,
+    "topic": "1.4 The Carbon Cycle",
+    "difficulty_b": -0.7,
+    "discrimination_a": 0.9,
+    "prompt": "Why are global chemical fluxes involving elements like carbon, nitrogen, and phosphorus specifically termed 'biogeochemical cycles'?",
+    "options": [
+      "Because these pathways require industrial human chemistry to circulate between biomes.",
+      "Because they describe chemical transfers that occur exclusively within living organic biomass.",
+      "Because elements cycle through biological organisms, geological earth strata, and chemical pathways.",
+      "Because they describe the unidirectional flow and dissipation of solar light energy through ecosystems."
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: The term combines 'bio' (living organisms), 'geo' (rocks, soil, air, water abiotic sinks), and 'chemical' (transformation of elemental states across reservoirs).\n\nWHY DISTRACTORS ARE WRONG:\n• Because these pathways require industrial human chemistry...: Biogeochemical cycles operate naturally without synthetic human intervention.\n• Because they describe chemical transfers that occur exclusively...: Ignores crucial abiotic geological and atmospheric storage reservoirs.\n• Because they describe the unidirectional flow...: Energy flows unidirectionally through food webs, whereas matter cycles pathways repeatedly."
+  },
+  {
+    "id": "u1_q33",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.5,
+    "discrimination_a": 1.1,
+    "prompt": "Which combination of regional climatic factors acts as the principal driver governing the global distribution and spatial boundaries of terrestrial biomes?",
+    "options": [
+      "Soil bedrock composition and mineral pH levels",
+      "Latitude, temperature, and precipitation patterns",
+      "Topographic elevation and proximity to industrial urban centers",
+      "Atmospheric carbon dioxide concentrations and wind directions"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Climate—specifically mean annual temperature and annual precipitation dictated by latitude and atmospheric circulation cells—is the main factor determining dominant plant structures and biome distribution.\n\nWHY DISTRACTORS ARE WRONG:\n• Soil bedrock composition and mineral pH levels: Influences localized soil fertility, but does not determine macro-scale biome climate distribution.\n• Topographic elevation and proximity to industrial urban centers: Urban proximity is a human demographic variable, not a natural determinant of global biomes.\n• Atmospheric carbon dioxide concentrations...: Carbon dioxide is well-mixed globally and does not drive regional vegetative differences across global biomes."
+  },
+  {
+    "id": "u1_q34",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.0,
+    "prompt": "Which group of organisms forms the base of the food web as primary producers in open-ocean pelagic ecosystems?",
+    "options": [
+      "Herbivorous zooplankton",
+      "Microscopic phytoplankton",
+      "Benthic crustaceans",
+      "Macroscopic seaweeds"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Microscopic photosynthetic phytoplankton (diatoms, dinoflagellates, cyanobacteria) floating in the sunlit photic zone drive marine open-ocean primary production.\n\nWHY DISTRACTORS ARE WRONG:\n• Herbivorous zooplankton: Primary consumers (heterotrophs) that feed upon phytoplankton.\n• Benthic crustaceans: Decomposers or consumers residing on the ocean floor sediment.\n• Macroscopic seaweeds: Require shallow attachment sites along coastal shelf boundaries; unable to float or anchor in open pelagic zones."
+  },
+  {
+    "id": "u1_q35",
+    "unit": 1,
+    "topic": "1.10 Energy Flow and the 10% Rule",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.2,
+    "prompt": "The First Law of Thermodynamics states that energy cannot be created or destroyed. How is this fundamental physical law demonstrated in ecosystem energy flow?",
+    "options": [
+      "Energy cycles indefinitely through food webs without metabolic loss.",
+      "Total radiant solar energy absorbed equals the sum of chemical energy stored in biomass plus energy dissipated as heat.",
+      "Plants convert 100% of incoming solar radiation into chemical bonds during photosynthesis.",
+      "Consumer biomass always balances primary producer biomass across trophic levels."
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: The First Law dictates energy conservation. All incoming solar energy captured by plants must be accounted for as stored chemical biomass or released metabolic heat energy.\n\nWHY DISTRACTORS ARE WRONG:\n• Energy cycles indefinitely...: Energy flows unidirectionally and degrades into non-usable heat; it does not cycle endlessly.\n• Plants convert 100% of incoming solar radiation...: Photosynthetic efficiency is low (typically only 1-2% of solar energy is converted into chemical bonds).\n• Consumer biomass always balances primary producer biomass...: Consumer biomass is much smaller due to thermal energy loss described by the Second Law of Thermodynamics."
+  },
+  {
+    "id": "u1_q36",
+    "unit": 1,
+    "topic": "1.3 Introduction to Ecosystems",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.1,
+    "prompt": "When two distinct species compete for the exact same limiting resource in an habitat, one species will eventually outcompete and exclude the other. Which concept describes this outcome?",
+    "options": [
+      "Commensalism",
+      "Competitive Exclusion Principle",
+      "Mutualism",
+      "Parasitism"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Gause's Competitive Exclusion Principle states that two species competing for the identical limiting resource cannot occupy the exact same ecological niche indefinitely.\n\nWHY DISTRACTORS ARE WRONG:\n• Commensalism: A biological interaction where one species benefits while the second remains unaffected (+/0).\n• Mutualism: Cooperative ecological interaction yielding net benefits for both participating species (+/+).\n• Parasitism: Consumptive relationship where one organism lives on or inside a host organism, harming it (+/-)."
+  },
+  {
+    "id": "u1_q37",
+    "unit": 1,
+    "topic": "1.6 The Phosphorus Cycle",
+    "difficulty_b": 0.0,
+    "discrimination_a": 1.3,
+    "prompt": "Why is phosphorus frequently the primary limiting nutrient in pristine freshwater lake ecosystems?",
+    "options": [
+      "Gaseous phosphorus quickly evaporates into the upper atmosphere.",
+      "Phosphate compounds dissolve so readily that they disappear instantly from sediments.",
+      "Phosphorus originates mainly from the slow weathering of continental rock minerals.",
+      "Bacteria rapidly convert environmental phosphorus into toxic insoluble gases."
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Lacking a fast atmospheric gas transport mechanism, natural soil/water phosphorus relies on slow physical weathering of apatite rock, keeping natural biological availability low.\n\nWHY DISTRACTORS ARE WRONG:\n• Gaseous phosphorus quickly evaporates...: Phosphorus lacks a natural gaseous atmospheric phase under normal conditions.\n• Phosphate compounds dissolve so readily...: Phosphates tend to bind tightly to soil minerals and precipitate out into sediments rather than disappearing.\n• Bacteria rapidly convert environmental phosphorus...: Bacterial transformations do not synthesize toxic phosphorus gases in natural aquatic cycles."
+  },
+  {
+    "id": "u1_q38",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": 0.3,
+    "discrimination_a": 1.4,
+    "prompt": "A researcher conducts a light and dark bottle dissolved oxygen (DO) experiment in a pond. Initial DO = 7.0 mg/L. Light bottle DO after 24 hours = 11.0 mg/L. Dark bottle DO after 24 hours = 4.0 mg/L. What is the Net Primary Productivity (NPP) of the sample over 24 hours?",
+    "options": [
+      "3.0 mg/L",
+      "4.0 mg/L",
+      "7.0 mg/L",
+      "15.0 mg/L"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Net Primary Productivity (NPP) is measured by oxygen accumulation in the sunlit bottle relative to initial conditions: NPP = Light Bottle DO - Initial DO = 11.0 - 7.0 = 4.0 mg/L.\n\nWHY DISTRACTORS ARE WRONG:\n• 3.0 mg/L: Represents respiration rate (R = Initial DO - Dark Bottle DO = 7.0 - 4.0 = 3.0 mg/L).\n• 7.0 mg/L: Represents Gross Primary Productivity (GPP = Light DO - Dark DO = 11.0 - 4.0 = 7.0 mg/L).\n• 15.0 mg/L: Incorrectly adds Light bottle DO and Dark bottle DO together."
+  },
+  {
+    "id": "u1_q39",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": 0.3,
+    "discrimination_a": 1.3,
+    "prompt": "Refer to the dissolved oxygen experiment values from the previous question (Initial DO = 7.0 mg/L; Light Bottle DO = 11.0 mg/L; Dark Bottle DO = 4.0 mg/L). What is the rate of cellular respiration (R) in the pond water over 24 hours?",
+    "options": [
+      "3.0 mg/L",
+      "4.0 mg/L",
+      "7.0 mg/L",
+      "11.0 mg/L"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: Respiration (R) is calculated by measuring oxygen consumption in the dark bottle where photosynthesis cannot occur: Respiration = Initial DO - Dark Bottle DO = 7.0 - 4.0 = 3.0 mg/L.\n\nWHY DISTRACTORS ARE WRONG:\n• 4.0 mg/L: Represents Net Primary Productivity (NPP = Light DO - Initial DO = 11.0 - 7.0 = 4.0 mg/L).\n• 7.0 mg/L: Represents Gross Primary Productivity (GPP = NPP + R = 4.0 + 3.0 = 7.0 mg/L).\n• 11.0 mg/L: Represents total dissolved oxygen measured inside the sunlit light bottle after 24 hours."
+  },
+  {
+    "id": "u1_q40",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": 0.4,
+    "discrimination_a": 1.4,
+    "prompt": "Refer to the dissolved oxygen experiment values (Initial DO = 7.0 mg/L; Light Bottle DO = 11.0 mg/L; Dark Bottle DO = 4.0 mg/L). What is the Gross Primary Productivity (GPP) of this pond sample over 24 hours?",
+    "options": [
+      "4.0 mg/L",
+      "3.0 mg/L",
+      "11.0 mg/L",
+      "7.0 mg/L"
+    ],
+    "correct_idx": 3,
+    "explanation": "CORRECT: Gross Primary Productivity (GPP) represents total photosynthetic production: GPP = NPP + Respiration = 4.0 + 3.0 = 7.0 mg/L (or Light Bottle DO - Dark Bottle DO = 11.0 - 4.0 = 7.0 mg/L).\n\nWHY DISTRACTORS ARE WRONG:\n• 4.0 mg/L: Represents Net Primary Productivity (NPP).\n• 3.0 mg/L: Represents respiration rate (R).\n• 11.0 mg/L: Represents final total DO reading inside the sunlit light bottle."
+  },
+  {
+    "id": "u1_q41",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.4,
+    "discrimination_a": 1.0,
+    "prompt": "Which terrestrial biome features warm temperatures year-round, distinct wet and dry seasons, and vegetation dominated by coarse grasses with scattered drought- and fire-adapted trees?",
+    "options": [
+      "Savanna",
+      "Temperate Deciduous Forest",
+      "Chaparral",
+      "Tundra"
+    ],
+    "correct_idx": 0,
+    "explanation": "CORRECT: Savannas are tropical grasslands with seasonal precipitation, supporting drought- and fire-resistant grasses and widely spaced trees like acacias.\n\nWHY DISTRACTORS ARE WRONG:\n• Temperate Deciduous Forest: Found in mid-latitudes with four distinct seasonal thermal changes and dense broadleaf hardwood canopies.\n• Chaparral: Mediterranean biome characterized by mild wet winters, hot dry summers, and dense evergreen sclerophyllous shrubs.\n• Tundra: High-latitude biome characterized by extreme cold, permafrost, and an absence of trees."
+  },
+  {
+    "id": "u1_q42",
+    "unit": 1,
+    "topic": "1.7 The Hydrologic Cycle",
+    "difficulty_b": -0.5,
+    "discrimination_a": 1.0,
+    "prompt": "In the water cycle, what term describes the process by which liquid water moves downward through porous soil layers and rock strata to recharge subsurface groundwater aquifers?",
+    "options": [
+      "Evapotranspiration",
+      "Surface runoff",
+      "Percolation",
+      "Condensation"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Percolation (or deep infiltration) describes the gravitational movement of water downward through soil pores and porous rock layers into aquifers.\n\nWHY DISTRACTORS ARE WRONG:\n• Evapotranspiration: The combined movement of water evaporating from soil surfaces and transipring from plant leaves back into atmospheric vapor.\n• Surface runoff: Precipitation that flows over the ground surface into river channels rather than penetrating the soil.\n• Condensation: The phase change of water vapor cooling into liquid cloud droplets in the atmosphere."
+  },
+  {
+    "id": "u1_q43",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.1,
+    "prompt": "Which terrestrial biome contains deep, dark, organic-rich topsoil (mollisols) built by centuries of deep grass root decay and slow winter decomposition, making it the world's primary agricultural grain belt?",
+    "options": [
+      "Tropical Rainforest",
+      "Temperate Grassland",
+      "Taiga (Boreal Forest)",
+      "Desert"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Temperate grasslands (prairies/steppes) feature dense root networks that decompose during cold winters, creating rich, deep, fertile mollisol soils ideal for agriculture.\n\nWHY DISTRACTORS ARE WRONG:\n• Tropical Rainforest: Soaked by heavy rains that leach nutrients, producing acidic, nutrient-poor oxisol soils.\n• Taiga (Boreal Forest): Cold climate and coniferous needles create acidic, nutrient-poor spodosols unsuitable for major crop cultivation.\n• Desert: Arid conditions prevent organic accumulation, resulting in thin, mineralized soils (aridisols)."
+  },
+  {
+    "id": "u1_q44",
+    "unit": 1,
+    "topic": "1.5 The Nitrogen Cycle",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.2,
+    "prompt": "Which inorganic form of nitrogen is most water-soluble and readily absorbed and assimilated by land plant roots to synthesize amino acids and nucleic acids?",
+    "options": [
+      "Dinitrogen gas (N₂)",
+      "Nitrate (NO₃⁻)",
+      "Nitrite (NO₂⁻)",
+      "Nitrous oxide (N₂O)"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Nitrate (NO₃⁻) is highly soluble in soil water solution, making it the primary bioavailable nitrogen form assimilated by terrestrial plant transport systems.\n\nWHY DISTRACTORS ARE WRONG:\n• Dinitrogen gas (N₂): Inert atmospheric gas that cannot be directly absorbed or biologically assimilated by plant tissues.\n• Nitrite (NO₂⁻): Intermediate toxic compound in nitrification that is rapidly converted to nitrate before plant uptake.\n• Nitrous oxide (N₂O): A greenhouse gas released during denitrification, unavailable for direct plant assimilation."
+  },
+  {
+    "id": "u1_q45",
+    "unit": 1,
+    "topic": "1.5 The Nitrogen Cycle",
+    "difficulty_b": -0.1,
+    "discrimination_a": 1.1,
+    "prompt": "The process by which fungal and bacterial decomposers break down nitrogenous waste products and dead organic material (detritus) into inorganic ammonia (NH₃) or ammonium (NH₄⁺) is termed:",
+    "options": [
+      "Nitrification",
+      "Denitrification",
+      "Ammonification",
+      "Assimilation"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Ammonification occurs when decomposers process biological waste and dead organic nitrogen compounds back into inorganic ammonia/ammonium ions.\n\nWHY DISTRACTORS ARE WRONG:\n• Nitrification: The subsequent conversion of ammonium into nitrite and nitrate by specialized chemoautotrophic bacteria.\n• Denitrification: The reduction of soil nitrates back into gaseous N₂ under anaerobic conditions.\n• Assimilation: The uptake of inorganic nitrogen ions by plants to construct organic molecules like proteins."
+  },
+  {
+    "id": "u1_q46",
+    "unit": 1,
+    "topic": "1.2 Aquatic Biomes",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.0,
+    "prompt": "Which regulating ecosystem service provided by coastal saltwater wetlands directly mitigates natural disaster impacts on coastal human infrastructure?",
+    "options": [
+      "Slowing ocean water flow to induce thermal stratifications",
+      "Neutralizing ocean acidity by releasing basic compounds",
+      "Absorbing wave energy and buffering storm surges during hurricanes",
+      "Promoting soil erosion along coastline beaches"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Coastal wetlands (mangroves, salt marshes) attenuate wave energy and absorb storm surge water volumes, protecting inland communities from coastal flooding.\n\nWHY DISTRACTORS ARE WRONG:\n• Slowing ocean water flow to induce thermal stratifications: Wetlands do not control regional open-ocean thermal stratification.\n• Neutralizing ocean acidity by releasing basic compounds: Wetlands sequester carbon, but do not release basic alkaline minerals to neutralize global ocean acidification.\n• Promoting soil erosion along coastline beaches: Wetlands stabilize sediments and prevent erosion rather than promoting it."
+  },
+  {
+    "id": "u1_q47",
+    "unit": 1,
+    "topic": "1.11 Food Webs",
+    "difficulty_b": 0.1,
+    "discrimination_a": 1.3,
+    "prompt": "In an Antarctic marine food web, phytoplankton are eaten by krill, which are then consumed by blue whales and penguins. If an infectious disease severely reduces the krill population, what immediate food web effect is predicted?",
+    "options": [
+      "Phytoplankton populations will experience increased grazing pressure.",
+      "Blue whale and penguin populations will experience increased competition and potential population declines.",
+      "Dissolved oxygen in the surface water column will instantly drop to zero.",
+      "Net primary productivity will double across the marine ecosystem."
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Removing a central primary consumer (krill) reduces available energy transfer to secondary consumers (whales, penguins), increasing resource competition and driving population declines.\n\nWHY DISTRACTORS ARE WRONG:\n• Phytoplankton populations will experience increased grazing pressure: Grazing pressure would decrease, allowing phytoplankton populations to rise initially.\n• Dissolved oxygen... will instantly drop to zero: Oxygen depletion is caused by microbial respiration during eutrophication, not krill population declines.\n• Net primary productivity will double...: NPP is driven by sunlight, nutrients, and phytoplankton abundance, not krill mortality."
+  },
+  {
+    "id": "u1_q48",
+    "unit": 1,
+    "topic": "1.4 The Carbon Cycle",
+    "difficulty_b": -0.6,
+    "discrimination_a": 1.0,
+    "prompt": "The industrial extraction and combustion of fossil fuels (coal, crude oil, natural gas) alters which biogeochemical cycle most directly?",
+    "options": [
+      "Phosphorus cycle",
+      "Carbon cycle",
+      "Hydrologic cycle",
+      "Potassium cycle"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Fossil fuels represent underground carbon deposits stored for millions of years. Combustion rapidly converts these hydrocarbons into atmospheric carbon dioxide (CO₂).\n\nWHY DISTRACTORS ARE WRONG:\n• Phosphorus cycle: Fossil fuel combustion does not drive global phosphorus fluxes; phosphorus cycles via mineral weathering.\n• Hydrologic cycle: Fossil fuel burning produces minor combustion water vapor, but its primary ecosystem alteration is carbon mobilization.\n• Potassium cycle: Fossil fuels do not consist of potassium compounds that drive global biogeochemical cycles."
+  },
+  {
+    "id": "u1_q49",
+    "unit": 1,
+    "topic": "1.8 Primary Productivity",
+    "difficulty_b": -0.2,
+    "discrimination_a": 1.1,
+    "prompt": "Which term describes the total rate at which autotrophs capture solar energy and synthesize chemical biomass per unit area over time, prior to subtracting metabolic respiration losses?",
+    "options": [
+      "Net Primary Productivity (NPP)",
+      "Gross Primary Productivity (GPP)",
+      "Trophic Transfer Efficiency",
+      "Ecological Carrying Capacity"
+    ],
+    "correct_idx": 1,
+    "explanation": "CORRECT: Gross Primary Productivity (GPP) measures total photosynthetic energy fixed by autotrophs before accounting for metabolic cellular respiration.\n\nWHY DISTRACTORS ARE WRONG:\n• Net Primary Productivity (NPP): The remaining energy in plant biomass after subtracting autotrophic respiration (NPP = GPP - R).\n• Trophic Transfer Efficiency: The percentage of energy transferred from one trophic level to the next higher level.\n• Ecological Carrying Capacity: The maximum population size of a species that a given environment can sustain indefinitely."
+  },
+  {
+    "id": "u1_q50",
+    "unit": 1,
+    "topic": "1.1 Terrestrial Biomes",
+    "difficulty_b": -0.3,
+    "discrimination_a": 1.2,
+    "prompt": "Which biome is characterized by a Mediterranean climate with mild, wet winters and hot, dry summers, dominated by sclerophyllous evergreen shrubs adapted to periodic wildland fires?",
+    "options": [
+      "Taiga (Boreal Forest)",
+      "Temperate Deciduous Forest",
+      "Shrubland (Chaparral)",
+      "Tropical Dry Forest"
+    ],
+    "correct_idx": 2,
+    "explanation": "CORRECT: Shrublands (chaparral) experience hot, dry summers and mild, rainy winters. Plants possess small, thick evergreen leaves (sclerophylls) and seeds that require fire heat for germination.\n\nWHY DISTRACTORS ARE WRONG:\n• Taiga (Boreal Forest): Cold biome dominated by subarctic coniferous forests, not fire-adapted Mediterranean shrub communities.\n• Temperate Deciduous Forest: Features year-round precipitation and broadleaf trees that drop leaves in autumn.\n• Tropical Dry Forest: Located in tropical latitudes with high temperatures year-round and extended dry seasons governed by monsoonal shifts."
+  }
+]
